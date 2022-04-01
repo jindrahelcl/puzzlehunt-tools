@@ -274,8 +274,8 @@ Bludovická
 Bobkova
 Bochníčkova
 Bochovská
-Boční Ⅰ
-Boční Ⅱ
+Boční I
+Boční II
 Bodláková
 Boháčova
 Bohdalec
@@ -760,8 +760,8 @@ Dejvická
 Dejvická pasáž
 Dejvický tunel
 Děkanská
-Děkanská vinice Ⅰ
-Děkanská vinice Ⅱ
+Děkanská vinice I
+Děkanská vinice II
 Dělená
 Dělnická
 Dělostřelecká
@@ -909,8 +909,8 @@ Do Vozovny
 Do Vrchu
 Do Vršku
 Do Zahrádek I
-Do Zahrádek Ⅰ
-Do Zahrádek Ⅱ
+Do Zahrádek I
+Do Zahrádek II
 Do zátiší
 Dragounská
 Drahanská
@@ -1011,9 +1011,9 @@ Egyptská
 Eichlerova
 Einsteinova
 Ejpovická
-ekodukt Cholupice Ⅰ
-ekodukt Cholupice Ⅱ
-ekodukt Cholupice Ⅲ
+ekodukt Cholupice I
+ekodukt Cholupice II
+ekodukt Cholupice III
 ekodukt Lochkov
 ekodukt Šabatka
 Ekonomická
@@ -1255,10 +1255,10 @@ Hellichova
 Helmova
 Helsinská
 Hennerova
-Herálecká Ⅰ
-Herálecká Ⅱ
-Herálecká Ⅲ
-Herálecká Ⅳ
+Herálecká I
+Herálecká II
+Herálecká III
+Herálecká IV
 Heranova
 Herbenova
 Herdovská
@@ -1575,9 +1575,9 @@ Jasenická
 Jasenná
 Jašíkova
 Jasmínová
-Jasná Ⅰ
+Jasná I
 Jasná II
-Jasná Ⅱ
+Jasná II
 Jaspisová
 Jateční
 Jaurisova
@@ -1634,21 +1634,21 @@ Jíchova
 Jičínská
 Jihlavská
 Jihočeská
-Jihovýchodní Ⅰ
-Jihovýchodní Ⅱ
-Jihovýchodní Ⅲ
-Jihovýchodní Ⅳ
-Jihovýchodní Ⅸ
-Jihovýchodní Ⅴ
-Jihovýchodní Ⅵ
-Jihovýchodní Ⅶ
-Jihovýchodní Ⅷ
-Jihozápadní Ⅰ
-Jihozápadní Ⅱ
-Jihozápadní Ⅲ
-Jihozápadní Ⅳ
-Jihozápadní Ⅴ
-Jihozápadní Ⅵ
+Jihovýchodní I
+Jihovýchodní II
+Jihovýchodní III
+Jihovýchodní IV
+Jihovýchodní IX
+Jihovýchodní V
+Jihovýchodní VI
+Jihovýchodní VII
+Jihovýchodní VIII
+Jihozápadní I
+Jihozápadní II
+Jihozápadní III
+Jihozápadní IV
+Jihozápadní V
+Jihozápadní VI
 Jilemnická
 Jilemnického
 Jílkova
@@ -1703,26 +1703,26 @@ Jiviny
 Jívová
 Jizbická
 Jizerská
-Jižní Ⅰ
-Jižní Ⅱ
-Jižní Ⅲ
-Jižní Ⅳ
-Jižní Ⅸ
+Jižní I
+Jižní II
+Jižní III
+Jižní IV
+Jižní IX
 Jižní náměstí
 Jižní předpolí Písecké brány
 Jižní spojka
-Jižní Ⅴ
-Jižní Ⅵ
-Jižní Ⅶ
-Jižní Ⅷ
-Jižní Ⅹ
-Jižní ⅩⅠ
-Jižní ⅩⅡ
-Jižní ⅩⅢ
-Jižní ⅩⅣ
-Jižní ⅩⅤ
-Jižní ⅩⅥ
-Jižní ⅩⅦ
+Jižní V
+Jižní VI
+Jižní VII
+Jižní VIII
+Jižní X
+Jižní XI
+Jižní XII
+Jižní XIII
+Jižní XIV
+Jižní XV
+Jižní XVI
+Jižní XVII
 Johanitská
 Jordana Jovkova
 Jordánská
@@ -1841,8 +1841,8 @@ Kateřinská
 Katovická
 Katusická
 Kauckého
-K Austisu
-K Avii
+K Austisu
+K Avii
 Kavkazská
 Kavylová
 Kazaňská
@@ -1851,65 +1851,65 @@ Kazimírova
 Kazín
 Kazínská
 Kaznějovská
-K Barrandovu
-K Bateriím
+K Barrandovu
+K Bateriím
 K Bažantnici
-K Běchovicům
+K Běchovicům
 Kbelská
 K Belvederu
 K Berance
 K Beránku
 K Beranovu
 K Berounce
-K Betáni
-K Betonárně
+K Betáni
+K Betonárně
 K Bílému vrchu
-K Blatovu
-K Bohnicím
-K Borovíčku
+K Blatovu
+K Bohnicím
+K Borovíčku
 K Botiči
-K Brance
+K Brance
 K Břečkám
-K Březince
-K Březiněvsi
-K Brnkám
+K Březince
+K Březiněvsi
+K Brnkám
 K Brůdku
 K Brusce
-K Brusce
-K Celinám
+K Brusce
+K Celinám
 K Cementárně
-K Cementárně
+K Cementárně
 K Černošicím
 K Červenému dvoru
-K Červenému vrchu
+K Červenému vrchu
 K Čestlicům
-K Chabům
-K Chaloupce
-K Chaloupkám
+K Chabům
+K Chaloupce
+K Chaloupkám
 K Chatám
 K Chmelnici
 K Chodovu
-K Chumberku
+K Chumberku
 K Čihadlům
-K Cihelně
-K Cikánce
-K Cíli
+K Cihelně
+K Cikánce
+K Cíli
 K Ďáblicům
 K Dalejím
 K Dálnici
-K Děrám
-K Dobré vodě
+K Děrám
+K Dobré vodě
 K Dolům
 Kdoulová
 K Drahani
 K Drazdům
-K Drsnici
-K Dubči
-K Dubečku
-K Dubinám
-K Dubovému mlýnu
-K Dubu
-K Dýmači
+K Drsnici
+K Dubči
+K Dubečku
+K Dubinám
+K Dubovému mlýnu
+K Dubu
+K Dýmači
 Keblovská
 Ke Březině
 Ke Břvům
@@ -2047,66 +2047,66 @@ Ke Zvoničce
 Ke Zvonici
 K Fantovu mlýnu
 K Farkám
-K Fialce
+K Fialce
 K Fišpance
 K Habrovce
-K Habru
-K Hádku
+K Habru
+K Hádku
 K Háječku
-K Háji
+K Háji
 K Hájku
-K Hájovně
+K Hájovně
 K Hájům
-K Hájům
-K Haltýři
+K Hájům
+K Haltýři
 K Hárunce
-K Haštalu
-K Havlínu
-K Hlásku
+K Haštalu
+K Havlínu
+K Hlásku
 K Hluboké cestě
 Khodlova
-K Holému vrchu
-K Holyni
-K Homolce
-K Hořavce
-K Horkám
-K Horoměřicům
-K Hradišti
-K Hrnčířům
+K Holému vrchu
+K Holyni
+K Homolce
+K Hořavce
+K Horkám
+K Horoměřicům
+K Hradišti
+K Hrnčířům
 K Hrušovu
 K Hutím
 Kids bike track
-K Interně
+K Interně
 Kirgizská
 Kischova
 Kišiněvská
 K Jalovce
-K Jasánkám
+K Jasánkám
 K Jelenám
-K Jelenám
+K Jelenám
 K Jelenu
 K Jezeru
-K Jezeru
+K Jezeru
 K Jezírku
-K Jezu
-K Jihu
+K Jezu
+K Jihu
 K Jinočanům
-K Jinočanům
-K Jízdárně
+K Jinočanům
+K Jízdárně
 K Jižnímu Městu
-K Juliáně
-K Labeškám
+K Juliáně
+K Labeškám
 Kladenská
 Kladinovská
 Kladrubská
 Kladská
-K Ladům
+K Ladům
 K Ládví
-K Lahovičkám
-K Lahovské
+K Lahovičkám
+K Lahovské
 Klánova
 Klánovická
-K Lánu
+K Lánu
 Klapálkova
 Klapkova
 Klárov
@@ -2115,8 +2115,8 @@ Klášterská
 Klášterského
 Klatovská
 Klausova
-K Lávce
-K Lažance
+K Lávce
+K Lažance
 K Lázním
 Klečákova
 Klecandova
@@ -2127,10 +2127,10 @@ Klenová
 Klenovická
 Klenovská
 Klešická
-K Lesíku
+K Lesíku
 K Lesoparku
 K Lesu
-K Letišti
+K Letišti
 K Letňanům
 K Libuši
 Klíčanská
@@ -2149,13 +2149,13 @@ Klínová
 Klínovecká
 K Lipám
 K Lipanům
-K Lípě
+K Lípě
 K Lipinám
 Klírova
 Klivarova
 Kloboučnická
 Kloboukova
-K Lochkovu
+K Lochkovu
 Kloknerova
 Klokotská
 K Lomu
@@ -2168,54 +2168,54 @@ Kludských
 K luhu
 K Lukám
 Klukovická
-K Lužinám
+K Lužinám
 K Markétě
-K Matěji
+K Matěji
 K Měcholupům
 K Měchurce
-K Mejtu
+K Mejtu
 K Metru
-K Metru
+K Metru
 K Milíčovu
-K Mírám
+K Mírám
 K Mlíčníku
-K Mlýnu
+K Mlýnu
 Kmochova
 K modřanskému nádraží
-K Mohyle
+K Mohyle
 K Moravině
-K Moravině
+K Moravině
 K Mostku
-K Mostu
-K Motelu
+K Mostu
+K Motelu
 K Motolu
-K Mototechně
+K Mototechně
 K Nádraží
 K Nádrži
-K Náhonu
+K Náhonu
 K Náměstí
 K Náplavce
-K Náplavce
+K Náplavce
 Knapova
-K Návrší
-K Návsi
+K Návrší
+K Návsi
 K Nedvězí
-K Netlukám
+K Netlukám
 Kněževeská
 Kněžická
 Knínická
-K Noskovně
-K Nouzovu
+K Noskovně
+K Nouzovu
 K Novému dvoru
-K Novému sídlišti
+K Novému sídlišti
 K Nové škole
-K Nové Vsi
+K Nové Vsi
 Knovízská
 K Novým domkům
 K Obci
-K Obecním hájovnám
+K Obecním hájovnám
 Koberkova
-K Oboře
+K Oboře
 Kobrova
 Kobylákova
 Kobyliská
@@ -2234,7 +2234,7 @@ K Odpočinku
 Kodymova
 Kohoutovská
 Kohoutových
-K Ohradě
+K Ohradě
 Kojetická
 Kojická
 Kokořínská
@@ -2261,7 +2261,7 @@ Kolonka
 Kolová
 Kolovečská
 Kolovratská
-K Olympiku
+K Olympiku
 Komárkova
 Komárovská
 Komenského náměstí
@@ -2289,7 +2289,7 @@ Konzumní
 Kopalova
 Kopanina
 Kopanská
-K Opatřilce
+K Opatřilce
 Kopeckého
 Kopečná
 Koperníkova
@@ -2320,7 +2320,7 @@ Košická
 Košíkářská
 Košířské náměstí
 Kosmická
-K Osmidomkům
+K Osmidomkům
 Kosmonoská
 Kosořická
 Kosořská
@@ -2385,37 +2385,37 @@ Kozlovská
 Kozmíkova
 Kožná
 Kozomínská
-K Padesátníku
+K Padesátníku
 K Palečku
-K Panenkám
+K Panenkám
 K Parku
 K Pastvinám
-K Pazderkám
-K Pekárně
+K Pazderkám
+K Pekárně
 K Peluňku
-K Pérovně
-K Petrově komoře
+K Pérovně
+K Petrově komoře
 K Pískovně
 K Písnici
 K Pitkovicům
 K podchodu
 K Podjezdu
-K Polím
-K Pomníku
+K Polím
+K Pomníku
 K Popelce
 K Poště
 K Potůčku
-K Prádelně
-K Pramenu
-K Přehradám
-K Přejezdu
-K Prelátům
+K Prádelně
+K Pramenu
+K Přehradám
+K Přejezdu
+K Prelátům
 K Přístavišti
-K Přívozu
+K Přívozu
 K Průhonicům
 K průhonu
 K Průhonu
-K Průmstavu
+K Průmstavu
 Kpt. Nálepky
 Kpt. Stránského
 K Pyramidce
@@ -2430,7 +2430,7 @@ Krajní
 Krajová
 Krakovská
 Krále Václava IV.
-Krále Václava Ⅳ.
+Krále Václava IV.
 Kralická
 Králodvorská
 Králova
@@ -2461,7 +2461,7 @@ Krčínská
 Krčmářovská
 Krčská
 Krčský hřbitov
-K Řece
+K Řece
 Krejčího
 Krejnická
 Křejpského
@@ -2471,13 +2471,13 @@ Křemenáčová
 Křemencova
 Křemenná
 Křemílkova
-K Remízku
+K Remízku
 Kremličkova
 Kremnická
 Křenická
 Křenova
 Křepelčí
-K Řeporyjím
+K Řeporyjím
 Křesadlova
 Křesanovská
 Křešínská
@@ -2519,18 +2519,18 @@ K Rokytce
 Krolmusova
 Kropáčkova
 Krosenská
-K Rotundě
+K Rotundě
 Kroupova
 Krouzova
-K Rovinám
+K Rovinám
 Křovinovo nám.
 Křovinovo náměstí
 Krovova
-K Rozkoši
-K Rozmezí
+K Rozkoši
+K Rozmezí
 K Roztokům
-K Roztokům
-K Rozvodně
+K Roztokům
+K Rozvodně
 Krškova
 Krteňská
 Křtinská
@@ -2546,49 +2546,49 @@ K Rybárně
 K Rybníčku
 K Rybníčkům
 K Rybníkám
-K Rybníku
+K Rybníku
 Krylovecká
 Krymská
 Krynická
-K Ryšánce
+K Ryšánce
 Kryšpínova
 Krystalová
 Kryštofova
-K Sádkám
-K Sadu
-K Safině
+K Sádkám
+K Sadu
+K Safině
 K Šafránce
 K samoobsluze
-K Samotě
+K Samotě
 K Šancím
 K Šeberáku
-K Šeberovu
-K Šedivce
-K Sedlišti
+K Šeberovu
+K Šedivce
+K Sedlišti
 K Sibřině
-K Sídlišti
+K Sídlišti
 K Sokolovně
 K sopce
 K Sopce
-K Starému Bubenči
-K Stavebninám
-K Šubrtce
-K Sukovu
+K Starému Bubenči
+K Stavebninám
+K Šubrtce
+K Sukovu
 K Táboru
 K Tabulce
 K Teplárně
-K Topírně
+K Topírně
 K Topolům
-K Transformátoru
-K Trati
+K Transformátoru
+K Trati
 K Třebonicům
 K Třešňovce
 K Trníčku
-K Trninám
+K Trninám
 K Trnkám
-K Truhlářce
-K Tržišti
-K Tuchoměřicům
+K Truhlářce
+K Tržišti
+K Tuchoměřicům
 K Tůni
 Kubánské náměstí
 Kubaštova
@@ -2605,14 +2605,14 @@ Kučerové
 Kuchařova
 Kuchařská
 K Učilišti
-K Učilišti
+K Učilišti
 Kudeříkové
 K Údolí
 K Údolí hvězd
 Kudrnova
 K Uhříněvsi
-K Uhříněvsi
-K Újezdu
+K Uhříněvsi
+K Újezdu
 Kukelská
 Kukučínova
 Kukulova
@@ -2646,21 +2646,21 @@ Kutnauerovo náměstí
 Kutnohorská
 Kuttelwascherova
 Kutvirtova
-K Úvozu
+K Úvozu
 K Václavce
 K Václavu
-K Valu
-K Vápence
+K Valu
+K Vápence
 Kvapilova
 Kvasinská
 Kváskovická
-K Váze
+K Váze
 K Vejvoďáku
 K Velkému dvoru
-K Velkému dvoru
+K Velkému dvoru
 K Velké ohradě
-K Velké skále
-K Verneráku
+K Velké skále
+K Verneráku
 Kvestorská
 Květinářská
 Květinková
@@ -2672,32 +2672,32 @@ Květnového vítězství
 Květnových bojů
 Květoslavova
 Květová
-K Větrolamu
+K Větrolamu
 K Viaduktu
-K Vidouli
-K Vilkám
-K Vinici
-K Vinicím
+K Vidouli
+K Vilkám
+K Vinici
+K Vinicím
 K Vinoři
 K Višňovce
 K Višňovému sadu
-K Vizerce
+K Vizerce
 K Vlásence
 K Vltavě
-K Vodárně
-K Vodě
+K Vodárně
+K Vodě
 K Vodici
-K Vodojemu
+K Vodojemu
 K Vrbě
-K Vrbičkám
+K Vrbičkám
 K Vrcholu
-K Vršíčku
-K Vrtilce
-K Výboru
+K Vršíčku
+K Vrtilce
+K Výboru
 K Vyhlídce
-K Vysoké cestě
+K Vysoké cestě
 K Vystrkovu
-K Výtopně
+K Výtopně
 K Výzkumným ústavům
 Kyjevská
 Kyjovská
@@ -2711,25 +2711,25 @@ Kyslíková
 Kysucká
 Kytínská
 Kytlická
-K Zabrkům
+K Zabrkům
 K Zadní Kopanině
 K zahradám
-K Zahrádkám
-K Zahradnictví
-K Zámku
-K Zastávce
+K Zahrádkám
+K Zahradnictví
+K Zámku
+K Zastávce
 K Zatáčce
-K Zátiší
-K Závěrce
-K Závětinám
-k Závodišti
-K Závodišti
-K Závorám
+K Zátiší
+K Závěrce
+K Závětinám
+k Závodišti
+K Závodišti
+K Závorám
 K Zelenči
 K Zelené louce
-K Zeleným domkům
-K Železnici
-K Žižkovu
+K Zeleným domkům
+K Železnici
+K Žižkovu
 Labětínská
 Labská
 Labuťská
@@ -3234,7 +3234,7 @@ Mikovcova
 Mikovická
 Mikšovského
 Mikulandská
-Mikuláše z Husi
+Mikuláše z Husi
 Mikulášská
 Mikulčická
 Mikuleckého
@@ -3466,9 +3466,9 @@ Nad Botičem
 Nad Branickým pivovarem
 Nad Branišovskou
 Nad Brůdkem
-Nad Buďánkami ​Ⅰ
+Nad Buďánkami I
 Nad Buďánkami II
-Nad Buďánkami ​Ⅱ
+Nad Buďánkami II
 Nad Cementárnou
 Nad Chaloupkami
 Nad Chuchlí
@@ -3528,11 +3528,11 @@ Nad Konvářkou
 Nad Košíkem
 Nad Košinkou
 Nad Kostelem
-Nad Kotlaskou Ⅰ
-Nad Kotlaskou Ⅱ
-Nad Kotlaskou Ⅲ
-Nad Kotlaskou Ⅳ
-Nad Kotlaskou Ⅴ
+Nad Kotlaskou I
+Nad Kotlaskou II
+Nad Kotlaskou III
+Nad Kotlaskou IV
+Nad Kotlaskou V
 Nad Koulkou
 Nad Koupadly
 Nad Koupalištěm
@@ -3578,7 +3578,7 @@ Nad Náměstím
 Nad návsí
 Nad Novou Libní
 Nad Nuslemi
-Nad Obcí Ⅰ
+Nad Obcí I
 Nad Obcí II
 Na Dobešce
 Na Dobré vodě
@@ -3734,12 +3734,12 @@ Nad Zlíchovem
 Na Fabiánce
 Na Farkách
 Na Farkáně I
-Na Farkáně Ⅰ
-Na Farkáně Ⅱ
-Na Farkáně Ⅲ
-Na Farkáně Ⅳ
-Na Fialce Ⅰ
-Na Fialce Ⅱ
+Na Farkáně I
+Na Farkáně II
+Na Farkáně III
+Na Farkáně IV
+Na Fialce I
+Na Fialce II
 Na Fidlovačce
 Na Fišerce
 Na Floře
@@ -3769,8 +3769,8 @@ Na Hrádku
 Na Hradním vodovodu
 Na Hranicích
 Na Hrázi
-Na Hřebenech Ⅰ
-Na Hřebenech Ⅱ
+Na Hřebenech I
+Na Hřebenech II
 Na Hřebenkách
 Na Hrobci
 Na Hroudě
@@ -3850,10 +3850,10 @@ Na Kuthence
 Na Květnici
 Na Kvintusce
 Na Kyjově
-Na Labuťce Ⅰ
-Na Labuťce Ⅱ
-Na Labuťce Ⅲ
-Na Labuťce Ⅳ
+Na Labuťce I
+Na Labuťce II
+Na Labuťce III
+Na Labuťce IV
 Na Ladách
 Na Ládví
 Na Lahovské
@@ -3907,8 +3907,8 @@ náměstí I. P. Pavlova
 náměstí Jana Palacha
 náměstí Jiřího Berana
 náměstí Jiřího z Lobkovic
-náměstí Jiřího z Lobkovic
-náměstí Jiřího z Poděbrad
+náměstí Jiřího z Lobkovic
+náměstí Jiřího z Poděbrad
 náměstí Josefa Machka
 náměstí Kinských
 náměstí Mezi zahrádkami
@@ -3983,11 +3983,11 @@ Na Ovčáckém
 Na Ovčinách
 Na Ovesníku
 Na Padesátém
-Na Padesátníku Ⅰ
-Na Padesátníku Ⅱ
-Na Padesátníku Ⅲ
-Na Padesátníku Ⅳ
-Na Padesátníku Ⅴ
+Na Padesátníku I
+Na Padesátníku II
+Na Padesátníku III
+Na Padesátníku IV
+Na Padesátníku V
 Na Pahorku
 Na Pahoubce
 Na Paloučku
@@ -4136,9 +4136,9 @@ Nástrojařská
 Na Struze
 Na Strži
 nástupiště kolej 1
-"nástupiště kolej 2, 3"
-"nástupiště kolej 4, 5"
-"nástupiště kolej 6, 7"
+nástupiště kolej 2, 3
+nástupiště kolej 4, 5
+nástupiště kolej 6, 7
 Na Stupních
 Na Šubě
 Na Šumavě
@@ -4226,8 +4226,8 @@ Na Výsluní
 Na Vysočanských vinicích
 Na vysočině
 Na Vysoké I
-Na Vysoké Ⅰ
-Na Vysoké Ⅱ
+Na Vysoké I
+Na Vysoké II
 Na Výspě
 Na Výstupu
 Na Výtoni
@@ -4283,7 +4283,7 @@ Nefritová
 Neherovská
 Nehvizdská
 Nejdkova
-Nejužší ulička v Praze
+Nejužší ulička v Praze
 Nekázanka
 Neklanova
 Nekvasilova
@@ -4565,7 +4565,7 @@ Pálkařská
 Palmetová
 Palmovka
 Palouček
-Památník legionářů Ⅱ. světové války
+Památník legionářů II. světové války
 Pámelníková
 Pampelišková
 Pancířova
@@ -4795,7 +4795,7 @@ Pod Beránkem
 Pod Beránkou
 Pod Betání
 Pod Bohdalcem I
-Pod Bohdalcem Ⅱ
+Pod Bohdalcem II
 Pod Brentovou
 Pod Březinou
 Pod Bruskou
@@ -4990,7 +4990,7 @@ Pod Smetankou
 Pod Šmukýřkou
 Pod Sokolovnou
 Pod Soutratím
-Pod Špejcharem
+Pod Špejcharem
 Pod Spiritkou
 Pod Špitálem
 Pod Spravedlností
@@ -5010,8 +5010,8 @@ Pod Strojírnami
 Pod Studánkou
 Pod Stupni
 Pod Svahem
-Pod Sychrovem Ⅰ
-Pod Sychrovem Ⅱ
+Pod Sychrovem I
+Pod Sychrovem II
 Pod Táborem
 Pod Terasami
 Pod Terebkou
@@ -5052,9 +5052,9 @@ Pod Vodovodem
 Pod Vrchem
 Pod Vrcholem
 Pod Vrškem
-Pod Vršovickou vodárnou Ⅰ
-Pod Vršovickou vodárnou Ⅱ
-Pod Vršovickou vodárnou Ⅲ
+Pod Vršovickou vodárnou I
+Pod Vršovickou vodárnou II
+Pod Vršovickou vodárnou III
 Pod Vrstevnicí
 Pod Vsí
 Pod Vyhlídkou
@@ -5144,13 +5144,13 @@ Prachovická
 Prachovská
 Práčská
 Přádova
-"Praha, ÚAN Florenc, 10, 99"
-"Praha, ÚAN Florenc, 11-14"
-"Praha, ÚAN Florenc, 15-17"
-"Praha, ÚAN Florenc, 18-20"
-"Praha, ÚAN Florenc, 21-22"
-"Praha, ÚAN Florenc, 23-24"
-"Praha, ÚAN Florenc, 25-26"
+Praha, ÚAN Florenc, 10, 99
+Praha, ÚAN Florenc, 11-14
+Praha, ÚAN Florenc, 15-17
+Praha, ÚAN Florenc, 18-20
+Praha, ÚAN Florenc, 21-22
+Praha, ÚAN Florenc, 23-24
+Praha, ÚAN Florenc, 25-26
 Pramenná
 Práškovská
 Prašná
@@ -5183,8 +5183,8 @@ Před Oborou
 Předpolní
 Předposlední
 Před Rybníkem
-Před Skalkami Ⅰ
-Před Skalkami Ⅱ
+Před Skalkami I
+Před Skalkami II
 Před Skálou
 Předškolní
 Před Sokolovnou
@@ -5599,8 +5599,8 @@ Savojská
 Sázavská
 Sazečská
 Sazovická
-Sbíhavá Ⅰ
-Sbíhavá Ⅱ
+Sbíhavá I
+Sbíhavá II
 Schengenská
 Schengenská (TAXI)
 Schnirchova
@@ -5666,28 +5666,28 @@ Sevastopolská
 Ševce Matouše
 Ševčenkova
 Ševčíkova
-Severní Ⅰ
-Severní Ⅱ
-Severní Ⅲ
-Severní Ⅳ
-Severní Ⅸ
-Severní Ⅴ
-Severní Ⅵ
-Severní Ⅶ
-Severní Ⅷ
-Severní Ⅹ
-Severní ⅩⅠ
-Severovýchodní Ⅰ
-Severovýchodní Ⅱ
-Severovýchodní Ⅲ
-Severovýchodní Ⅳ
-Severovýchodní Ⅴ
-Severovýchodní Ⅵ
-Severozápadní Ⅰ
-Severozápadní Ⅱ
-Severozápadní Ⅲ
-Severozápadní Ⅳ
-Severozápadní Ⅴ
+Severní I
+Severní II
+Severní III
+Severní IV
+Severní IX
+Severní V
+Severní VI
+Severní VII
+Severní VIII
+Severní X
+Severní XI
+Severovýchodní I
+Severovýchodní II
+Severovýchodní III
+Severovýchodní IV
+Severovýchodní V
+Severovýchodní VI
+Severozápadní I
+Severozápadní II
+Severozápadní III
+Severozápadní IV
+Severozápadní V
 Severozápadní VI
 Severýnova
 Sevřená
@@ -5868,10 +5868,10 @@ Solnická
 Sopotská
 Sosnovecká
 Šostakovičovo náměstí
-Souběžná Ⅰ
-Souběžná Ⅱ
-Souběžná Ⅲ
-Souběžná Ⅳ
+Souběžná I
+Souběžná II
+Souběžná III
+Souběžná IV
 Součkova
 Soudní
 Soukalova
@@ -6535,7 +6535,7 @@ U Klavírky
 U Klikovky
 U Klimentky
 U Kloubových domů
-U Klubovny
+U Klubovny
 U Klubu
 U Kněžské louky
 U Kola
@@ -6628,7 +6628,7 @@ U Mrázovky
 Umrlčina
 U Mydlárny
 U Myslivny
-U Nádraží
+U Nádraží
 U Nádražní lávky
 U Nádrže
 U Nadýmače
@@ -6651,9 +6651,9 @@ U Nového dvora
 U Nového Suchdola
 U Nové louky
 U Nové školy
-U Nových domů Ⅰ
-U Nových domů Ⅱ
-U Nových domů Ⅲ
+U Nových domů I
+U Nových domů II
+U Nových domů III
 U Nových vil
 U Obce
 U Obecního domu
@@ -6705,7 +6705,7 @@ U Pošty
 U Potoka
 U Potůčku
 U Poustek
-U Prádelny
+U Prádelny
 U Pramene
 U Prašné brány
 U Prašného mostu
@@ -7037,44 +7037,44 @@ Vavřinecká
 Vazovova
 Vážská
 V Babyku
-V Bambouskách
+V Bambouskách
 V Benátkách
-V Benátkách
+V Benátkách
 V Bezpečí
-V Bílce
-V Bokách Ⅰ
-V Bokách Ⅱ
-V Bokách Ⅲ
-V Borovičkách
-V Botanice
+V Bílce
+V Bokách I
+V Bokách II
+V Bokách III
+V Borovičkách
+V Botanice
 V Brance
-V Březí
+V Březí
 V březině
 V Březinkách
-V Březinkách
+V Březinkách
 V Břízkách
-V Břízkách
-V Brůdku
+V Břízkách
+V Brůdku
 V Bytovkách
 Včelařská
 V Celnici
-V Celnici
+V Celnici
 Včelničná
-V Čeňku
-V Cestičkách
+V Čeňku
+V Cestičkách
 V cestkách
 V Chaloupkách
 V chatách
 V Chotejně
-V Cibulkách
+V Cibulkách
 V Cihelně
-V Cípu
+V Cípu
 V Dílcích
-V Dolích
+V Dolích
 V Dolinách
-V Dolinách
-V Dolině
-V Domcích
+V Dolinách
+V Dolině
+V Domcích
 V Domově
 Večerní
 V Edenu
@@ -7136,7 +7136,7 @@ Vestavěná
 Vestecká
 Vestecká spojka
 Ve Štěpnici
-"vestibul Náměstí Republiky, metro B"
+vestibul Náměstí Republiky, metro B
 Ve Stínadlech
 Věštínská
 Ve Stínu
@@ -7165,21 +7165,21 @@ Vězeňská
 Věžická
 Ve Žlíbku
 Ve Zliči
-V Háji
-V Hájích
-V Hájkách
+V Háji
+V Hájích
+V Hájkách
 V Haltýři
-V Hliništi
-V Hluboké
-V Hodkovičkách
+V Hliništi
+V Hluboké
+V Hodkovičkách
 V Holešovičkách
-V Honu
+V Honu
 V Horkách
-V Horní Stromce
+V Horní Stromce
 V Hrobech
-V Humenci
+V Humenci
 V Humnech
-V Hůrkách
+V Hůrkách
 Vídeňská
 Vidimova
 Vidimská
@@ -7226,10 +7226,10 @@ Vítovcova
 Vítové
 Vizírská
 Vizovická
-V Jahodách
+V Jahodách
 V Jámě
 V Javorech
-V Javoříčku
+V Javoříčku
 V jehličí
 V jehličině
 Vjezd z -1 do -2 patra
@@ -7238,31 +7238,31 @@ V jezevčinách
 V Jezírkách
 V Jirchářích
 V Kališti
-V Kališti
+V Kališti
 V kálku
 V Kapslovně
 V Klukovicích
 V Kole
-V Kolkovně
-V Korytech
-V Kotcích
+V Kolkovně
+V Korytech
+V Kotcích
 V Koutě
 V koutku
 V Kratinách
-V Křepelkách
+V Křepelkách
 V Křížkách
-V Křížkách
-V Křovinách
-V Kruhu
+V Křížkách
+V Křovinách
+V Kruhu
 V Kuťatech
 Vlachova
-V Ladech
+V Ladech
 Vladimírova
 Vladislava Vančury
 Vladislavova
 Vladivostocká
 Vladycká
-V Lánech
+V Lánech
 Vlárská
 Vlasákova
 Vlásenická
@@ -7275,14 +7275,14 @@ Vlaštovčí
 Vlasty Buriana
 Vlasty Hilské
 Vlasty Průchové
-V Lázních
+V Lázních
 Vlčická
 Vlčkova
 Vlčnovská
-V Lesíčku
+V Lesíčku
 V lipách
 V Lipinách
-V Lipkách
+V Lipkách
 V lískách
 V listnáčích
 V Listnáčích
@@ -7290,27 +7290,27 @@ Vlkanovská
 Vlkova
 Vlkovická
 Vlnitá
-V Lomech
+V Lomech
 V Louce
 Vltavanů
 Vltavická
 Vltavínová
 Vltavská
-V Lučinách
+V Lučinách
 V Luhu
 V lukách
 V Lukách
-V Lužích
+V Lužích
 V Malých domech I
 V Malých domech II
 V Malých domech III
-V Mezihoří
+V Mezihoří
 V Mezivrší
 V Milíři
-V Mokřinách
+V Mokřinách
 V Mydlinkách
-V Náklích
-V Násypu
+V Náklích
+V Násypu
 Vnější
 Vnislavova
 Vnitřní
@@ -7318,19 +7318,19 @@ V Nížinách
 Vnoučkova
 V Nové čtvrti
 V Nové Hostivaři
-V Nové Hostivaři
-V Novém Hloubětíně
-V Nové Vsi
+V Nové Hostivaři
+V Novém Hloubětíně
+V Nové Vsi
 V Nových Bohnicích
 V Nových domcích
-V Nových Vokovicích
-V Občanském domově
-V Oblouku
+V Nových Vokovicích
+V Občanském domově
+V Oblouku
 Voborského
 Vobrubova
-V Obůrkách
+V Obůrkách
 Vocelova
-V Ochozu
+V Ochozu
 Voctářova
 Vodácká
 Vodárenská
@@ -7344,8 +7344,8 @@ Vodnická
 Vodní prostup Rokytka
 Vodochodská
 Vodojemská
-V Ohradě
-V Ohybu
+V Ohradě
+V Ohybu
 Vojáčkova
 Vojenova
 Vojetická
@@ -7366,21 +7366,21 @@ Volavkova
 Voleníkova
 Volkova
 Volkovova
-V Olšinách
+V Olšinách
 V olšině
 V Olšině
 Volšovská
 Voltova
 Volutová
 Volyňská
-V Ondřejově
+V Ondřejově
 Vondroušova
 voňkova
 Voňkova
 V Opatově
 Voráčovská
 Vorařská
-V Ořeší
+V Ořeší
 Voříškova
 Voroněžská
 Voršilská
@@ -7398,7 +7398,7 @@ Votická
 Votočkova
 Votrubova
 Votuzská
-V Oudolku
+V Oudolku
 Vožická
 Voznická
 Vozová
@@ -7406,37 +7406,37 @@ Vozovna Kobylisy
 V Pačátkách
 V Pachmance
 V Padolině
-V Parcelách
+V Parcelách
 V Pařezinách
 V Parku
-V Parku
+V Parku
 V Parníku
-V Pátém
+V Pátém
 V. P. Čkalova
-V Pěšinkách
-V Pevnosti
+V Pěšinkách
+V Pevnosti
 V Pískovně
-V Pískovně
-V Pitkovičkách
+V Pískovně
+V Pitkovičkách
 V Pláni
 V Planinách
 V Platýzu
 V Podbabě
-V Podhájí
-V Podhoří
+V Podhájí
+V Podhoří
 V Podluží
-V Podskalí
+V Podskalí
 V Podvrší
-V Podzámčí
-V Poli
+V Podzámčí
+V Poli
 V Polích
-V Potocích
+V Potocích
 V Potočinách
 V Potočkách
 V Potokách
 V Předním Hloubětíně
 V Předním Veleslavíně
-V Předpolí
+V Předpolí
 V Přelomu
 V Přístavu
 V Průčelí
@@ -7444,7 +7444,7 @@ V Průhledu
 V Prutinách
 Vrabčí
 V Ráji
-V Rákosí
+V Rákosí
 Vraňanská
 Vranická
 Vranovská
@@ -7466,16 +7466,16 @@ Vrbova
 Vrchlabská
 Vrchlického
 Vrchovinská
-V Remízku
+V Remízku
 Vřes
 Vřesová
 Vřesovická
-V Roháčích
-V Rohožníku
+V Roháčích
+V Rohožníku
 V Rohu
 V Rokli
 V Roklích
-V Rovinách
+V Rovinách
 V Rozkvětu
 Vršní
 Vršovická
@@ -7483,9 +7483,9 @@ Vršovické náměstí
 Vršovka
 Vrútecká
 V Rybníčkách
-V Sadech
+V Sadech
 V Šáreckém údolí
-V Šáreckém údolí
+V Šáreckém údolí
 V Sedlci
 Všehrdova
 Všejanská
@@ -7495,31 +7495,31 @@ Všerubská
 Všestarská
 Všetatská
 Vsetínská
-V Sídlišti
+V Sídlišti
 V slavětíně
 V Slavětíně
-V Soudním
+V Soudním
 Vstavačová
 V Štíhlách
-V Stráni
-V Středu
+V Stráni
+V Středu
 Vstup do garaze Na Petynce
 Vstupní
 V Sudech
 V Tehovičkách
-V Tišině
+V Tišině
 V Třešňovce
-V Trianglu
-V Trníčku
+V Trianglu
+V Trníčku
 V trninách
-V Tůních
-V Údolí
-V Úhlu
-V Úhoru
-V Uličce
-V Uličkách
-V Úvalu
-V Úvoze
+V Tůních
+V Údolí
+V Úhlu
+V Úhoru
+V Uličce
+V Uličkách
+V Úvalu
+V Úvoze
 V úzké
 V Úžlabině
 Vybíralova
@@ -7563,26 +7563,26 @@ Výtvarnická
 Vyvýšená
 Výzkumníků
 Vyžlovská
-V Žabokřiku
-V Žáčku
+V Žabokřiku
+V Žáčku
 V Záhorském
-V Zahradách
+V Zahradách
 V Zahrádkách
 V Zahradní čtvrti
-V Záhybu
-V Zákopech
-V Zákoutí
-V Zálesí
-V Zálomu
+V Záhybu
+V Zákopech
+V Zákoutí
+V Zálesí
+V Zálomu
 V Zámcích
-V Zámcích
+V Zámcích
 V Zápolí
 V Zářezu
-V Zářezu
-V Zatáčce
+V Zářezu
+V Zatáčce
 V Zátiší
-V Zátiší
-V Zátočce
+V Zátiší
+V Zátočce
 V Závětří
 V Závitu
 Vzdálená
