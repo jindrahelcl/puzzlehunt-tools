@@ -16,52 +16,62 @@
 # THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ##
 
-all: brno.names.txt
+ENDPOINT := https://download.openstreetmap.fr/extracts/europe/czech_republic/
+CITIES := brno
+brno_PBF := jihomoravsky.osm.pbf
+brno_NAME := Brno
+
+
+all: $(CITIES:=.names.txt)
 .PHONY: all
 
 clean:
-	rm -f brno.names.txt
-	rm -f brno.addrstreet.txt
-	rm -f brno.waystreet.txt
-	rm -f brno.names.xml
-	rm -f brno.poly
-	rm -f brno.boundary.xml
-	rm -f jihomoravsky.osm.pbf
+	rm -f *.names.txt
+	rm -f *.addrstreet.txt
+	rm -f *.waystreet.txt
+	rm -f *.names.xml
+	rm -f *.poly
+	rm -f *.boundary.xml
+	rm -f *.osm.pbf
 	rm -rf __pycache__
 .PHONY: clean
 
-jihomoravsky.osm.pbf:
-	curl -- 'https://download.openstreetmap.fr/extracts/europe/czech_republic/jihomoravsky.osm.pbf' > jihomoravsky.osm.pbf
+$(foreach city,$(CITIES),$($(city)_PBF)):
+	curl -- $(ENDPOINT)$@ > $@
 
-brno.boundary.xml: jihomoravsky.osm.pbf
+.SECONDEXPANSION:
+
+$(CITIES:=.boundary.xml): %.boundary.xml: $${$$*_PBF}
 	osmosis \
-	  --read-pbf jihomoravsky.osm.pbf \
-	  --tag-filter accept-relations "name=Brno" \
+	  --read-pbf $< \
+	  --tag-filter accept-relations "name=$($*_NAME)" \
+	  --tag-filter accept-relations "type=boundary" \
 	  --tag-filter accept-relations "boundary=administrative" \
+	  --tag-filter accept-relations "admin_level=8" \
 	  --write-xml - | \
 	osmosis \
 	  --read-xml - \
 	  --used-way \
 	  --used-node \
-	  --write-xml brno.boundary.xml
+	  --write-xml $@
 
-brno.poly: brno.boundary.xml
-	./admin_polygon brno.boundary.xml > brno.poly
+$(CITIES:=.poly): %.poly: %.boundary.xml
+	./admin_polygon $< > $@
 
-brno.names.xml: jihomoravsky.osm.pbf brno.poly
+$(CITIES:=.names.xml): %.names.xml: $${$$*_PBF} %.poly
 	osmosis \
-	  --read-pbf jihomoravsky.osm.pbf \
-	  --bounding-polygon file=brno.poly \
+	  --read-pbf $($*_PBF) \
+	  --bounding-polygon file=$*.poly \
 	  --tag-filter accept-ways "name=*" \
 	  --tag-filter accept-nodes "addr:street=*" \
 	  --tag-filter reject-relations \
-	  --write-xml brno.names.xml
+	  --write-xml $@
 
-brno.addrstreet.txt: brno.names.xml
-	./get_addrstreet brno.names.xml > brno.addrstreet.txt
+$(CITIES:=.addrstreet.txt): %.addrstreet.txt: %.names.xml
+	./get_addrstreet $< > $@
 
-brno.waystreet.txt: brno.names.xml
-	./get_waystreet brno.names.xml > brno.waystreet.txt
+$(CITIES:=.waystreet.txt): %.waystreet.txt: %.names.xml
+	./get_waystreet $< > $@
 
-brno.names.txt: brno.addrstreet.txt brno.waystreet.txt
-	cat brno.addrstreet.txt brno.waystreet.txt | LC_ALL=C sort | uniq > brno.names.txt
+$(CITIES:=.names.txt): %.names.txt: %.addrstreet.txt %.waystreet.txt
+	cat $+ | LC_ALL=C sort | uniq > $@
