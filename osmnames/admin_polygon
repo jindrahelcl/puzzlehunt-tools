@@ -1,0 +1,75 @@
+#!/usr/bin/env python3
+
+##
+# Copyright (C) 2022 Tomas "trosos" Tintera
+#
+# Permission to use, copy, modify, and/or distribute this
+# software for any purpose with or without fee is hereby
+# granted.
+#
+# THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS
+# ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL
+# IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO
+# EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+# INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+# WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+# WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+# TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH
+# THE USE OR PERFORMANCE OF THIS SOFTWARE.
+##
+
+# Nota bene:
+#  1. xml.etree is vulnerable to billion laughs attack.
+#  2. No attempt is made to prevent XPath injection.
+
+from sys import argv, exit
+from xml.etree import ElementTree
+
+def ways(root):
+    for way in root.iterfind("./relation[1]/member[@role='outer']"):
+        nodes = root.iterfind("./way[@id='{}']/nd".format(way.attrib["ref"]))
+        yield [root.find("./node[@id='{}']".format(node.attrib["ref"]))
+               for node in nodes]
+
+def orientations(tail, head):
+    yield tail, head
+    head.reverse()
+    yield tail, head
+    tail.reverse()
+    yield tail, head
+    head.reverse()
+    yield tail, head
+
+def get_polygon(root):
+    nodes = []
+    for way in ways(root):
+        for tail, head in orientations(nodes, way):
+            if not tail:
+                tail += head
+                break
+            if tail[-1].attrib["id"] == head[0].attrib["id"]:
+                tail += head[1:]
+                break
+        else:
+            raise Exception("Sorry mate, provided ways are not contiguous.")
+    if nodes and nodes[0].attrib["id"] != nodes[-1].attrib["id"]:
+        raise Exception("Whoops, the boundary is not circular.")
+    return nodes
+
+if len(argv) != 2:
+    exit(
+        "I am here to extract the main polygon of the first relation\n"
+        "in an OpenStreetMap XML, ignoring enclaves and exclaves.\n\n"
+        "You shall want to make sure that the first relation in the XML\n"
+        "is an administrative boundary.\n\n"
+        "Feel free to feed my output to --bounding-polygon of osmosis.\n\n"
+        "Use me like this: {} osm.xml".format(argv[0])
+    )
+
+polygon = get_polygon(ElementTree.parse(argv[1]))
+print("section")
+print("area")
+for node in polygon:
+    print(node.attrib["lon"] + " " + node.attrib["lat"])
+print("END")
+print("END")
