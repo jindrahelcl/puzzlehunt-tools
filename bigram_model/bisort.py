@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 ##
-# Copyright (C) 2022 Tomas Tintera
+# Copyright (C) 2022 Tomas "trosos" Tintera
 #
 # Permission to use, copy, modify, and/or distribute this
 # software for any purpose with or without fee is hereby
@@ -42,4 +42,5 @@ if __name__ == "__main__":
         exit("Usage: {} model.bin < input.txt".format(argv[0]))
     with open(argv[1], "rb") as f:
         bigram_statistics = marshal.load(f)
-    print("\n".join(sort_texts(normalize(text) for text in stdin.readlines())))
+    for text in sort_texts(normalize(text) for text in stdin.readlines()):
+        print(text)

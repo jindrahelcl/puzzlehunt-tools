@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 ##
-# Copyright (C) 2022 Tomas Tintera
+# Copyright (C) 2022 Tomas "trosos" Tintera
 #
 # Permission to use, copy, modify, and/or distribute this
 # software for any purpose with or without fee is hereby
