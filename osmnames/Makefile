@@ -56,8 +56,6 @@ $(CITIES:=.boundary.xml): %.boundary.xml: $$(notdir $$($$*_URL))
 $(CITIES:=.poly): %.poly: %.boundary.xml
 	./admin_polygon $< > $@
 
-.SECONDEXPANSION:
-
 $(CITIES:=.names.xml): %.names.xml: $$(notdir $$($$*_URL)) %.poly
 	osmosis \
 	  --read-pbf $(notdir $($*_URL)) \
