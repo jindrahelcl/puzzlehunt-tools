@@ -20,7 +20,7 @@ it in the correctly set locale environment.
 
 Typically, you will use `bisort` on an output of your script that returns
 solution candidates of a puzzle, one at a line. `bisort`'s job is then to sort
-the data set by relevance within the specified model.
+the data set for you, by relevance within the specified language model.
 
     ./bisort model.bin < input.txt
 
@@ -36,8 +36,12 @@ For detailed information, read the following paragraphs.
 ### Disk space requirements
 
 Depending on the configuration (see below), the compilation step will download
-several OpenStreetMap regions. At the time of writing, the requirements have
-been around 300 MiB of disk space.
+several OpenStreetMap regions which are needed throughout the compilation.
+At the time of writing, the requirements have been around 300 MiB of temporary
+disk space.
+
+After compilation is done, you can safely delete the downloaded intermediary
+files by issuing `make clean` *inside the `osmnames` directory*.
 
 ### Compile-time dependencies
 
