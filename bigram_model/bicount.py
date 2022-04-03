@@ -31,7 +31,7 @@ if len(argv) != 1:
 
 total = 0
 counts = Counter()
-for text in (normalize(line) for line in stdin.readlines()):
+for text in {normalize(line) for line in stdin.readlines()}:
     if text:
         total += len(text) - 1
         counts += Counter("".join(bigram) for bigram in zip(text, text[1:]))
