@@ -18,6 +18,20 @@
 
 def normalize(text):
     return (text
-        .replace("\u00a0", " ")
-        .replace("\u2013", "-")
+        .replace("\u00a0", " ")    # NBSP
+        .replace("\u200b", "")     # ZWSP
+        .replace("\u2013", "-")    # NDASH
+        .replace("\u2014", "-")    # MDASH
+        .replace("\u2019", "'")    # Right Single Quotation Mark
+        .replace("\u2160", "I")    # Roman Numeral One
+        .replace("\u2161", "II")   # Roman Numeral Two
+        .replace("\u2162", "III")  # Roman Numeral Three
+        .replace("\u2163", "IV")   # Roman Numeral Four
+        .replace("\u2164", "V")    # Roman Numeral Five
+        .replace("\u2165", "VI")   # Roman Numeral Six
+        .replace("\u2166", "VII")  # Roman Numeral Seven
+        .replace("\u2167", "VIII") # Roman Numeral Eight
+        .replace("\u2168", "IX")   # Roman Numeral Nine
+        .replace("\u2169", "X")    # Roman Numeral Ten
+        .replace("\u21d4", "<=>")  # Left Right Double Arrow
     )

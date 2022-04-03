@@ -17,7 +17,9 @@
 ##
 
 ENDPOINT := https://download.openstreetmap.fr/extracts/europe/czech_republic/
-CITIES := brno
+CITIES := praha brno
+praha_PBF := praha.osm.pbf
+praha_NAME := Praha
 brno_PBF := jihomoravsky.osm.pbf
 brno_NAME := Brno
 
