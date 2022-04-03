@@ -24,10 +24,11 @@ brno_PBF := jihomoravsky.osm.pbf
 brno_NAME := Brno
 
 
-all: $(CITIES:=.names.txt)
+all: $(CITIES:=.names.txt) $(CITIES:=.names.ascii.txt)
 .PHONY: all
 
 clean:
+	rm -f *.names.ascii.txt
 	rm -f *.names.txt
 	rm -f *.addrstreet.txt
 	rm -f *.waystreet.txt
@@ -77,3 +78,6 @@ $(CITIES:=.waystreet.txt): %.waystreet.txt: %.names.xml
 
 $(CITIES:=.names.txt): %.names.txt: %.addrstreet.txt %.waystreet.txt
 	cat $+ | LC_ALL=C sort | uniq > $@
+
+$(CITIES:=.names.ascii.txt): %.names.ascii.txt: %.names.txt
+	./normascii < $< | LC_ALL=C sort | uniq > $@
