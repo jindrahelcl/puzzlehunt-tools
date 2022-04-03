@@ -16,41 +16,36 @@
 # THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ##
 
-ENDPOINT := https://download.openstreetmap.fr/extracts/europe/czech_republic/
-CITIES := praha brno
-praha_PBF := praha.osm.pbf
-praha_NAME := Praha
-brno_PBF := jihomoravsky.osm.pbf
-brno_NAME := Brno
-
+include cityconf.mk
 
 all: $(CITIES:=.names.txt) $(CITIES:=.names.ascii.txt)
 .PHONY: all
 
 clean:
-	rm -f *.names.ascii.txt
-	rm -f *.names.txt
-	rm -f *.addrstreet.txt
-	rm -f *.waystreet.txt
-	rm -f *.names.xml
-	rm -f *.poly
-	rm -f *.boundary.xml
-	rm -f *.osm.pbf
+	rm -f $(CITIES:=.names.ascii.txt)
+	rm -f $(CITIES:=.names.txt)
+	rm -f $(CITIES:=.addrstreet.txt)
+	rm -f $(CITIES:=.waystreet.txt)
+	rm -f $(CITIES:=.names.xml)
+	rm -f $(CITIES:=.poly)
+	rm -f $(CITIES:=.boundary.xml)
+	rm -f $(notdir $(foreach city,$(CITIES),$($(city)_URL)))
 	rm -rf __pycache__
 .PHONY: clean
 
-$(foreach city,$(CITIES),$($(city)_PBF)):
-	curl -- $(ENDPOINT)$@ > $@
+$(foreach city,$(CITIES:=_URL),$(eval $(notdir $($(city))): URL := $($(city))))
+$(notdir $(foreach city,$(CITIES),$($(city)_URL))):
+	curl -- $(URL) > $@
 
 .SECONDEXPANSION:
 
-$(CITIES:=.boundary.xml): %.boundary.xml: $${$$*_PBF}
+$(CITIES:=.boundary.xml): %.boundary.xml: $$(notdir $$($$*_URL))
 	osmosis \
 	  --read-pbf $< \
 	  --tag-filter accept-relations "name=$($*_NAME)" \
 	  --tag-filter accept-relations "type=boundary" \
 	  --tag-filter accept-relations "boundary=administrative" \
-	  --tag-filter accept-relations "admin_level=8" \
+	  --tag-filter accept-relations "admin_level=$($*_LEVEL)" \
 	  --write-xml - | \
 	osmosis \
 	  --read-xml - \
@@ -61,9 +56,11 @@ $(CITIES:=.boundary.xml): %.boundary.xml: $${$$*_PBF}
 $(CITIES:=.poly): %.poly: %.boundary.xml
 	./admin_polygon $< > $@
 
-$(CITIES:=.names.xml): %.names.xml: $${$$*_PBF} %.poly
+.SECONDEXPANSION:
+
+$(CITIES:=.names.xml): %.names.xml: $$(notdir $$($$*_URL)) %.poly
 	osmosis \
-	  --read-pbf $($*_PBF) \
+	  --read-pbf $(notdir $($*_URL)) \
 	  --bounding-polygon file=$*.poly \
 	  --tag-filter accept-ways "name=*" \
 	  --tag-filter accept-nodes "addr:street=*" \
