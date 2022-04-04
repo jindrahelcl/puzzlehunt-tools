@@ -14,7 +14,8 @@ Before using this tool, it must be trained like this:
 
 The input file `source.txt` should consist of one training set per line.
 The tool is quite good at converting Unicode to ASCII, but be sure to run
-it in the correctly set locale environment.
+it in a correctly set locale environment (to get line endings and character
+encoding right).
 
 ## Mundane usage
 
