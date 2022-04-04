@@ -26,8 +26,6 @@ clean:
 	rm -rf __pycache__
 .PHONY: clean
 
-CITY_NAMES = $(CITIES:%=../osmnames/%.names.ascii.txt)
-
 $(CITIES:%=../osmnames/%.names.ascii.txt): ../osmnames/%:
 	$(MAKE) -C ../osmnames $*
 
