@@ -60,7 +60,7 @@ the `osmnames` tool:
 
 Before invoking `make`, you may wish to specify cities or other administrative
 areas that you want to compile models for. This is done by editing the file
-`osmnames/cityconf.am`.
+`osmnames/cityconf.mk`.
 
 Be sure to specify the same administrative level that OpenStreetMap uses for
 the city of interest; these values are country-cpecific and are documented
