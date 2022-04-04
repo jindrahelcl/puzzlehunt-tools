@@ -21,23 +21,24 @@
 import marshal
 import logging
 import sys
-from bisort import normalize
 from collections import Counter
 from math import log
 from string import ascii_lowercase
 from itertools import product
+
+from bisort import normalize
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO, datefmt='%H:%M:%S')
 logger = logging.getLogger(__name__)
 LOG_EVERY=1000000
 
 if len(sys.argv) != 1:
-    sys.exit("Usage: {} < source.txt > model.bin".format(sys.argv[0]))
+    sys.exit(f"Usage: {sys.argv[0]} < source.txt > model.bin")
 
 total = 0
 counts = Counter()
 
-logger.info(f"Loading data, will report every {LOG_EVERY} lines")
+logger.info("Loading data, will report every %d lines", LOG_EVERY)
 for i, line in enumerate(sys.stdin):
     text = normalize(line)
     if text:
@@ -45,10 +46,10 @@ for i, line in enumerate(sys.stdin):
         counts += Counter("".join(bigram) for bigram in zip(text, text[1:]))
 
     if i > 0 and i % LOG_EVERY == 0:
-        logger.info(f"{i} sentences loaded")
+        logger.info("%d sentences loaded", i)
 
 
-logger.info(f"Data loading done. Read {total} characters")
+logger.info("Data loading done. Read %d characters", total)
 statistics = {bigram: log(total/count) for bigram, count in counts.items()}
 inf = max(count for count in statistics.values())
 defaults = {"".join(bigram): inf for bigram in product(*2*[ascii_lowercase])}
