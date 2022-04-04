@@ -53,7 +53,7 @@ $(CITIES:=.boundary.xml): %.boundary.xml: $$(notdir $$($$*_URL))
 	  --used-node \
 	  --write-xml $@
 
-$(CITIES:=.poly): %.poly: %.boundary.xml
+$(CITIES:=.poly): %.poly: %.boundary.xml admin_polygon
 	./admin_polygon $< > $@
 
 $(CITIES:=.names.xml): %.names.xml: $$(notdir $$($$*_URL)) %.poly
@@ -66,14 +66,14 @@ $(CITIES:=.names.xml): %.names.xml: $$(notdir $$($$*_URL)) %.poly
 	  --tag-filter reject-relations \
 	  --write-xml $@
 
-$(CITIES:=.addrstreet.txt): %.addrstreet.txt: %.names.xml
+$(CITIES:=.addrstreet.txt): %.addrstreet.txt: %.names.xml get_addrstreet
 	./get_addrstreet $< > $@
 
-$(CITIES:=.waystreet.txt): %.waystreet.txt: %.names.xml
+$(CITIES:=.waystreet.txt): %.waystreet.txt: %.names.xml get_waystreet
 	./get_waystreet $< > $@
 
 $(CITIES:=.names.txt): %.names.txt: %.addrstreet.txt %.waystreet.txt
 	cat $+ | LC_ALL=C sort | uniq > $@
 
-$(CITIES:=.names.ascii.txt): %.names.ascii.txt: %.names.txt
+$(CITIES:=.names.ascii.txt): %.names.ascii.txt: %.names.txt normascii
 	./normascii < $< | LC_ALL=C sort | uniq > $@

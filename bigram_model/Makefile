@@ -29,5 +29,5 @@ clean:
 $(CITIES:%=../osmnames/%.names.ascii.txt): ../osmnames/%:
 	$(MAKE) -C ../osmnames $*
 
-$(CITIES:=.model): %.model: ../osmnames/%.names.ascii.txt
+$(CITIES:=.model): %.model: ../osmnames/%.names.ascii.txt bicount.py bisort.py
 	./bicount.py < $< > $@
