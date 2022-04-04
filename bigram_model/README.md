@@ -10,7 +10,7 @@ The runtime dependencies are fairly simple:
 
 Before using this tool, it must be trained like this:
 
-    ./bicount < source.txt > model.bin
+    ./bicount.py < source.txt > model.bin
 
 The input file `source.txt` should consist of one training set per line.
 The tool is quite good at converting Unicode to ASCII, but be sure to run
@@ -23,7 +23,7 @@ Typically, you will use `bisort` on an output of your script that returns
 solution candidates of a puzzle, one at a line. `bisort`'s job is then to sort
 the data set for you, by relevance within the specified language model.
 
-    ./bisort model.bin < input.txt
+    ./bisort.py model.bin < input.txt
 
 ## Training from OpenStreetMap
 
