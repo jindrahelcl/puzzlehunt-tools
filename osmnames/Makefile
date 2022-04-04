@@ -61,6 +61,7 @@ $(CITIES:=.names.xml): %.names.xml: $$(notdir $$($$*_URL)) %.poly
 	  --read-pbf $(notdir $($*_URL)) \
 	  --bounding-polygon file=$*.poly \
 	  --tag-filter accept-ways "name=*" \
+	  --tag-filter accept-ways "highway=*" \
 	  --tag-filter accept-nodes "addr:street=*" \
 	  --tag-filter reject-relations \
 	  --write-xml $@
