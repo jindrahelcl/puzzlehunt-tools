@@ -39,7 +39,7 @@ for line in stdin.readlines():
 
 statistics = {bigram: log(total/count) for bigram, count in counts.items()}
 inf = max(count for count in statistics.values())
-defaults = {"".join(bigram): inf for bigram in product(ascii_lowercase, ascii_lowercase)}
+defaults = {"".join(bigram): inf for bigram in product(*2*[ascii_lowercase])}
 complete_statistics = {**defaults, **statistics}
 
 stdout.buffer.write(marshal.dumps(complete_statistics))
