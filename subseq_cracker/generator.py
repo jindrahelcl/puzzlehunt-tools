@@ -19,7 +19,7 @@ class Tmou(Generator):
         pass
         
     def __iter__(self):
-        pass
+        yield from sys.stdin
 
 
 class SimpleGenerator(Generator):
@@ -41,7 +41,7 @@ class GenPotrati(Generator):
             seq = []
             for l, word in enumerate(perm):
                 for i in range(2):
-                    coord = self.b[l*2+i]     
+                    coord = self.b[l*2+i]
                     char_idx = coord[0]-1
 
                     if len(word) <= char_idx:
