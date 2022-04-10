@@ -130,9 +130,10 @@ def expectation(counts, vocab_size, lambdas, heldout_counts):
     order = len(counts)
 
     lambda_counts = [0 for _ in range(order)]
-    for n in range(order):
-        for ngram, freq in heldout_counts.items():
-            lambda_counts[n] += freq * lambdas[n] * single_prob(ngram[order - n - 1:], counts, vocab_size) / interpolated_prob(ngram, counts, vocab_size, lambdas)
+    for ngram, freq in heldout_counts.items():
+        norm = interpolated_prob(ngram, counts, vocab_size, lambdas)
+        for n in range(order):
+            lambda_counts[n] += freq * lambdas[n] * single_prob(ngram[order - n - 1:], counts, vocab_size) / norm
 
     return lambda_counts
 
