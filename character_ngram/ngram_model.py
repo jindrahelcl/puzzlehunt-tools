@@ -11,6 +11,13 @@ logger = logging.getLogger(__name__)
 LOG_EVERY=10000
 
 
+def update_counts(counts, tokens, order):
+    for n in range(order):
+        for i in range(len(tokens) - n):
+            ngram = tokens[i:i + n + 1]
+            counts[n][ngram] += 1
+
+
 def extract_counts(tokens, order):
     # return counts of different n-grams in the array
     counts = [Counter() for _ in range(order)]
@@ -96,12 +103,10 @@ class SmoothedNGramModel:
             if preprocess is not None:
                 line = preprocess(line)
 
-            new_counts = extract_counts(line, self.order)
-            for n in range(self.order):
-                counts[n] += new_counts[n]
+            update_counts(counts, line, self.order)
 
             if i > 0 and i % LOG_EVERY == 0:
-                logger.info("%d sentences loaded", i)
+                logger.info("%d lines loaded", i)
 
         return counts
 
