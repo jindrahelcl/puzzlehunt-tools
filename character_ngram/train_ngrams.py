@@ -53,8 +53,8 @@ def main(args):
     logger.info("Calculating OOV rates on heldout set:")
     for n in range(model.order):
         oov = 0
-        for ngram in model.counts[n].keys():
-            if model.heldout_counts[n][ngram] == 0:
+        for ngram in model.heldout_counts[n].keys():
+            if model.counts[n][ngram] == 0:
                 oov += 1
 
         all_unique = len(model.heldout_counts[n])
