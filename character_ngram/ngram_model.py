@@ -1,5 +1,6 @@
 import logging
 import math
+import pickle
 
 from collections import Counter
 from warnings import warn
@@ -160,3 +161,16 @@ class SmoothedNGramModel:
                 logger.info("Lambdas: %s", ", ".join(map(str, self.lambdas)))
 
         logger.info("Finished after %d iterations.", iteration)
+
+    def save(self, path):
+        f = open(path, "wb")
+        pickle.dump(self, f)
+        f.close()
+
+    @classmethod
+    def load(cls, path):
+        f = open(path, "rb")
+        instance = pickle.load(f)
+        f.close()
+
+        return instance

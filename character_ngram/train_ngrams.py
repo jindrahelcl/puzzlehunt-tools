@@ -72,13 +72,16 @@ def main(args):
     for n in range(model.order):
         logger.info("%d: %.4f", n + 1, model.lambdas[n])
 
+    logger.info("Saving model to %s", args.output)
+    model.save(args.output)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     # pylint: disable=line-too-long
     parser.add_argument("input", nargs="?", metavar="INPUT_TRAIN", help="Input file. Plaintext. Default stdin.", default=sys.stdin, type=argparse.FileType("r"))
-    parser.add_argument("output", nargs="?", metavar="MODEL_FILE", help="Model file", default=sys.stdout, type=argparse.FileType("w"))
+    parser.add_argument("output", nargs="?", metavar="MODEL_FILE", help="Model file", type=str)
     parser.add_argument("heldout", nargs="?", metavar="INPUT_HELDOUT", help="Heldout data. Plaintext.", type=argparse.FileType("r"))
 
     parser.add_argument("-n", "--order", help="Order of the language model. Default 4", default=4, type=int)
