@@ -2,49 +2,30 @@
 
 import argparse
 import logging
-import re
 import sys
-import unicodedata
 
 from ngram_model import SmoothedNGramModel
+from string_util import preprocess
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
                     level=logging.INFO, datefmt='%H:%M:%S')
 logger = logging.getLogger(__name__)
-
-nonalpha = re.compile("[^a-zA-Z]")
-BLANK = "\N{LOWER ONE EIGHTH BLOCK}"
-
-
-def normalize(line):
-    return nonalpha.sub("", unicodedata.normalize("NFKD", line))
-
-
-def preprocess(line, args):
-    if args.normalize:
-        line = normalize(line)
-
-    if args.lowercase: # check for bugs, lower was inside nonalpha.sub
-        line = line.lower()
-
-    if args.add_blanks:
-        line = BLANK * (args.order - 1) + line + BLANK
-
-    return line
 
 
 def main(args):
     logger.info("Hello! This is %s", sys.argv[0])
 
     model = SmoothedNGramModel(args.order)
-    model.train(args.input, preprocess=lambda x: preprocess(x, args))
+    model.train(args.input, preprocess=lambda x: preprocess(
+        x, args.normalize, args.lowercase, args.add_blanks, args.order))
 
     logger.info("Train data loaded, n-gram stats:")
     for n in range(model.order):
         logger.info("%d-grams: %d", n + 1, len(model.counts[n]))
 
     logger.info("Loading heldout set.")
-    model.heldout(args.heldout, preprocess=lambda x: preprocess(x, args))
+    model.heldout(args.heldout, preprocess=lambda x: preprocess(
+        x, args.normalize, args.lowercase, args.add_blanks, args.order))
 
     logger.info("Heldout data loaded, n-gram stats:")
     for n in range(model.order):
