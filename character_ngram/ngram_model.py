@@ -97,6 +97,15 @@ class SmoothedNGramModel:
 
         return - xent / total(self.heldout_counts[self.order - 1])
 
+    def score(self, line):
+        counts = extract_counts(line, self.order)
+
+        logprob = 0.0
+        for ngram, freq in counts[self.order - 1].items():
+            logprob += freq * math.log(self.interpolated_prob(ngram))
+
+        return logprob / total(counts[self.order - 1])
+
     def _load_data(self, data, preprocess=None):
         counts = [Counter() for _ in range(self.order)]
 
