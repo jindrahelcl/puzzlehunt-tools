@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+
+import sys
+import pickle
+import gzip
+import json
+
+def get_descriptor(model):
+    return {
+        "order": model.order,
+        "vocab_size": model.vocab_size,
+        "lambdas": [0] + model.lambdas,
+        "counts": [{}] + [{
+            ngram.replace("\N{LOWER ONE EIGHTH BLOCK}", "\n"): count
+            for ngram, count in counts.items()
+        } for counts in model.counts],
+        "totals": [0] + model.totals,
+    }
+
+if __name__ == "__main__":
+    if len(sys.argv) != 1:
+        sys.exit("Usage: {} < model.ngram > model.jmc".format(sys.argv[0]))
+    model = pickle.load(sys.stdin.buffer)
+    with gzip.open(sys.stdout.buffer, "wt", encoding="ascii") as zipfile:
+        json.dump(get_descriptor(model), zipfile, indent=4, sort_keys=True)
