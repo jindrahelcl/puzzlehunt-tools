@@ -63,6 +63,6 @@ areas that you want to compile models for. This is done by editing the file
 `osmnames/cityconf.mk`.
 
 Be sure to specify the same administrative level that OpenStreetMap uses for
-the city of interest; these values are country-cpecific and are documented
+the city of interest; these values are country-specific and are documented
 in the OpenStreetMap Wiki:
 <https://wiki.openstreetmap.org/wiki/Tag:boundary%3Dadministrative>.
