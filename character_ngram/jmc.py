@@ -9,7 +9,7 @@ class Jmc(object):
         self.counts = descriptor["counts"]
         self.totals = descriptor["totals"]
 
-    @staticmethod
-    def load(fp):
+    @classmethod
+    def load(cls, fp):
         with gzip.open(fp, "rt", encoding="utf-8") as zipfile:
-            return Jmc(json.load(zipfile))
+            return cls(json.load(zipfile))

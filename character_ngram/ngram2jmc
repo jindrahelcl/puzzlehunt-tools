@@ -23,3 +23,4 @@ if __name__ == "__main__":
     model = pickle.load(sys.stdin.buffer)
     with gzip.open(sys.stdout.buffer, "wt", encoding="ascii") as zipfile:
         json.dump(get_descriptor(model), zipfile, indent=4, sort_keys=True)
+        zipfile.write("\n")
