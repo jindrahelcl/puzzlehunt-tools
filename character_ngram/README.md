@@ -40,7 +40,7 @@ Alternatively, you can use the `jmc` module that does the same task, but
 more efficiently. First, build the portable model file with pre-computed
 losses:
 
-    ./ngram2jmc < model.ngram > model.jmc
+    ./ngram2jmc < model.pkl > model.jmc
 
 Then, score with
 
