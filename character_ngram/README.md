@@ -48,8 +48,10 @@ pipe the data like this:
 
 The `latin` subcommand ignores characters that are not based on Latin,
 like Unicode Roman numerals or Cyrillic. To deal with them, you might
-find useful the `alpha` subcommand, which transliterates into Latin
-(without numerals).
+instead find useful the `alpha` subcommand, which transliterates into
+Latin (without numerals):
+
+    cat some_data.txt | ./jmc alpha > preprocessed.txt
 
 ## Scoring data ##
 
