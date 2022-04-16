@@ -2,25 +2,33 @@
 
 import sys
 import pickle
-import gzip
-import json
+import math
+
+import jmc
+
+def single_loss(model, gram, branch):
+    return -math.log(
+        sum(model.lambdas[len(gram) + branch:])/model.vocab_size
+        + sum(
+            model.lambdas[len(gram) - k - 1]*model.single_prob(gram[k:])
+            for k in range(len(gram))
+        )
+    )
 
 def get_descriptor(model):
     return {
-        "order": model.order,
-        "vocab_size": model.vocab_size,
-        "lambdas": [0] + model.lambdas,
-        "counts": [{}] + [{
-            ngram.replace("\N{LOWER ONE EIGHTH BLOCK}", "\n"): count
-            for ngram, count in counts.items()
-        } for counts in model.counts],
-        "totals": [0] + model.totals,
+        "stats": [{
+            gram.replace("\N{LOWER ONE EIGHTH BLOCK}", "\n"):
+                single_loss(model, gram, branch)
+            for k, counts in enumerate(model.counts, -model.order)
+                if branch + k < 0
+            for gram in counts
+        } for branch in range(model.order)],
     }
 
 if __name__ == "__main__":
     if len(sys.argv) != 1:
         sys.exit("Usage: {} < model.ngram > model.jmc".format(sys.argv[0]))
-    model = pickle.load(sys.stdin.buffer)
-    with gzip.open(sys.stdout.buffer, "wt", encoding="ascii") as zipfile:
-        json.dump(get_descriptor(model), zipfile, indent=4, sort_keys=True)
-        zipfile.write("\n")
+    descriptor = get_descriptor(pickle.load(sys.stdin.buffer))
+    jmc_model = jmc.Jmc(**descriptor)
+    jmc_model.dump(sys.stdout.buffer)
