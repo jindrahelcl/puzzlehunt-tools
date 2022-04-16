@@ -33,3 +33,18 @@ When scoring finishes, `scores.txt` should have the same number of lines as
 `some_data.txt`, one (negative) floating point number per line, representing
 the score (which is the log likelihood of the input line as assigned by the
 model).
+
+### Efficient scoring
+
+Alternatively, you can use the `jmc` module that does the same task, but
+more efficiently. First, build the portable model file with pre-computed
+losses:
+
+    ./ngram2jmc < model.ngram > model.jmc
+
+Then, score with
+
+    cat some_data.txt | ./jmc loss model.jmc > losses.txt
+
+The command returns values of the loss function, which is just
+the negative of score (and therefore always positive).

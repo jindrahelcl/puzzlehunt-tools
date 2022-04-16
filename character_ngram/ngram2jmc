@@ -28,7 +28,7 @@ def get_descriptor(model):
 
 if __name__ == "__main__":
     if len(sys.argv) != 1:
-        sys.exit("Usage: {} < model.ngram > model.jmc".format(sys.argv[0]))
+        sys.exit("Usage: {} < model.pkl > model.jmc".format(sys.argv[0]))
     descriptor = get_descriptor(pickle.load(sys.stdin.buffer))
     jmc_model = jmc.Jmc(**descriptor)
     jmc_model.dump(sys.stdout.buffer)
