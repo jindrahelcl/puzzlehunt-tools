@@ -39,7 +39,7 @@ def sort(argv):
     model = jmc.Jmc.load(argv[2])
     in_lines = (model.decorate(line.rstrip("\n")) for line in sys.stdin)
     for line in model.sort(in_lines):
-        print(line)
+        print(model.undecorate(line))
 
 @subcommand("best")
 def best(argv):
@@ -52,7 +52,7 @@ def best(argv):
 
 @subcommand("latin")
 def latin(argv):
-    "Remove diacritics, leave only latin chars"
+    "Remove diacritics, leave only Latin chars"
     checkargs(argv, "< input.txt", 2)
     for line in sys.stdin:
         print(jmc.Jmc.latin(line.rstrip("\n")))

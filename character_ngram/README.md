@@ -3,7 +3,7 @@
 Scripts to train and score text with an n-gram language model using
 interpolated smoothing.
 
-## 1. Model training ##
+## Model training ##
 
 To train a model, first get training and heldout datasets. Heldout data should
 not overlap with the training data. Assuming you have plaintext training corpora
@@ -21,7 +21,37 @@ There are various options available, you can list them all by typing:
 ./train_ngrams.py --help
 ```
 
-## 2. Scoring data ##
+### Converting to precalculated model
+
+You can convert the model to a format suitable for the fast `jmc` module
+and command-line tool. Build the portable model file with pre-computed
+losses:
+
+    ./ngram2jmc < model.pkl > model.jmc
+
+## Preprocessing data
+
+The `scorer.py` command-line tool performs the preprocessing based on
+its input arguments.
+
+For fain-grained preprocessing, you can use the `jmc` tool as a filter.
+Currently, available filters are:
+
+### Remove diacritics
+
+To remove diacritics, leaving only Latin characters without numerals,
+pipe the data like this:
+
+    cat some_data.txt | ./jmc latin > preprocessed.txt
+
+### Transliterate to Latin
+
+The `latin` subcommand ignores characters that are not based on Latin,
+like Unicode Roman numerals or Cyrillic. To deal with them, you might
+find useful the `alpha` subcommand, which transliterates into Latin
+(without numerals).
+
+## Scoring data ##
 
 For scoring data, use the `scorer.py` script. The simplest usage is:
 
@@ -37,14 +67,15 @@ model).
 ### Efficient scoring
 
 Alternatively, you can use the `jmc` module that does the same task, but
-more efficiently. First, build the portable model file with pre-computed
-losses:
-
-    ./ngram2jmc < model.pkl > model.jmc
-
-Then, score with
+more efficiently:
 
     cat some_data.txt | ./jmc loss model.jmc > losses.txt
 
-The command returns values of the loss function, which is just
-the negative of score (and therefore always positive).
+(Note that the command returns values of the loss function, which is
+just the negative of score, and therefore always positive.)
+
+## Sorting data based on score
+
+To sort data based on score of each line, issue
+
+    cat some_data.txt | ./jmc sort model.jmc > sorted.txt

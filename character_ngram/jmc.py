@@ -26,6 +26,9 @@ class Jmc(object):
     def decorate(self, line):
         return (self.order - 1)*"\n" + line + "\n"
 
+    def undecorate(self, line):
+        return line[self.order - 1:-1]
+
     @staticmethod
     def latin(line):
         return Jmc._nonalpha.sub(
@@ -64,7 +67,7 @@ class Jmc(object):
         return sum(self.losses(line))/(len(line) + 1 - self.order)
 
     def sort(self, lines):
-        yield "Not implemented. :-p"
+        return sorted(lines, key=lambda line: self.loss(line))
 
     def best(self, limit, lines):
         yield "Not implemented. :-p"
