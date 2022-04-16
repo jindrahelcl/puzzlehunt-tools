@@ -1,7 +1,11 @@
 import gzip
 import json
+import re
+import unicodedata
 
 class Jmc(object):
+    _nonalpha = re.compile("[^a-z]")
+
     def __init__(self, stats):
         self.order = len(stats)
         self.stats = stats
@@ -21,6 +25,17 @@ class Jmc(object):
 
     def decorate(self, line):
         return (self.order - 1)*"\n" + line + "\n"
+
+    @staticmethod
+    def latin(line):
+        return Jmc._nonalpha.sub(
+            "", unicodedata.normalize("NFKD", line).lower()
+        )
+
+    @staticmethod
+    def alpha(line):
+        import unidecode
+        return Jmc._nonalpha.sub("", unidecode.unidecode(line).lower())
 
     def single_loss(self, ngram, prev_order):
         order = self.order
@@ -47,6 +62,9 @@ class Jmc(object):
 
     def loss(self, line):
         return sum(self.losses(line))/(len(line) + 1 - self.order)
+
+    def sort(self, lines):
+        yield "Not implemented. :-p"
 
     def best(self, limit, lines):
         yield "Not implemented. :-p"

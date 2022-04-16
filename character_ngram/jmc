@@ -7,21 +7,61 @@ import jmc
 
 subcommand = subcli.Subcommand()
 
+def showhelp(argv, msg):
+    sys.exit("Usage: {} {} {}\n\n{}".format(
+        *argv[:2],
+        msg,
+        subcommand.commands[argv[1]].__doc__)
+    )
+
+def checkargs(argv, msg, count):
+    """Quick hack to check number of args and show usage"""
+    firstarg = argv[2] if len(argv) >= 3 else None
+    if firstarg == "--":
+        del argv[2]
+    elif firstarg == "--help":
+        showhelp(argv, msg)
+    if len(argv) != count:
+        showhelp(argv, msg)
+
+@subcommand("loss")
+def loss(argv):
+    "Score each line (the lower the better)"
+    checkargs(argv, "model.jmc < input.txt", 3)
+    model = jmc.Jmc.load(argv[2])
+    for line in sys.stdin:
+        print(model.loss(model.decorate(line.rstrip("\n"))))
+
+@subcommand("sort")
+def sort(argv):
+    "Sort input lines by score"
+    checkargs(argv, "model.jmc < input.txt", 3)
+    model = jmc.Jmc.load(argv[2])
+    in_lines = (model.decorate(line.rstrip("\n")) for line in sys.stdin)
+    for line in model.sort(in_lines):
+        print(line)
+
 @subcommand("best")
 def best(argv):
-    if len(argv) != 4:
-        sys.exit("Usage: {} {} NUM model.jmc < input.txt".format(*argv[:2]))
+    "Like sort, but return only first NUM lines"
+    checkargs(argv, "NUM model.jmc < input.txt", 4)
     model = jmc.Jmc.load(argv[3])
     in_lines = (model.decorate(line.rstrip("\n")) for line in sys.stdin)
     for line in model.best(int(argv[2]), in_lines):
         print(line)
 
-@subcommand("loss")
-def loss(argv):
-    if len(argv) != 3:
-        sys.exit("Usage: {} {} model.jmc < input.txt".format(*argv[:2]))
-    model = jmc.Jmc.load(argv[2])
+@subcommand("latin")
+def latin(argv):
+    "Remove diacritics, leave only latin chars"
+    checkargs(argv, "< input.txt", 2)
     for line in sys.stdin:
-        print(model.loss(model.decorate(line.rstrip("\n"))))
+        print(jmc.Jmc.latin(line.rstrip("\n")))
 
-subcommand.run(sys.argv, sys.exit)
+@subcommand("alpha")
+def latin(argv):
+    "Transliterate to Latin without numerals"
+    checkargs(argv, "< input.txt", 2)
+    for line in sys.stdin:
+        print(jmc.Jmc.alpha(line.rstrip("\n")))
+
+subcommand.run(sys.argv[:], sys.exit)

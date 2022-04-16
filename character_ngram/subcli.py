@@ -13,8 +13,15 @@ class Subcommand(object):
         if command:
             command(argv)
         else:
+            width = max(len(cmd) for cmd in self.commands) + 2
             failcb(
-                "Usage: {} COMMAND [ARGS...]\n\n"
-                "Available COMMANDs:\n   {}"
-                .format(argv[0], "\n   ".join(sorted(self.commands)))
+                "Usage: {} COMMAND [ARG...]\n\n"
+                "Available COMMANDs:\n{}"
+                .format(
+                    argv[0],
+                    "\n".join(
+                        "   {{:<{}}}{{}}".format(width).format(cmd, fn.__doc__)
+                        for cmd, fn in sorted(self.commands.items())
+                    )
+                )
             )
