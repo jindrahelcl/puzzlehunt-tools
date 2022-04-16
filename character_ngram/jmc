@@ -58,7 +58,7 @@ def latin(argv):
         print(jmc.Jmc.latin(line.rstrip("\n")))
 
 @subcommand("alpha")
-def latin(argv):
+def alpha(argv):
     "Transliterate to Latin without numerals"
     checkargs(argv, "< input.txt", 2)
     for line in sys.stdin:
