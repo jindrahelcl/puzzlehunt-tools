@@ -83,7 +83,6 @@ class Jmc(object):
 
     def loss(self, line):
         return sum(self.losses(line))/(len(line) + 1 - self.order)
-        # TODO: try caching inverse of the denominators
 
     def sort(self, lines):
         return sorted(lines, key=lambda line: self.loss(line))
