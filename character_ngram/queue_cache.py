@@ -16,6 +16,8 @@
 # THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ##
 
+# Unless you are mad, use functools.lru_cache, go away and prosper.
+
 class ConnectedListEntry(object):
     next = None
 
