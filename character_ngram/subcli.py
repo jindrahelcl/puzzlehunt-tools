@@ -33,7 +33,7 @@ class Subcommand(object):
         else:
             width = max(len(cmd) for cmd in self.commands) + 2
             failcb(
-                "Usage: {} COMMAND [ARG...]\n\n"
+                "Usage: {} COMMAND [--help | [--] ARG...]\n\n"
                 "Available COMMANDs:\n{}"
                 .format(
                     argv[0],
