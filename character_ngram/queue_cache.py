@@ -55,13 +55,13 @@ class ConnectedList(ConnectedListEntry):
         self.extend(current)
 
 class QueueCache(object):
-    prevs = {}
     size = 0
 
     def __init__(self, cb, maxsize):
         self.cb = cb
         self.maxsize = maxsize
         self.queue = ConnectedList()
+        self.prevs = {}
 
     def __repr__(self):
         return "{}({})".format(type(self).__name__, repr(list(self.queue)))
