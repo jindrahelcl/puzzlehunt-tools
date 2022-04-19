@@ -19,10 +19,9 @@
 # Unless you are mad, use functools.lru_cache, go away and prosper.
 
 class ConnectedListEntry(object):
-    next = None
-
     def __init__(self, value):
         self.value = value
+        self.next = None
 
     def __iter__(self):
         current = self
@@ -55,13 +54,12 @@ class ConnectedList(ConnectedListEntry):
         self.extend(current)
 
 class QueueCache(object):
-    size = 0
-
     def __init__(self, cb, maxsize):
         self.cb = cb
         self.maxsize = maxsize
         self.queue = ConnectedList()
         self.prevs = {}
+        self.size = 0
 
     def __repr__(self):
         return "{}({})".format(type(self).__name__, repr(list(self.queue)))

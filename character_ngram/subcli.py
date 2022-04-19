@@ -17,7 +17,8 @@
 ##
 
 class Subcommand(object):
-    commands = {}
+    def __init__(self):
+        self.commands = {}
 
     def __call__(self, name):
         def reg_command(fn):
