@@ -32,6 +32,7 @@ class ConnectedListEntry(object):
     def __repr__(self):
         return "{}({})".format(type(self).__name__, repr(list(self)))
 
+
 class ConnectedList(ConnectedListEntry):
     def __init__(self):
         self.last = self
@@ -52,6 +53,7 @@ class ConnectedList(ConnectedListEntry):
         previous.next = current.next
         current.next = None
         self.extend(current)
+
 
 class QueueCache(object):
     def __init__(self, cb, maxsize):

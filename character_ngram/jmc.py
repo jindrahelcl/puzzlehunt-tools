@@ -21,6 +21,7 @@ import json
 import re
 import unicodedata
 
+
 class Jmc(object):
     _nonalpha = re.compile("[^a-z]")
 

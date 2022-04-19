@@ -20,10 +20,11 @@
 
 import sys
 
-import subcli
 import jmc
+import subcli
 
 subcommand = subcli.Subcommand()
+
 
 def showhelp(argv, msg):
     sys.exit("Usage: {} {} {}\n\n{}".format(
@@ -31,6 +32,7 @@ def showhelp(argv, msg):
         msg,
         subcommand.commands[argv[1]].__doc__)
     )
+
 
 def checkargs(argv, msg, count):
     """Quick hack to check number of args and show usage"""
@@ -42,6 +44,7 @@ def checkargs(argv, msg, count):
     if len(argv) != count:
         showhelp(argv, msg)
 
+
 @subcommand("loss")
 def loss(argv):
     "Score each line (the lower the better)"
@@ -49,6 +52,7 @@ def loss(argv):
     model = jmc.Jmc.load(argv[2])
     for line in sys.stdin:
         print(model.loss(model.decorate(line.rstrip("\n"))))
+
 
 @subcommand("sort")
 def sort(argv):
@@ -59,6 +63,7 @@ def sort(argv):
     for line in model.sort(in_lines):
         print(model.undecorate(line))
 
+
 @subcommand("best")
 def best(argv):
     "Like sort, but return only first NUM lines"
@@ -68,12 +73,14 @@ def best(argv):
     for line in model.best(int(argv[2]), in_lines):
         print(line)
 
+
 @subcommand("latin")
 def latin(argv):
     "Remove diacritics, leave only Latin chars"
     checkargs(argv, "< input.txt", 2)
     for line in sys.stdin:
         print(jmc.Jmc.latin(line.rstrip("\n")))
+
 
 @subcommand("alpha")
 def alpha(argv):
