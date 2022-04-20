@@ -92,3 +92,10 @@ class ResourcePool(object):
                 value = self.claim_cb(key)
                 self.queue.append((key, value))
             return value
+
+    def free(self):
+        for item in self.queue:
+            self.free_cb(*item)
+        self.queue = ConnectedList()
+        self.prevs = {}
+        self.size = 0
