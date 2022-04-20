@@ -16,7 +16,8 @@
 # THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ##
 
-# Unless you are mad, use functools.lru_cache, go away and prosper.
+# This is supposed to be like functools.lru_cache, but with an evict
+# callback. Suited for managing pools of scarce resources.
 
 class ConnectedListEntry(object):
     def __init__(self, value):
@@ -36,6 +37,7 @@ class ConnectedListEntry(object):
 class ConnectedList(ConnectedListEntry):
     def __init__(self):
         self.last = self
+        self.next = None
 
     def __iter__(self):
         if self.next:
@@ -55,9 +57,10 @@ class ConnectedList(ConnectedListEntry):
         self.extend(current)
 
 
-class QueueCache(object):
-    def __init__(self, cb, maxsize):
-        self.cb = cb
+class ResourcePool(object):
+    def __init__(self, maxsize, claim_cb, free_cb):
+        self.claim_cb = claim_cb
+        self.free_cb = free_cb
         self.maxsize = maxsize
         self.queue = ConnectedList()
         self.prevs = {}
@@ -76,14 +79,16 @@ class QueueCache(object):
                 self.queue.swap(previous)
             return current.value[1]
         else:
-            value = self.cb(key)
             self.prevs[key] = self.queue.last
             if self.size == self.maxsize:
+                self.free_cb(*self.queue.next.value)
                 del self.prevs[self.queue.next.value[0]]
                 self.queue.swap(self.queue)
+                value = self.claim_cb(key)
                 self.queue.last.value = (key, value)
                 self.prevs[self.queue.next.value[0]] = self.queue
             else:
                 self.size += 1
+                value = self.claim_cb(key)
                 self.queue.append((key, value))
             return value
