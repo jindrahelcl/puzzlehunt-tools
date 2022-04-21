@@ -37,7 +37,7 @@ class PersistentFile(object):
         return self.file_pool[self.filename](size)
 
     @staticmethod
-    def get_file_pool():
+    def get_file_pool(nofile):
         files = {}
 
         def claim_cb(filename):
@@ -158,6 +158,6 @@ def esorted(items, key, memsize=16*10**6, filesize=16*10**6, nofile=16):
             key=key,
             filesize=filesize,
             tempdir=tempdir,
-            file_pool=get_file_pool(),
+            file_pool=PersistentFile.get_file_pool(nofile),
         )
         yield from heapq.merge(*buckets, key=key)
