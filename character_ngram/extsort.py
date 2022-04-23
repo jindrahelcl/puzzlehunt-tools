@@ -128,10 +128,12 @@ def get_buckets(items, key, filesize, tempdir, file_pool):
     stack = []
     for item in items:
         chunk = Bucket.serialize(item)
-        size += len(chunk)
-        if size > filesize:
+        chunk_len = len(chunk)
+        size += chunk_len
+        if size > filesize and stack:
             yield dump_stack(tempdir, file_pool, stack)
-            stack.clear
+            stack.clear()
+            size = chunk_len
         stack.append((item, chunk))
 
     if stack:
@@ -139,7 +141,7 @@ def get_buckets(items, key, filesize, tempdir, file_pool):
 
 
 def esorted(items, key=lambda x: x,
-            memsize=16*10**6, filesize=16*10**6, nofile=16):
+            memsize=2**24, filesize=2**24, nofile=16):
     item_list = []
     item_iter = iter(items)
     size = 0
