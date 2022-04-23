@@ -135,8 +135,8 @@ class Bucket(object):
                 return
 
 
-def dump_stack(tempdir, file_pool, stack):
-    stack.sort(key=lambda element: element[0])
+def dump_stack(tempdir, key, file_pool, stack):
+    stack.sort(key=lambda element: key(element[0]))
     return Bucket(tempdir, file_pool, (chunk for item, chunk in stack))
 
 
@@ -148,13 +148,13 @@ def get_buckets(items, key, filesize, tempdir, file_pool):
         chunk_len = len(chunk)
         size += chunk_len
         if size > filesize and stack:
-            yield dump_stack(tempdir, file_pool, stack)
+            yield dump_stack(tempdir, key, file_pool, stack)
             stack.clear()
             size = chunk_len
         stack.append((item, chunk))
 
     if stack:
-        yield dump_stack(tempdir, file_pool, stack)
+        yield dump_stack(tempdir, key, file_pool, stack)
 
 
 def esorted(items, key=lambda x: x,
