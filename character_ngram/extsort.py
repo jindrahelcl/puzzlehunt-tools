@@ -64,7 +64,7 @@ class PersistentFile(object):
                 file_meta = files[filename]
                 buffer = file_meta.buffer
                 buffer_len = len(buffer)
-                if 0 < size <= buffer_len:
+                if 0 <= size <= buffer_len:
                     file_meta.buffer = buffer[size:]
                     return buffer[:size]
 
@@ -94,11 +94,14 @@ class PersistentFile(object):
         def free_cb(filename, read):
             file_meta = files[filename]
             fp = file_meta.fp
-            if not fp.closed:
-                file_meta.buffer = fp.read1()
+            if fp and not fp.closed:
+                buffer = fp.read1()
+                file_meta.buffer = buffer
                 file_meta.pos = fp.tell()
                 fp.close()
-                file_meta.fp = None
+                if buffer:
+                    # Clear fp so that we know we should reopen next time
+                    file_meta.fp = None
 
         return resourceman.ResourcePool(
             maxsize=nofile,
