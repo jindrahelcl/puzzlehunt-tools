@@ -28,6 +28,20 @@ import resourceman
 __all__ = ["esorted"]
 
 
+class FileMeta(object):
+    def __init__(self, fp):
+        self.fp = fp
+        self.buffer = None
+        self.pos = None
+
+    def __repr__(self):
+        return "{}({})".format(type(self).__name__, repr({
+            "fp": self.fp,
+            "buffer": self.buffer,
+            "pos": self.pos,
+        }))
+
+
 class PersistentFile(object):
     def __init__(self, filename, file_pool):
         self.filename = filename
@@ -43,7 +57,7 @@ class PersistentFile(object):
         def claim_cb(filename):
             if filename not in files:
                 fp = open(filename, "rb")
-                files[filename] = {fp: fp}
+                files[filename] = FileMeta(fp)
                 return fp.read
 
             def read(size=-1):
@@ -62,7 +76,7 @@ class PersistentFile(object):
                     file_meta.fp = fp
                 else:
                     fp = file_meta.fp
-                    if fp.closed():
+                    if fp.closed:
                         return buffer
 
                 if size == -1:
@@ -141,7 +155,7 @@ def get_buckets(items, key, filesize, tempdir, file_pool):
 
 
 def esorted(items, key=lambda x: x,
-            memsize=2**24, filesize=2**24, nofile=16):
+            memsize=2**24, filesize=2**24, nofile=17):
     item_list = []
     item_iter = iter(items)
     size = 0
