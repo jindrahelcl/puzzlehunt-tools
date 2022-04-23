@@ -31,8 +31,8 @@ __all__ = ["esorted"]
 class FileMeta(object):
     def __init__(self, fp):
         self.fp = fp
-        self.buffer = None
-        self.pos = None
+        self.buffer = b""
+        self.pos = 0
 
     def __repr__(self):
         return "{}({})".format(type(self).__name__, repr({
@@ -58,7 +58,6 @@ class PersistentFile(object):
             if filename not in files:
                 fp = open(filename, "rb")
                 files[filename] = FileMeta(fp)
-                return fp.read
 
             def read(size=-1):
                 file_meta = files[filename]
