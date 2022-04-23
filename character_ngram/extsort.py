@@ -138,7 +138,8 @@ def get_buckets(items, key, filesize, tempdir, file_pool):
         yield dump_stack(tempdir, file_pool, stack)
 
 
-def esorted(items, key, memsize=16*10**6, filesize=16*10**6, nofile=16):
+def esorted(items, key=lambda x: x,
+            memsize=16*10**6, filesize=16*10**6, nofile=16):
     item_list = []
     item_iter = iter(items)
     size = 0
