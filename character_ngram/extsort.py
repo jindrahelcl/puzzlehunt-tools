@@ -49,7 +49,16 @@ class PersistentFile(io.RawIOBase):
         self.file_pool = file_pool
 
     def readinto(self, b):
-        return self.file_pool[self.filename](b)
+        size = len(b)
+        if size == 0:
+            return 0
+        file_meta = self.file_pool.files.get(self.filename)
+        if file_meta and size <= len(file_meta.buffer):
+            b[:size] = file_meta.buffer[:size]
+            file_meta.buffer = file_meta.buffer[size:]
+            return size
+        else:
+            return self.file_pool[self.filename](b)
 
     @staticmethod
     def get_file_pool(nofile):
@@ -61,14 +70,9 @@ class PersistentFile(io.RawIOBase):
                 files[filename] = FileMeta(fp)
 
             def readinto(b):
-                size = len(b)
                 file_meta = files[filename]
                 buffer = file_meta.buffer
                 buffer_len = len(buffer)
-                if size <= buffer_len:
-                    file_meta.buffer = buffer[size:]
-                    b[:size] = buffer[:size]
-                    return size
 
                 b[:buffer_len] = buffer
                 file_meta.buffer = b""
@@ -101,11 +105,13 @@ class PersistentFile(io.RawIOBase):
                     # Clear fp so that we know we should reopen next time
                     file_meta.fp = None
 
-        return resourceman.ResourcePool(
+        file_pool = resourceman.ResourcePool(
             maxsize=nofile,
             claim_cb=claim_cb,
             free_cb=free_cb,
         )
+        file_pool.files = files
+        return file_pool
 
 
 class Bucket(object):
