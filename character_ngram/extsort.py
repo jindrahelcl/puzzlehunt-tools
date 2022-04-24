@@ -65,7 +65,7 @@ class PersistentFile(io.RawIOBase):
                 file_meta = files[filename]
                 buffer = file_meta.buffer
                 buffer_len = len(buffer)
-                if 0 <= size <= buffer_len:
+                if size <= buffer_len:
                     file_meta.buffer = buffer[size:]
                     b[:size] = buffer[:size]
                     return size
