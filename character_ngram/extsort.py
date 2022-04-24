@@ -110,11 +110,11 @@ class PersistentFile(object):
 
 
 class Bucket(object):
-    def __init__(self, tempdir, file_pool, chunks):
+    def __init__(self, tempdir, file_pool, chunks, compresslevel):
         self.file_pool = file_pool
         fd, self.filename = tempfile.mkstemp(dir=tempdir)
         with open(fd, "wb") as fp:
-            with gzip.open(fp, "wb") as zipfile:
+            with gzip.open(fp, "wb", compresslevel=compresslevel) as zipfile:
                 for chunk in chunks:
                     zipfile.write(chunk)
 
@@ -134,12 +134,17 @@ class Bucket(object):
                 return
 
 
-def dump_stack(tempdir, key, file_pool, stack):
+def dump_stack(tempdir, key, file_pool, stack, compresslevel):
     stack.sort(key=lambda element: key(element[0]))
-    return Bucket(tempdir, file_pool, (chunk for item, chunk in stack))
+    return Bucket(
+        tempdir=tempdir,
+        file_pool=file_pool,
+        chunks=(chunk for item, chunk in stack),
+        compresslevel=compresslevel,
+    )
 
 
-def get_buckets(items, key, filesize, tempdir, file_pool):
+def get_buckets(items, key, filesize, tempdir, file_pool, compresslevel):
     size = 0
     stack = []
     for item in items:
@@ -147,17 +152,17 @@ def get_buckets(items, key, filesize, tempdir, file_pool):
         chunk_len = len(chunk)
         size += chunk_len
         if size > filesize and stack:
-            yield dump_stack(tempdir, key, file_pool, stack)
+            yield dump_stack(tempdir, key, file_pool, stack, compresslevel)
             stack.clear()
             size = chunk_len
         stack.append((item, chunk))
 
     if stack:
-        yield dump_stack(tempdir, key, file_pool, stack)
+        yield dump_stack(tempdir, key, file_pool, stack, compresslevel)
 
 
 def esorted(items, key=lambda x: x,
-            memsize=2**24, filesize=2**24, nofile=17):
+            memsize=2**24, filesize=2**24, nofile=17, compresslevel=0):
     item_list = []
     item_iter = iter(items)
     size = 0
@@ -178,5 +183,6 @@ def esorted(items, key=lambda x: x,
             filesize=filesize,
             tempdir=tempdir,
             file_pool=PersistentFile.get_file_pool(nofile),
+            compresslevel=compresslevel
         )
         yield from heapq.merge(*buckets, key=key)
