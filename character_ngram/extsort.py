@@ -55,12 +55,13 @@ class PersistentFile(io.RawIOBase):
         if size == 0:
             return 0
         file_meta = self.file_pool.files.get(self.filename)
-        if file_meta and size <= len(file_meta.buffer):
-            b[:size] = file_meta.buffer[:size]
-            file_meta.buffer = file_meta.buffer[size:]
-            return size
-        else:
-            return self.file_pool[self.filename](b)
+        if file_meta:
+            buffer = file_meta.buffer
+            if size <= len(buffer):
+                b[:size] = buffer[:size]
+                file_meta.buffer = buffer[size:]
+                return size
+        return self.file_pool[self.filename](b)
 
     @staticmethod
     def get_file_pool(nofile):
