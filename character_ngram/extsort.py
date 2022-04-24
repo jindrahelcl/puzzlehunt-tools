@@ -18,6 +18,7 @@
 
 import functools
 import gzip
+import io
 import heapq
 import itertools
 import marshal
@@ -42,13 +43,13 @@ class FileMeta(object):
         }))
 
 
-class PersistentFile(object):
+class PersistentFile(io.RawIOBase):
     def __init__(self, filename, file_pool):
         self.filename = filename
         self.file_pool = file_pool
 
-    def read(self, size=-1):
-        return self.file_pool[self.filename](size)
+    def readinto(self, b):
+        return self.file_pool[self.filename](b)
 
     @staticmethod
     def get_file_pool(nofile):
@@ -59,14 +60,17 @@ class PersistentFile(object):
                 fp = open(filename, "rb")
                 files[filename] = FileMeta(fp)
 
-            def read(size=-1):
+            def readinto(b):
+                size = len(b)
                 file_meta = files[filename]
                 buffer = file_meta.buffer
                 buffer_len = len(buffer)
                 if 0 <= size <= buffer_len:
                     file_meta.buffer = buffer[size:]
-                    return buffer[:size]
+                    b[:size] = buffer[:size]
+                    return size
 
+                b[:buffer_len] = buffer
                 file_meta.buffer = b""
 
                 if file_meta.fp is None:
@@ -76,19 +80,14 @@ class PersistentFile(object):
                 else:
                     fp = file_meta.fp
                     if fp.closed:
-                        return buffer
+                        return buffer_len
 
-                if size == -1:
-                    data = fp.read(-1)
+                data_len = fp.readinto(memoryview(b)[buffer_len:])
+                if data_len == 0:
                     fp.close()
-                    return buffer + data
+                return buffer_len + data_len
 
-                data = fp.read(size - buffer_len)
-                if len(data) == 0:
-                    fp.close()
-                return buffer + data
-
-            return read
+            return readinto
 
         def free_cb(filename, read):
             file_meta = files[filename]
