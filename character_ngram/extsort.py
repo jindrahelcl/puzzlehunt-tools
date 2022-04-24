@@ -181,7 +181,15 @@ def get_buckets(items, key, filesize, tempdir, file_pool, compresslevel):
 
 
 def esorted(items, key=lambda x: x,
-            memsize=2**24, filesize=2**24, nofile=17, compresslevel=0):
+            memsize=2**24, # use external sort if RAM usage would be greater
+                           # 16 MiB should be nice to RAM
+            filesize=2**17, # max size of temporary files before compression
+                            # 128 KiB seems to go well with 1 MiB L2 cache
+            nofile=17, # number of open file descriptors
+                       # 17 is default for GNU sort if getrlimit unavailable
+            compresslevel=0, # gzip compression level
+                             # 0 disables gzip completely
+    ):
     item_list = []
     item_iter = iter(items)
     size = 0
