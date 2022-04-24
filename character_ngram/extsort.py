@@ -30,15 +30,17 @@ __all__ = ["esorted"]
 
 
 class FileMeta(object):
+    emptybuffer = memoryview(bytearray(b""))
+
     def __init__(self, fp):
         self.fp = fp
-        self.buffer = b""
+        self.buffer = self.emptybuffer
         self.pos = 0
 
     def __repr__(self):
         return "{}({})".format(type(self).__name__, repr({
             "fp": self.fp,
-            "buffer": self.buffer,
+            "buffer": bytes(self.buffer),
             "pos": self.pos,
         }))
 
@@ -75,7 +77,7 @@ class PersistentFile(io.RawIOBase):
                 buffer_len = len(buffer)
 
                 b[:buffer_len] = buffer
-                file_meta.buffer = b""
+                file_meta.buffer = file_meta.emptybuffer
 
                 if file_meta.fp is None:
                     fp = open(filename, "rb")
@@ -97,7 +99,7 @@ class PersistentFile(io.RawIOBase):
             file_meta = files[filename]
             fp = file_meta.fp
             if fp and not fp.closed:
-                buffer = fp.read1()
+                buffer = memoryview(bytearray(fp.read1()))
                 file_meta.buffer = buffer
                 file_meta.pos = fp.tell()
                 fp.close()
