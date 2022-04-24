@@ -115,13 +115,21 @@ class PersistentFile(io.RawIOBase):
 
 
 class Bucket(object):
+    @staticmethod
+    def _write_chunks(fp, chunks):
+        for chunk in chunks:
+            fp.write(chunk)
+
     def __init__(self, tempdir, file_pool, chunks, compresslevel):
+        self.compresslevel = compresslevel
         self.file_pool = file_pool
         fd, self.filename = tempfile.mkstemp(dir=tempdir)
         with open(fd, "wb") as fp:
+            if compresslevel == 0:
+                self._write_chunks(fp, chunks)
+                return
             with gzip.open(fp, "wb", compresslevel=compresslevel) as zipfile:
-                for chunk in chunks:
-                    zipfile.write(chunk)
+                self._write_chunks(zipfile, chunks)
 
     @staticmethod
     def serialize(item):
@@ -129,7 +137,10 @@ class Bucket(object):
 
     @functools.cached_property
     def fp(self):
-        return gzip.open(PersistentFile(self.filename, self.file_pool))
+        persistent_file = PersistentFile(self.filename, self.file_pool)
+        if self.compresslevel == 0:
+            return persistent_file
+        return gzip.open(persistent_file)
 
     def __iter__(self):
         while True:
