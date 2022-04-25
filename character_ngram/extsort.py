@@ -57,10 +57,16 @@ class PersistentFile(io.RawIOBase):
         file_meta = self.file_pool.files.get(self.filename)
         if file_meta:
             buffer = file_meta.buffer
-            if size <= len(buffer):
+            buffer_len = len(buffer)
+            if size <= buffer_len:
                 b[:size] = buffer[:size]
                 file_meta.buffer = buffer[size:]
                 return size
+            fp = file_meta.fp
+            if fp and fp.closed:
+                b[:buffer_len] = buffer
+                file_meta.buffer = file_meta.emptybuffer
+                return buffer_len
         return self.file_pool[self.filename](b)
 
     @staticmethod
@@ -86,8 +92,6 @@ class PersistentFile(io.RawIOBase):
                     file_meta.fp = fp
                 else:
                     fp = file_meta.fp
-                    if fp.closed:
-                        return buffer_len
 
                 data_len = fp.readinto(memoryview(b)[buffer_len:])
                 if data_len == 0:
