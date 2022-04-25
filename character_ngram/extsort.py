@@ -16,17 +16,17 @@
 # THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ##
 
+__all__ = ["esorted"]
+
 import functools
 import gzip
-import io
 import heapq
+import io
 import itertools
 import marshal
 import tempfile
 
 import resourceman
-
-__all__ = ["esorted"]
 
 
 class FileMeta(object):
@@ -105,7 +105,7 @@ class PersistentFile(io.RawIOBase):
                 file_meta.pos = fp.tell()
                 fp.close()
                 if buffer:
-                    # Clear fp so that we know we should reopen next time
+                    # Clear fp so that we know we should reopen next time:
                     file_meta.fp = None
 
         file_pool = resourceman.ResourcePool(
@@ -180,16 +180,44 @@ def get_buckets(items, key, filesize, tempdir, file_pool, compresslevel):
         yield dump_stack(tempdir, key, file_pool, stack, compresslevel)
 
 
-def esorted(items, key=lambda x: x,
-            memsize=2**24, # use external sort if RAM usage would be greater
-                           # 16 MiB should be nice to RAM
-            filesize=2**17, # max size of temporary files before compression
-                            # 128 KiB seems to go well with 1 MiB L2 cache
-            nofile=17, # number of open file descriptors
-                       # 17 is default for GNU sort if getrlimit unavailable
-            compresslevel=0, # gzip compression level
-                             # 0 disables gzip completely
-    ):
+def esorted(
+        items, key=lambda x: x,
+        memsize=2**24,
+        filesize=2**17,
+        nofile=17,
+        compresslevel=0):
+    """Sort an iterable using controlled memory footprint.
+
+    Parameters
+    ----------
+    items : Iterable
+        Items to be sorted.
+    key : Callable[[Any], Any], optional
+        Key function to be used to compare items.
+    memsize : int, optional
+        Approximate threshold for RAM usage.
+        Algorithm will use external sort if RAM usage would be greater.
+        To speed things up, use 0 if you know you want external sort.
+        The default, 16 MiB should be nice to RAM.
+    filesize : int, optional
+        Maximum size of temporary files, in uncompressed form.
+        The default, 128 KiB seems to go well with 1 MiB L2 cache.
+    nofile : int, optional
+        Maximum number of open file descriptors.
+        Speedup for higher values should be noticable mainly for
+        real-life inputs, where data are not in truly random order.
+        The dafault, 17 is quite moderate on today's systems;
+        it is taken from the default for GNU sort when getrlimit
+        functionality is unavailable.
+    compresslevel : int, optional
+        gzip compression level
+        The default, 0 disables gzip completely.
+
+    Returns
+    -------
+    Iterable
+        Items sorted.
+    """
     item_list = []
     item_iter = iter(items)
     size = 0
