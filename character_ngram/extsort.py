@@ -223,9 +223,9 @@ def esorted(
     size = 0
     for item in item_iter:
         item_list.append(item)
-        size += len(marshal.dumps(item))
-        if size > memsize:
+        if size >= memsize:
             break
+        size += len(marshal.dumps(item))
     else:
         item_list.sort(key=key)
         yield from item_list
