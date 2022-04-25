@@ -238,6 +238,6 @@ def esorted(
             filesize=filesize,
             tempdir=tempdir,
             file_pool=PersistentFile.get_file_pool(nofile),
-            compresslevel=compresslevel
+            compresslevel=compresslevel,
         )
         yield from heapq.merge(*buckets, key=key)
