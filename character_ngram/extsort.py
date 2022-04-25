@@ -16,6 +16,13 @@
 # THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ##
 
+# TODO: Although increasing nofile reduces number of misses for
+#       real-life data (as expected), it actually increases the time
+#       of the computation. We should do the read1 already in
+#       the readinto function (the one returned by claim_cb), rather
+#       than in freecb - maybe this will fix this performance
+#       disbalance.
+
 __all__ = ["esorted"]
 
 import functools
