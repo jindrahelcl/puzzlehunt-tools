@@ -16,13 +16,6 @@
 # THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ##
 
-# TODO: Although increasing nofile reduces number of misses for
-#       real-life data (as expected), it actually increases the time
-#       of the computation. We should do the read1 already in
-#       the readinto function (the one returned by claim_cb), rather
-#       than in freecb - maybe this will fix this performance
-#       disbalance.
-
 __all__ = ["esorted"]
 
 import functools
@@ -91,7 +84,6 @@ class PersistentFile(io.RawIOBase):
                 buffer_len = len(buffer)
 
                 b[:buffer_len] = buffer
-                file_meta.buffer = file_meta.emptybuffer
 
                 if file_meta.fp is None:
                     fp = open(filename, "rb")
@@ -101,8 +93,12 @@ class PersistentFile(io.RawIOBase):
                     fp = file_meta.fp
 
                 data_len = fp.readinto(memoryview(b)[buffer_len:])
-                if data_len == 0:
+                buffer = memoryview(bytearray(fp.read1()))
+                if len(buffer) == 0:
                     fp.close()
+                    file_meta.buffer = file_meta.emptybuffer
+                else:
+                    file_meta.buffer = buffer
                 return buffer_len + data_len
 
             return readinto
@@ -111,13 +107,10 @@ class PersistentFile(io.RawIOBase):
             file_meta = files[filename]
             fp = file_meta.fp
             if fp and not fp.closed:
-                buffer = memoryview(bytearray(fp.read1()))
-                file_meta.buffer = buffer
                 file_meta.pos = fp.tell()
                 fp.close()
-                if buffer:
-                    # Clear fp so that we know we should reopen next time:
-                    file_meta.fp = None
+                # Clear fp so that we know we should reopen next time:
+                file_meta.fp = None
 
         file_pool = resourceman.ResourcePool(
             maxsize=nofile,
