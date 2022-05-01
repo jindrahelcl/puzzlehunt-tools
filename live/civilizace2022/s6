@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+
+from abeceda import abeceda
+from itertools import permutations
+
+zadani = [
+    "cs",
+    "cv",
+    "kv",
+    "sc",
+    "sf",
+    "sk",
+    "ck",
+    "vf",
+    "of",
+    "zf",
+    "so",
+    "sf",
+    "kv",
+    "kz",
+    "zz",
+]
+
+piktogramy = "cskvfoz"
+
+for perm in permutations(piktogramy):
+    print("".join(abeceda[perm.index(vstup[0])][perm.index(vstup[1])] for vstup in zadani).replace("X", "ch"))
