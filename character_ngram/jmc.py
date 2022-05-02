@@ -97,4 +97,3 @@ class Jmc(object):
     def best(self, limit, lines):
         return heapq.nsmallest(limit, lines, key=lambda line: self.loss(line))
         # TODO: before scoring, put common prefixes together and make use of it
-        # TODO: cache loss of lines kept in heap
