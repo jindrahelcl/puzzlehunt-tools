@@ -84,6 +84,7 @@ class Jmc(object):
 
     def loss(self, line):
         return sum(self.losses(line))/(len(line) + 1 - self.order)
+        # TODO: cache sums of losses of last line and use os.path.commonprefix
 
     def sort(self, lines):
         return sorted(lines, key=lambda line: self.loss(line))
