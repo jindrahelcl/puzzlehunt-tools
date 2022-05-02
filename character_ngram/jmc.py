@@ -95,4 +95,5 @@ class Jmc(object):
 
     def best(self, limit, lines):
         yield "Not implemented. :-p"
-        # TODO: implement an efficient best n algorithm
+        # TODO: before scoring, put common prefixes together and make use of it
+        # TODO: cache loss of lines kept in heap
