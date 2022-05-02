@@ -71,7 +71,7 @@ def best(argv):
     model = jmc.Jmc.load(argv[3])
     in_lines = (model.decorate(line.rstrip("\n")) for line in sys.stdin)
     for line in model.best(int(argv[2]), in_lines):
-        print(line)
+        print(model.undecorate(line))
 
 
 @subcommand("latin")

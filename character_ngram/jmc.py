@@ -17,6 +17,7 @@
 ##
 
 import gzip
+import heapq
 import json
 import re
 import unicodedata
@@ -94,6 +95,6 @@ class Jmc(object):
         # TODO: before scoring, put common prefixes together and make use of it
 
     def best(self, limit, lines):
-        yield "Not implemented. :-p"
+        return heapq.nsmallest(limit, lines, key=lambda line: self.loss(line))
         # TODO: before scoring, put common prefixes together and make use of it
         # TODO: cache loss of lines kept in heap
