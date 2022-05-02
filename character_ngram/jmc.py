@@ -19,6 +19,7 @@
 import gzip
 import heapq
 import json
+import math
 import re
 import unicodedata
 
@@ -89,11 +90,39 @@ class Jmc(object):
         # cache prev_order and sum of losses corresponding to numbers up to x;
         # and use it next time to speed up calculation
 
+    def iloss(self, line, top):
+        result = 0
+        for loss in self.losses(line):
+            result += loss
+        return result/(len(line) + 1 - self.order)
+
     def sort(self, lines):
         return sorted(lines, key=lambda line: self.loss(line))
         # TODO: implement external sort, to avoid RAM depletion
         # TODO: before scoring, put common prefixes together and make use of it
 
+    @staticmethod
+    def nlargest(n, iterable, key):
+        result = [(key(elem), i, elem)
+                  for i, elem in zip(range(0, -n, -1), iterable)]
+        if not result:
+            return result
+        heapq.heapify(result)
+        top = result[0][0]
+        order = -n
+        heapreplace = heapq.heapreplace
+        for elem in iterable:
+            k = key(elem, top)
+            if top < k:
+                heapreplace(result, (k, order, elem))
+                top = result[0][0]
+                order -= 1
+        result.sort(reverse=True)
+        return [elem for (k, order, elem) in result]
+
     def best(self, limit, lines):
-        return heapq.nsmallest(limit, lines, key=lambda line: self.loss(line))
+        return self.nlargest(
+            limit, lines,
+            key=lambda line, top=math.inf: -self.iloss(line, top),
+        )
         # TODO: before scoring, put common prefixes together and make use of it
