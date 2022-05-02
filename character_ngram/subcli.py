@@ -16,6 +16,10 @@
 # THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ##
 
+import os
+import sys
+
+
 class Subcommand(object):
     def __init__(self):
         self.commands = {}
@@ -30,7 +34,12 @@ class Subcommand(object):
         name = argv[1] if len(argv) >= 2 else None
         command = self.commands.get(name)
         if command:
-            command(argv)
+            try:
+                command(argv)
+            except BrokenPipeError:
+                devnull = os.open(os.devnull, os.O_WRONLY)
+                os.dup2(devnull, sys.stdout.fileno())
+                sys.exit(2)
         else:
             width = max(len(cmd) for cmd in self.commands) + 2
             failcb(
