@@ -89,4 +89,14 @@ def alpha(argv):
     for line in sys.stdin:
         print(jmc.Jmc.alpha(line.rstrip("\n")))
 
+
+@subcommand("presort")
+def presort(argv):
+    "Sort 2^NUM-sized batches of input lines"
+    checkargs(argv, "NUM < input.txt", 3)
+    in_lines = (line.rstrip("\n") for line in sys.stdin)
+    for line in jmc.Jmc.presort(int(argv[2]), in_lines):
+        print(line)
+
+
 subcommand.run(sys.argv[:], sys.exit)

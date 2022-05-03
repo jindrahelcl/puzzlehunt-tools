@@ -21,6 +21,7 @@ import heapq
 import json
 import math
 import re
+import sys
 import unicodedata
 
 
@@ -60,6 +61,26 @@ class Jmc(object):
     def alpha(line):
         import unidecode
         return Jmc._nonalpha.sub("", unidecode.unidecode(line).lower())
+
+    @staticmethod
+    def presort(exponent, lines):
+        limit = 2**exponent
+        it = iter(lines)
+        batch = []
+        while True:
+            size = limit
+            for line in it:
+                batch.append(line)
+                if size <= 0:
+                    break
+                size -= sys.getsizeof(line)
+            else:
+                batch.sort()
+                yield from batch
+                return
+            batch.sort()
+            yield from batch
+            del batch[:]
 
     def single_loss(self, ngram, prev_order):
         order = self.order
