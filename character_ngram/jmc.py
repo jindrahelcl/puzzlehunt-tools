@@ -63,8 +63,7 @@ class Jmc(object):
         return Jmc._nonalpha.sub("", unidecode.unidecode(line).lower())
 
     @staticmethod
-    def presort(exponent, lines):
-        limit = 2**exponent
+    def presort(limit, lines):
         it = iter(lines)
         batch = []
         while True:

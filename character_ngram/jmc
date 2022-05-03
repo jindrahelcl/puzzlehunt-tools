@@ -23,6 +23,8 @@ import sys
 import jmc
 import subcli
 
+DEFAULT_BEST_LIMIT = 10
+DEFAULT_PRESORT_EXPONENT = 24
 subcommand = subcli.Subcommand()
 
 
@@ -34,14 +36,15 @@ def showhelp(argv, msg):
     )
 
 
-def checkargs(argv, msg, count):
+def checkargs(argv, msg, count_min, count_max=None):
     """Quick hack to check number of args and show usage"""
     firstarg = argv[2] if len(argv) >= 3 else None
     if firstarg == "--":
         del argv[2]
     elif firstarg == "--help":
         showhelp(argv, msg)
-    if len(argv) != count:
+    count_max = count_max or count_min
+    if not (count_min <= len(argv) <= (count_max or count_min)):
         showhelp(argv, msg)
 
 
@@ -67,10 +70,14 @@ def sort(argv):
 @subcommand("best")
 def best(argv):
     "Like sort, but return only first NUM lines"
-    checkargs(argv, "NUM model.jmc < input.txt", 4)
-    model = jmc.Jmc.load(argv[3])
+    checkargs(argv, "model.jmc NUM < input.txt", 3, 4)
+    model = jmc.Jmc.load(argv[2])
+    if len(argv) < 4:
+        limit = DEFAULT_BEST_LIMIT
+    else:
+        limit = int(argv[3])
     in_lines = (model.decorate(line.rstrip("\n")) for line in sys.stdin)
-    for line in model.best(int(argv[2]), in_lines):
+    for line in model.best(limit, in_lines):
         print(model.undecorate(line))
 
 
@@ -93,9 +100,13 @@ def alpha(argv):
 @subcommand("presort")
 def presort(argv):
     "Sort 2^NUM-sized batches of input lines"
-    checkargs(argv, "NUM < input.txt", 3)
+    checkargs(argv, "NUM < input.txt", 2, 3)
+    if len(argv) < 3:
+        exponent = DEFAULT_PRESORT_EXPONENT
+    else:
+        exponent = int(argv[2])
     in_lines = (line.rstrip("\n") for line in sys.stdin)
-    for line in jmc.Jmc.presort(int(argv[2]), in_lines):
+    for line in jmc.Jmc.presort(2**exponent, in_lines):
         print(line)
 
 
