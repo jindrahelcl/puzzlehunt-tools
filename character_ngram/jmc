@@ -70,7 +70,7 @@ def sort(argv):
 @subcommand("best")
 def best(argv):
     "Like sort, but return only first NUM lines"
-    checkargs(argv, "model.jmc NUM < input.txt", 3, 4)
+    checkargs(argv, "model.jmc [NUM] < input.txt", 3, 4)
     model = jmc.Jmc.load(argv[2])
     if len(argv) < 4:
         limit = DEFAULT_BEST_LIMIT
@@ -100,7 +100,7 @@ def alpha(argv):
 @subcommand("presort")
 def presort(argv):
     "Sort 2^NUM-sized batches of input lines"
-    checkargs(argv, "NUM < input.txt", 2, 3)
+    checkargs(argv, "[NUM] < input.txt", 2, 3)
     if len(argv) < 3:
         exponent = DEFAULT_PRESORT_EXPONENT
     else:
