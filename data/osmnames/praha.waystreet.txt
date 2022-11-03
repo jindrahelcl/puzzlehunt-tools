@@ -378,7 +378,6 @@ U Svobodárny
 Drahobejlova
 Drahobejlova
 Poděbradská
-Národní
 most Legií
 Křižovnická
 Vítězná
@@ -687,7 +686,7 @@ Milešovská
 Škroupovo náměstí
 Slavíkova
 Chopinova
-Čajkovského
+Sladkovského náměstí
 Nad Královskou oborou
 Jana Zajíce
 Nad Královskou oborou
@@ -755,6 +754,7 @@ Betlémská
 Náprstkova
 Liliová
 Jindřišská
+Holbova
 Lannova
 Šternberkova
 Schnirchova
@@ -796,7 +796,6 @@ Chvalova
 Přemyslovská
 Olšanská
 Olšanská
-Basilejské náměstí
 Biskupcova
 Rečkova
 Buchovcova
@@ -1211,6 +1210,7 @@ Kroupova
 K Závěrce
 Franty Kocourka
 K Vodojemu
+Příhodova
 Jánský vršek
 Břetislavova
 Promenáda Raoula Wallenberga
@@ -1527,7 +1527,7 @@ Korejská
 V. P. Čkalova
 Strmá
 Wassermannova
-U Šesté baterie
+U Vojenské nemocnice
 Řečického
 Kozlova
 Michalovicova
@@ -1697,6 +1697,7 @@ U Lázní
 Kališťská
 Vajgarská
 Dvořišťská
+Nové Dvory
 Československého exilu
 Písková
 Dolnocholupická
@@ -1868,7 +1869,7 @@ Pokorného
 Kdoulová
 Celniční
 Pámelníková
-Novovysočanská
+Pod Krejcárkem
 Kukelská
 Českobrodská
 Butovická
@@ -2274,7 +2275,7 @@ Božídarská
 Bakurinova
 U Koní
 U Tabulky
-Jeníkovická
+Všestarská
 Smržovská
 K rukavičkárně
 Krovova
@@ -2309,6 +2310,7 @@ Třebechovická
 Probluzská
 V trninách
 Chatařská
+Nové Dvory
 Podůlší
 Lipí
 Všelipská
@@ -2410,6 +2412,7 @@ Na Slavíkově
 U Zahrady
 Československých tankistů
 U Výstavby
+Na konci
 Kukelská
 Krylovecká
 Knínická
@@ -2663,6 +2666,7 @@ V Humnech
 Jeřická
 Khodlova
 Jeřická
+Nové Dvory
 Stoliňská
 Hrdoňovická
 Třebešovská
@@ -2681,7 +2685,6 @@ U úlů
 Dobřenická
 K rukavičkárně
 Obědovická
-Vlastina
 Hořelická
 Možného
 Netřebská
@@ -2741,7 +2744,7 @@ Břežanská
 Rostoklatská
 Tismická
 Kounická
-Malinová
+Fialková
 Pomněnková
 Fialková
 Kalinová
@@ -2812,7 +2815,6 @@ Jinočanská
 Přílepská
 Navigátorů
 Radistů
-Dědinská
 Rubličova
 Letecká
 Pilotů
@@ -2908,7 +2910,7 @@ Na vrchách
 Kováků
 Ostrovského
 Zoubkova
-Tomkova
+Ostrovského
 Mrázovka
 Xaveriova
 U Sanopzu
@@ -3021,6 +3023,7 @@ K Berance
 K Berance
 K Odpočinku
 Kučerova
+K Cihelně
 Markupova
 Komárovská
 Jizbická
@@ -3137,7 +3140,6 @@ Divišova
 Albrechtická
 Toužimská
 Pelnářova
-Autobusové nádraží Depo Hostivař
 K Lučinám
 U Kněžské louky
 Generála Píky
@@ -3356,7 +3358,7 @@ Klatovská
 Lišovická
 K Šeberáku
 K Labeškám
-Nové dvory
+Nové Dvory
 Pod Chodovem
 Pod Chodovem
 Pod Chodovem
@@ -3950,7 +3952,6 @@ Bystrá
 Bystrá
 Hašlerova
 Majerové
-K Transformátoru
 K Horoměřicům
 Výhledské náměstí
 Přeletová
@@ -4105,7 +4106,7 @@ U Vysočanského pivovaru
 Pod Pekárnami
 Pod Pekárnami
 Prouzova
-Freyova
+Pod Harfou
 Pod Harfou
 Janského
 Janského
@@ -4144,7 +4145,6 @@ Hornomlýnská
 K Horoměřicům
 Vysokoškolská
 Internacionální
-Internacionální
 Krátkého
 Krátkého
 Krátkého
@@ -4165,6 +4165,8 @@ Picassova
 Vačkářova
 Modřanská
 Voňkova
+Nové Dvory
+Všestarská
 Strojnická
 Strojnická
 Šternberkova
@@ -4321,7 +4323,6 @@ Pešlova
 Bassova
 Mlékárenská
 Bassova
-Na Břehu
 Piskáčkových
 Piskáčkových
 Piskáčkových
@@ -4965,7 +4966,6 @@ Soběslavská
 Votická
 Vinohradská
 Ruská
-Pod Krejcárkem
 Nad Rybníkem
 Nad Rybníkem
 Hostivařská
@@ -4991,8 +4991,8 @@ Litošická
 Smrková
 Jívová
 Mandloňová
+Nové Dvory
 V Olšinách
-U Bulhara
 Matoušova
 Dienzenhoferovy sady
 Zborovská
@@ -5606,8 +5606,6 @@ Jenišovská
 Urbanova
 Mikšovského
 Trachtova
-Česká
-Česká
 Hillebrantova
 Hoškova
 Holátova
@@ -6079,6 +6077,7 @@ bratranců Veverkových
 bratranců Veverkových
 Harcovská
 Javorová
+Javorová
 Učitelská
 Kaštanová
 K Ovčínu
@@ -6119,6 +6118,7 @@ Na Šabatce
 Okružní
 Na Šabatce
 Šífařská
+Hvězdná cesta
 Žukovského
 U Topíren
 Vratislavova
@@ -6439,9 +6439,6 @@ Pod Petřinami
 Pod Petřinami
 Adamova
 U Kruhovky
-Kamýcká
-Kamýcká
-Kamýcká
 Famfulíkova
 Famfulíkova
 Nad Lesem
@@ -6573,10 +6570,7 @@ Levobřežní
 Verneřická
 Chlumčanského
 Budínova
-Internacionální
 K Transformátoru
-Kamýcká
-Kamýcká
 Stavbařů
 Nad Lesem
 Sofijské náměstí
@@ -6908,6 +6902,7 @@ Haštalské náměstí
 Na Perštýně
 U Prioru
 Harantova
+Štulcova
 Ekonomická
 Chemická
 Dunovická
@@ -7041,7 +7036,7 @@ Loutkářská
 Markétská
 Ve Střešovičkách
 Markétská
-U Šesté baterie
+U Vojenské nemocnice
 Na Viničce
 Na Viničce
 Za Kajetánkou
@@ -7201,7 +7196,6 @@ U Písecké brány
 U Letohrádku královny Anny
 Na Baště svatého Jiří
 pasáž České národní banky
-náměstí Republiky
 U Trojského zámku
 U Trojského zámku
 Papouščí stezka
@@ -7277,6 +7271,7 @@ Borůvková
 U Vlasačky
 Na Vlasačce
 Maková
+Maková
 Ke Mlýnu
 Štychova
 Štychova
@@ -7348,7 +7343,7 @@ Mladých
 Vsetínská
 Vratičová
 Šumická
-Korčákova
+Horská
 Ke Karlovu
 Apolinářská
 Zborovská
@@ -7424,11 +7419,11 @@ Jindřišská
 Jindřišská
 Senovážné náměstí
 náměstí Kinských
-Rošických
+náměstí Kinských
 Rošických
 Petřínské sady
 Na Zbořenci
-most Vitalije Skakuna
+Skakunův most
 Korunovační
 Bubenská
 Bubenská
@@ -7844,6 +7839,7 @@ V Remízku
 Wassermannova
 Nad Zlíchovem
 Nad Zlíchovem
+Nad Pomníkem
 Županovická
 U Plynárny
 náměstí Jana Palacha
@@ -8234,7 +8230,7 @@ Musílkova
 Strakatého
 Hübnerové
 Na Stárce
-Na Stárce
+Nad Turbovou
 K Zastávce
 K Zastávce
 Černochova
@@ -8403,9 +8399,6 @@ Husinecká
 Karlovo náměstí
 Karlovo náměstí
 Na Krčské stráni
-3. nádvoří
-1. nádvoří
-4. nádvoří
 Letenská
 Josefská
 Železničářů
@@ -8690,7 +8683,6 @@ Evropská
 Drnovská
 Drnovská
 Vlastina
-Vlastina
 Evropská
 Evropská
 Vlastina
@@ -8738,6 +8730,7 @@ U Plátenice
 Pěší
 Čelakovského sady
 Hornoměcholupská
+U hostivařského nádraží
 Přemyslova
 Domažlická
 V Kapslovně
@@ -8935,15 +8928,13 @@ Ke Břvům
 Tejnka
 Šlikova
 Freyova
-Freyova
-Freyova
 Staroújezdská
 V lipách
 Na Veselí
 Nad Nuslemi
 Nad Libeňským nádražím
 Čankovská
-Prokopka
+Vysočanské náměstí
 Nad Libeňským nádražím
 Zúžená
 Římská
@@ -9082,7 +9073,6 @@ V Sedlci
 Ke Střelnici
 Za Papírnou
 V Mezivrší
-Vojenova
 Ke Kouli
 U Branek
 Myšlínská
@@ -9246,6 +9236,7 @@ Tolstého
 Tolstého
 Pod Pekárnami
 U Roháčových kasáren
+Tachovské náměstí
 cyklostezka Staré spojení
 cyklostezka Staré spojení
 Na Stupních
@@ -9467,13 +9458,13 @@ Pěstitelská
 Ovocnářská
 Chovatelská
 Na Bambouzku
-Ke splávku
+Ke Splávku
 Černošická
 Ke Švestkovce
 Do Luk
 Jana Čerstvého
-K samoobsluze
-K samoobsluze
+K Samoobsluze
+K Samoobsluze
 Spojná
 Průjezdná
 Pod Lečí
@@ -9804,7 +9795,6 @@ Kunešova
 Spojovací
 Spojovací
 Hostavická
-Hybernská
 Celetná
 Uhelný trh
 Korunovační
@@ -9840,7 +9830,7 @@ Utěšilova
 Utěšilova
 V olšině
 U Riviery
-Přímské náměstí
+V Koutku
 V koutku
 U Libeňského mostu
 Morávkova
@@ -10199,6 +10189,7 @@ Klecanská
 Pakoměřická
 Petra Bezruče
 Na Ládví
+Na Ládví
 Větrušická
 Čumpelíkova
 Na Pěšinách
@@ -10237,6 +10228,7 @@ V Mezihoří
 Pacovská
 Krčská
 Nad Ryšánkou
+Nové Dvory
 K Ryšánce
 Nad Malým mýtem
 Na Mlejnku
@@ -10312,11 +10304,11 @@ Nad Hliníkem
 Českého červeného kříže
 Černošická
 Jiříčkova
-U lip
+U Lip
 Českého červeného kříže
 K samoobsluze
-K samoobsluze
-K samoobsluze
+K Samoobsluze
+K Samoobsluze
 K Lochkovu
 K Lochkovu
 K Lochkovu
@@ -10445,12 +10437,13 @@ Aviatická
 Pod Hotelem
 Zenklova
 Staroměstská náplavka
-Nábřeží Ludvíka Svobody
+nábřeží Ludvíka Svobody
 Staroměstská náplavka
 Stejskalova
 Stejskalova
 U Rokytky
 Kolejní
+Technická
 Thákurova
 Spálená
 Weilova
@@ -10630,6 +10623,7 @@ náměstí Jiřího z Lobkovic
 Lodní mlýny
 nábřeží Ludvíka Svobody
 Ordovická
+Na Veselí
 Na Truhlářce
 U Hercovky
 Valčíkova
@@ -11075,7 +11069,7 @@ Rytířská
 Nedašovská
 Pod Viaduktem
 Budilova
-Na Sypkém
+Na Šilbochu
 Březenská
 Sušilova
 Švehlova
@@ -11184,6 +11178,7 @@ U Sportoviště
 Pod Vavřincem
 Stodůlecká
 Butovická
+Granátová
 Stodůlecká
 Pod Vinicí
 Pod Vinicí
@@ -11200,7 +11195,6 @@ Na Košince
 Na Košince
 Pod Rybníkem
 Na Křenkově
-Novodvorská
 Srnčí
 Na Jetelce
 Na Jetelce
@@ -11221,6 +11215,7 @@ Jihovýchodní VII
 Měchenická
 Holubkova
 Litochlebská
+Modřanská
 Za Oborou
 Za Oborou
 Filipíny Welserové
@@ -11535,6 +11530,7 @@ ekodukt Cholupice I
 Pražský okruh
 ekodukt Cholupice II
 ekodukt Cholupice II
+U Lužického semináře
 U Lužického semináře
 Mexická
 Bulharská
@@ -11953,7 +11949,7 @@ Mládí
 Amforová
 Trávníčkova
 Stoličkova
-Raichlova
+Anny Rybníčkové
 Wiesenthalova
 Jindřicha Jindřicha
 Ve Výhledu
@@ -12137,6 +12133,7 @@ Ciolkovského
 Sídliště Na Dědině
 Ciolkovského
 Ciolkovského
+Sídliště Na Dědině
 Ciolkovského
 Farní
 U Trezorky
@@ -12499,7 +12496,6 @@ Kamýcká
 Kamýcká
 Suchdolská
 Kamýcká
-U Parku
 Petráčkova
 Petráčkova
 U Parku
@@ -12641,7 +12637,6 @@ U Sloupu
 Řepínská
 Objízdná
 Objízdná
-Binarova
 Hlaváčova
 Hlaváčova
 Českobrodská
@@ -12997,7 +12992,6 @@ Bubenská
 Ječná
 Wilsonova
 Sokolská
-Wilsonova
 nábřeží Kapitána Jaroše
 Wilsonova
 Wilsonova
@@ -13534,11 +13528,8 @@ Přemyšlenská
 Služská
 Služská
 Basilejské náměstí
-Basilejské náměstí
-Basilejské náměstí
 Bulovka
 Davídkova
-Jeseniova
 K Ďáblicům
 Ke Kouli
 Kobyliská
@@ -13734,7 +13725,6 @@ Vinohradská
 Českomoravská
 Českomoravská
 Českomoravská
-Českomoravská
 Bubenská
 Dělnická
 Františka Křížka
@@ -13885,6 +13875,7 @@ Pickova
 Liberecká
 Lipského
 Devonská
+Granátová
 U Lékárny
 V Bílce
 V Bílce
@@ -14249,7 +14240,7 @@ Studentská
 Thákurova
 Thákurova
 U Vorlíků
-Wolkerova
+náměstí Borise Němcova
 náměstí Borise Němcova
 Českomalínská
 Šolínova
@@ -14345,7 +14336,7 @@ Kašperská
 Křešínská
 U starého mlýna
 U Starého nádraží
-Podle trati
+Podle Trati
 Podle trati
 Františka Jansy
 Kardausova
@@ -14861,8 +14852,6 @@ Sestupná
 Krčská
 Neveklovská
 Za Obecním úřadem
-Basilejské náměstí
-Basilejské náměstí
 Králodvorská
 Malešická
 Pod Vodárenskou věží
@@ -15056,6 +15045,8 @@ Kobyliské náměstí
 Na Hubálce
 Minská
 Kyselova
+Poliklinika Vysočany
+Poliklinika Vysočany
 Cementářská
 K Barrandovu
 K Barrandovu
@@ -15093,7 +15084,6 @@ Staroměstská náplavka
 Lahovská
 Kosárkovo nábřeží
 nábřeží Ludvíka Svobody
-Národní
 Dvořákovo nábřeží
 Vnislavova
 Wilsonova
@@ -15110,9 +15100,7 @@ Závišova
 Újezd
 Újezd
 Nádražní
-Pod Tratí
 Rozkošného
-Náměstí Všeobecného Klidu
 Mikuláše z Husi
 Petra Rezka
 Petra Rezka
@@ -15219,12 +15207,10 @@ Pod Tratí
 Nádražní
 Pod Tratí
 Pod Tratí
-Pod Tratí
 Na Stráni
 Sídliště Hloubětín
 Sídliště Hloubětín
 Kbelská
-Mokřanská
 Tvrdonická
 Jílovišťská
 Vrbenského
@@ -15434,6 +15420,7 @@ Pražský okruh
 Pražský okruh
 Pražský okruh
 Komořanský tunel
+Ke Klánovickému lesu
 Ke Klánovickému lesu
 Gončarenkova
 Za Skalkou
@@ -15681,6 +15668,7 @@ Velfloviců
 Za Pavilónem
 Za Pavilónem
 Zapských
+Na Horkách
 Bezprašná
 Františka Červeného
 Mikova
@@ -15834,8 +15822,8 @@ Letohradská
 Muzejní
 Ovenecká
 Ovenecká
-Novovysočanská
-Spojovací
+Vysočanské náměstí
+Vysočanské náměstí
 Spojovací
 Spojovací
 Vysočanská
@@ -16279,7 +16267,7 @@ Italská
 Prokopova
 Prokopova
 Seifertova
-Seifertova
+Sladkovského náměstí
 Řehořova
 Štítného
 Budečská
@@ -16320,7 +16308,6 @@ Příkrá
 Příkrá
 Ořechová
 Urešova
-U Kunratického lesa
 Na Fialce II
 Laudova
 Nevanova
@@ -16873,7 +16860,6 @@ náměstí Svobody
 Štěpnice
 Trojský most
 Pod Lisem
-V Zámcích
 Na Farkách
 Pomořanská
 Krynická
@@ -16927,7 +16913,6 @@ ostrov Štvanice
 Vídeňská
 Nad Akcízem
 Baldové
-Šaldové
 Baldové
 Baldové
 Loretánské náměstí
@@ -16935,7 +16920,7 @@ Feřtekova
 Staroklánovická
 Staroklánovická
 Pod Lochkovem
-Na Stárce
+Nad Turbovou
 Pražský okruh
 Pražský okruh
 náměstí Hrdinů
@@ -16954,7 +16939,9 @@ Mukařovského
 Mukařovského
 Nárožní
 Nárožní
+Luka
 Červeňanského
+Luka
 Píškova
 Sousední
 Za Kapličkou
@@ -17099,10 +17086,8 @@ U Sparty
 Poliklinika Budějovická
 Poliklinika Budějovická
 Natanaelka
-Juliska
 Zelená
 Zelená
-Juliska
 U Matěje
 Senovážné náměstí
 Ke Konstruktivě
@@ -17135,7 +17120,6 @@ Do Panenek
 Do Panenek
 V lipách
 Na Větrníku
-Na Petřinách
 Norbertov
 Sibeliova
 Sibeliova
@@ -17828,7 +17812,6 @@ Prosecká
 Vysočanská
 Freyova
 Freyova
-Freyova
 Pražský okruh
 Pražský okruh
 Pražský okruh
@@ -17870,7 +17853,6 @@ Slavíkova
 U Vodárny
 Vinohradská
 náměstí Jiřího z Poděbrad
-Internacionální
 Internacionální
 Za černým mostem
 Za černým mostem
@@ -17960,6 +17942,9 @@ Klimentská
 Klimentská
 Lannova
 Nové Mlýny
+Holbova
+Holbova
+Holbova
 U Zájezdku
 Hastrmanská
 Lékořicová
@@ -18018,7 +18003,7 @@ Novopacká
 Pražský okruh
 Olomoucká
 Spojovací
-Novovysočanská
+Vysočanské náměstí
 Spojovací
 K Libuši
 Jugoslávských partyzánů
@@ -18027,7 +18012,6 @@ Jugoslávských partyzánů
 Řevnická
 Pod Palírkou
 Spojovací
-Bez Jména
 Vostrého
 Bucharova
 Bucharova
@@ -18314,6 +18298,8 @@ Vackova
 Vackova
 K Červenému vrchu
 Albertov
+Javorová
+Javorová
 Pod Vlkem
 Rajská
 Železničářů
@@ -18605,7 +18591,6 @@ Vídeňská
 K Libuši
 Vídeňská
 Vídeňská
-Zelené domky
 K Libuši
 Kunratická škola
 K Šeberáku
@@ -18823,6 +18808,7 @@ Vavřenova
 Vavřenova
 K Vltavě
 Na Cikorce
+Do Píšovic
 Do Lipin
 Lumírova
 Neklanova
@@ -19318,6 +19304,7 @@ Jiřího Červeného
 Sazečská
 Za Luhem
 Radiová
+Pitterova
 Kolonie u obecní cihelny
 Kolátorova
 Břežánecká
@@ -19772,6 +19759,8 @@ Povltavská
 Pod Havránkou
 Povltavská
 Na Stráži
+Pitterova
+Pitterova
 Pod Lisem
 Argentinská
 Plynární
@@ -20035,8 +20024,6 @@ Počeradská
 Žďárská
 Klášterecká
 Freyova
-Freyova
-Freyova
 K Žižkovu
 Poděbradská
 Vřes
@@ -20145,8 +20132,8 @@ Oistrachova
 Jeremiášova
 Vackova
 Vackova
-Bavorská
-Bavorská
+Stodůlky - Bavorská
+Stodůlky - Bavorská
 Bílý Beránek
 Bílý Beránek
 Plzeňská
@@ -20172,10 +20159,19 @@ Drnovská
 Jiviny
 Jiviny
 Staré náměstí
+Ruzyňská
+Ruzyňská
+Vlastina
 Vlastina
 Drnovská
 Nádraží Ruzyně
 Nádraží Ruzyně
+Ruzyňský velkoobchod
+Ruzyňský velkoobchod
+U Prioru
+U Prioru
+Brodecká
+Brodecká
 U Prioru
 U Silnice
 Litovická
@@ -20455,7 +20451,7 @@ Lípová
 Ječná
 Kryštofova
 Spojovací
-Spojovací
+Vysočanské náměstí
 Spojovací
 Spojovací
 Spojovací
@@ -20640,7 +20636,6 @@ Sokolovská
 Na Břehu
 Sokolovská
 Na Břehu
-Freyova
 Vysočanská
 Litoměřická
 Na Prosecké vyhlídce
@@ -20996,7 +20991,6 @@ Rabakovská
 Rabakovská
 Rabakovská
 Rabakovská
-Rabakovská
 Přetlucká
 Přetlucká
 Přetlucká
@@ -21208,6 +21202,7 @@ Královická
 Honzíkova
 Diblíkova
 Kryšpínova
+Diblíkova
 Budějovická
 Budějovická
 Budějovická
@@ -21391,7 +21386,6 @@ Frýdlantská
 Ukrajinská
 Malešická
 Laurinova
-Waldesova
 Kecova
 Kecova
 Na Jarově
@@ -21882,7 +21876,6 @@ Podél Cholupického p.-Lávky
 Podél Cholupického p.-Lávky
 Rybalkova
 Bukovej
-Na Padesátém
 Přetlucká
 Vltavanů
 Vltavanů
@@ -22141,7 +22134,6 @@ Meliorační
 V Dílcích
 Za Brumlovkou
 Hornocholupická
-2. nádvoří
 sala terrena
 pasáž Luxor
 Mezitraťová
@@ -22247,7 +22239,6 @@ Urubova
 Lodžská
 Čimická
 Lodžská
-V Zámcích
 V Zámcích
 Aviatická
 Aviatická
@@ -22586,7 +22577,6 @@ Vítězné náměstí
 Nad Konvářkou
 Murgašova
 Horynova
-Horynova
 Nad Habrovkou
 Parléřova
 Za Hládkovem
@@ -22638,7 +22628,6 @@ Karlštejnská
 Na Samotě
 Jungmannova
 Plzeňská
-Lidická
 Za Ženskými domovy
 Radlická
 Radlická
@@ -22719,6 +22708,7 @@ Bulovka
 Na Stráži
 Vosmíkových
 náměstí Na stráži
+Palmovka
 Bubenská
 Mezi Vodami
 Pražský okruh
@@ -22893,6 +22883,7 @@ K Metru
 Na Radosti
 Na Radosti
 Hrozenkovská
+Hrozenkovská
 Sanderova
 Sanderova
 Libeňský ostrov
@@ -22907,7 +22898,6 @@ Evropská
 Palackého most
 Lidická
 Svornosti
-Lidická
 Trojická
 Plavecká
 Jiráskův most
@@ -23485,7 +23475,7 @@ Pod Plynojemem
 Rohanské nábřeží
 Rohanské nábřeží
 U Rustonky
-Novovysočanská
+Pod Krejcárkem
 Vojtíškova
 Nad Stanicí
 Na Padesátníku II
@@ -23510,8 +23500,6 @@ Netřebská
 Zbuzanská
 Za Humny
 Výtvarná
-Možného
-Možného
 Možného
 Lišanská
 Pod Zličínem
@@ -23646,6 +23634,8 @@ V Pevnosti
 Pod Hájovnou
 Na Dolnici
 Pujmanové
+Hejlových
+Kaliberové
 K Farkám
 Generála Šišky
 Mezichuchelská
@@ -23995,7 +23985,6 @@ Povltavská
 Sulická
 Vídeňská
 Štamberk
-Placina
 Na Valech
 Nad Vinicí
 Nad Vinicí
@@ -24006,7 +23995,6 @@ Jeremiášova
 Jeremiášova
 Jeremiášova
 Jeremiášova
-Kartplanet
 Moravská
 Pod Dráhou
 Rumunská
@@ -24139,6 +24127,7 @@ Masarykovo nábřeží
 Vacínova
 Na Žertvách
 U Balabenky
+Na Proseku
 Kamzíková
 pasáž Adria
 pasáž Adria
@@ -24148,9 +24137,6 @@ Chemická
 Družstevní ochoz
 Jeseniova
 Romana Blahníka
-náměstí Republiky
-Hybernská
-náměstí Republiky
 náměstí Republiky
 Velkopřevorské náměstí
 Velkopřevorské náměstí
@@ -24389,7 +24375,6 @@ Vídeňská
 Vídeňská
 náměstí Antonína Pecáka
 náměstí Antonína Pecáka
-Jugoslávská
 Na Krčské stráni
 Na Šachtě
 Za Papírnou
@@ -24401,6 +24386,7 @@ Italská
 Italská
 Bubenská
 Bubenská
+Makedonská
 Pod Bruskou
 U Bruských kasáren
 U Bruských kasáren
@@ -24466,9 +24452,10 @@ Voctářova
 Voctářova
 Voctářova
 Voctářova
-Vojenova
+Schorova
 Voctářova
 Štorchova
+Schorova
 Švábky
 Švábky
 U Rustonky
@@ -24565,8 +24552,6 @@ Vlastina
 Vlastina
 Dědinská
 Drnovská
-Drnovská
-Drnovská
 Dědinská
 Dědinská
 U Prioru
@@ -24574,7 +24559,6 @@ Drnovská
 Karla Guta
 Na Fialce II
 Na Fialce I
-most Závodu míru
 most Závodu míru
 V Korytech
 Na Petřinách
@@ -24601,7 +24585,8 @@ Hornoměcholupská
 Hornoměcholupská
 Na Křečku
 Domanovická
-Pilovská
+Všestarská
+Nové Dvory
 K Běchovicům
 Sudějovická
 Holšická
@@ -24656,6 +24641,7 @@ Beřkovická
 Čimická
 Čimická
 Vánková
+Hrašeho
 Vánková
 Čimická
 Čimická
@@ -24675,6 +24661,7 @@ K Brnkám
 Pujmanové
 Pujmanové
 Sídliště Pankrác
+Vojtěšská
 Pštrossova
 Vojtěšská
 Pštrossova
@@ -24716,17 +24703,13 @@ Arbesovo náměstí
 Arbesovo náměstí
 Arbesovo náměstí
 Arbesovo náměstí
-Na Maninách
 U Uranie
 U Uranie
 U Uranie
-U Uranie
-Na Maninách
 Horoměřická
 Horoměřická
 Kamerunská
 Krymská
-Jižní spojka
 Jižní spojka
 Jižní spojka
 Spálený mlýn
@@ -24830,7 +24813,7 @@ Prosecká
 Vysočanská
 Prosecká
 Veselá
-Novovysočanská
+Pod Krejcárkem
 K Zadní Kopanině
 K Zadní Kopanině
 K Austisu
@@ -24944,7 +24927,7 @@ Herálecká IV
 Herálecká IV
 Olbrachtova
 Budějovická
-V Pevnosti
+Na Pankráci
 K Rotundě
 K Avii
 Jižní XV
@@ -25292,7 +25275,6 @@ Průběžná
 Průběžná
 U Kabelovny
 Jesenická
-Autobusové nádraží Depo Hostivař
 Černokostelecká
 Habrová
 Habrová
@@ -25334,7 +25316,6 @@ Ocelkova
 Ocelkova
 Kpt. Stránského
 Bryksova
-Ocelářská
 Ocelářská
 Ocelářská
 Freyova
@@ -25534,7 +25515,6 @@ Aviatická
 Aviatická
 Lednická
 Morušová
-Morušová
 Strnadových
 Strnadových
 Moravcových
@@ -25588,6 +25568,8 @@ Zenklova
 Stejskalova
 Zenklova
 U Meteoru
+Libeňský zámek
+Libeňský zámek
 Zenklova
 Zenklova
 Zenklova
@@ -25811,6 +25793,10 @@ Rolnická
 Thomayerova
 Starostřešovická
 Myslivečkova
+Rathouského
+Rathouského
+Otrubova
+Otrubova
 Šimůnkova
 Vožická
 Voříškova
@@ -26092,7 +26078,6 @@ Pod Strojírnami
 Pod Strojírnami
 Pod Strojírnami
 Poštovská
-Poštovská
 Zelenečská
 Pod Višňovkou
 Fojtova
@@ -26197,7 +26182,6 @@ Dudova
 Dudova
 Na Poříčí
 Freyova
-Macešková
 U Řempa
 Vožická
 Lesní
@@ -26771,7 +26755,6 @@ Rosečská
 Přechodní
 Nad Pískovnou
 Nad Pískovnou
-Autobusové nádraží Depo Hostivař
 Na Staré vinici
 Vodní prostup Rokytka
 Nad Ryšánkou
@@ -26789,9 +26772,10 @@ Od Vysoké
 Otvovická
 Ústřední
 Olgy Havlové
+Olgy Havlové
+Olgy Havlové
 Střížkovská
 U Rakovky
-Zbraslavská
 Prvomájová
 Náměstí Osvoboditelů
 Náměstí Osvoboditelů
@@ -26848,7 +26832,6 @@ U Slavie
 Kouřimská
 Kouřimská
 Strančická
-Dubečská
 Jankovcova
 Živanická
 Dukelských hrdinů
@@ -26870,6 +26853,7 @@ Laurinova
 Pod Novým lesem
 Hodějovská
 Mokrá
+Hindlova
 Pasáž generála Josefa Bílého
 Novodvorská
 Novodvorská
@@ -27029,7 +27013,6 @@ Konojedská
 Zamašská
 Na Zadní Kopanině
 Na Zadní Kopanině
-Na Černé strouze
 Králodvorská
 Novovysočanská
 Novovysočanská
@@ -27037,7 +27020,7 @@ Novovysočanská
 Novovysočanská
 Novovysočanská
 Novovysočanská
-Novovysočanská
+Vysočanské náměstí
 U Nové školy
 Husitská
 Husitská
@@ -27150,7 +27133,6 @@ Na poli
 Modřanská
 Modřanská
 Modřanská
-Modřanská
 Janáčkovo nábřeží
 Plzeňská
 Plzeňská
@@ -27174,6 +27156,7 @@ Nad Motolskou nemocnicí
 Salabova
 Thákurova
 Thákurova
+Technická
 Bělohorská
 Bělohorská
 Zenklova
@@ -27199,9 +27182,6 @@ U Michelského mlýna
 U Michelského mlýna
 Čábelecká
 Čábelecká
-Freyova
-Freyova
-Freyova
 K Přehradám
 K Uhříněvsi
 Přátelství
@@ -27309,6 +27289,10 @@ tunel Mrázovka
 Strahovský tunel
 Strahovský tunel
 Strahovský tunel
+Holbova
+Hrašeho
+Hrašeho
+Hrašeho
 Klárov
 Na Srpečku
 Boleslavova
@@ -27345,6 +27329,7 @@ Na Zlíchově
 Bubenská
 Za Elektrárnou
 Košařova
+Oktábcových
 Na Slovance
 Nádražní
 Mukařovská
@@ -27385,7 +27370,6 @@ Cíglerova
 Türkova
 Türkova
 Türkova
-Na Rozhraní
 Českobrodská
 Českobrodská
 Českobrodská
@@ -27541,7 +27525,6 @@ U Slovanky
 Jižní spojka
 Za Žižkovskou vozovnou
 U Nové školy
-Dočasný podchod
 Na Petynce
 Zlatokorunská
 Zálesí
@@ -27550,7 +27533,6 @@ Zálesí
 Ke Křížkám
 Nad Vysočany
 RENT A CAR
-Kamýcká
 Aviatická
 Aviatická
 Aviatická
@@ -27558,14 +27540,12 @@ Aviatická
 Schengenská
 Jana Kašpara
 Zenklova
-Cyklostezka Smetanka
 U Náhonu
 Dercsenyiho
 V Čeňku
 Madarova
 Komárovská
 Běluňská
-Autobusové nádraží Depo Hostivař
 K Letišti
 K Letišti
 K Letišti
@@ -27800,11 +27780,12 @@ Seifertova
 Višňovka
 nábřeží Ludvíka Svobody
 Těšnovský tunel
+Holbova
 Půtova
 Řásnovka
 Letenský tunel
 Letenský tunel
-Revoluřní
+Revoluční
 Dlouhá
 Revoluční
 Revoluční
@@ -27817,7 +27798,7 @@ nábřeží Kapitána Jaroše
 nábřeží Kapitána Jaroše
 Řásnovka
 Štefánikův most
-Revoluřní
+Revoluční
 nábřeží Kapitána Jaroše
 Štefánikův most
 Štefánikův most
@@ -27825,7 +27806,6 @@ Chlumecká
 Pražačka
 Pražačka
 Lukášova
-náměstí Republiky
 Celetná
 Pod Stupni
 cyklostezka Staré spojení
@@ -27840,6 +27820,7 @@ Nová Povltavská
 Nová Povltavská
 Za černým mostem
 Cíglerova
+Čuprova
 Čuprova
 Bělohorská
 náměstí U lípy svobody
@@ -27864,7 +27845,6 @@ Na Manoušce
 Kakosova
 Vinohradská
 Vinohradská
-Výhybna Hrabovka
 Pražačka
 U Památníku
 Jižní spojka
@@ -27888,7 +27868,6 @@ Chmelická
 Chotěnovská
 Chotěnovská
 Parléřova
-5. května
 5. května
 5. května
 5. května
@@ -27956,7 +27935,7 @@ Kutnohorská
 Nákupní
 Nákupní
 Předškolní
-Za karlínským přístavem
+Za Karlínským přístavem
 LKW - TRUCK/TIR
 LKW - TRUCK/TIR
 Vítovcova
@@ -27999,7 +27978,6 @@ tunel Radlice
 průzkumná štola tunelu Radlice
 Křížová
 Radlická radiála
-Hybešova
 Na Slupi
 Horská
 Na Slupi
@@ -28060,16 +28038,13 @@ Vršovická
 Vršovická
 Vršovická
 Vršovická
-Vršovická
-Vršovická
-Vršovická
 Waltariho
 Celetná
 Úvalská
 Černokostelecká
 Úvalská
 Černokostelecká
-Novovysočanská
+Pod Krejcárkem
 Černokostelecká
 Černokostelecká
 Černokostelecká
@@ -28105,7 +28080,7 @@ Kongresová
 BUS
 Dostojevského
 Lešetínská
-V Pevnosti
+Na Pankráci
 U Háje
 Příkrá
 K Berounce
@@ -28199,7 +28174,6 @@ Opatovská
 Chilská
 Opatovská
 Opatovská
-Chilská
 Melantrichova
 U Radnice
 U Radnice
@@ -28278,6 +28252,7 @@ Koldínova
 Novopacká
 Pískovna
 Patočkova
+Hindlova
 Přetlucká
 Na Močále
 Třebějická
@@ -28294,7 +28269,6 @@ Starokolínská
 Kusého
 Kusého
 Dolákova
-Wolkerova
 Koněvova
 Koněvova
 Koněvova
@@ -28353,7 +28327,6 @@ Průmyslová
 Za Strašnickou vozovnou
 Za Strašnickou vozovnou
 Pod Rapidem
-Přetlucká
 náměstí Jiřího z Poděbrad
 Novoměstská náplavka
 Novoměstská náplavka
@@ -28454,7 +28427,6 @@ Františka Diviše
 Ke Kříži
 Ke Kříži
 Ankarská
-Cyklostezka Smetanka
 Kupeckého
 Anežky Malé
 Mendelova
@@ -28466,9 +28438,6 @@ Plzeňská
 Vysočanská
 Pod Písečnou
 Pod Písečnou
-Freyova
-Freyova
-Freyova
 Freyova
 Freyova
 Freyova
@@ -28798,7 +28767,7 @@ Na Slatinách
 U Martiňáku
 Podolská
 K Měchurce
-Vojenova
+Schorova
 Ke Klánovickému lesu
 Strakonická
 Strakonická
@@ -29154,6 +29123,7 @@ V Jirchářích
 Prosecká
 Prosecká
 Nad Krocínkou
+Rothmayerova
 náměstí Jiřího z Poděbrad
 Vinořské náměstí
 Vinořské náměstí
@@ -29221,7 +29191,6 @@ Rašínovo nábřeží
 Svobodova
 Svobodova
 Svobodova
-Pivovarská
 Chilská
 Ve Studeném
 Fadějevova
@@ -29242,7 +29211,6 @@ Gollové
 náměstí Organizace spojených národů
 Drahotická
 Na Výšince
-Skupova
 Bělohorská
 Bělohorská
 Internacionální
@@ -29261,12 +29229,10 @@ Durychova
 Durychova
 Durychova
 Durychova
-Durychova
 Sečská
 Sečská
 Komornická
 Ve Střešovičkách
-Ostrá
 K Cihelně
 K Radonicům
 K Radonicům
@@ -29278,7 +29244,6 @@ HolKa
 Bubenské nábřeží
 Bubenské nábřeží
 Breitfeldova
-Nad Šestajovickým potokem
 Nad Šestajovickým potokem
 Nad Šestajovickým potokem
 Nad Šestajovickým potokem
@@ -29372,6 +29337,7 @@ Na Petynce
 Jugoslávských partyzánů
 Terronská
 Zelená
+Technická
 Argentinská
 Argentinská
 Argentinská
@@ -29440,7 +29406,6 @@ Pod Útesy
 Slivenecká
 Slivenecká
 Československé armády
-Puškinovo náměstí
 Eliášova
 U Brusnice
 Komořanská
@@ -29466,9 +29431,6 @@ Dušní
 U Obecního dvora
 Výmolova
 Zábrodí
-Dvorecký most
-Dvorecký most
-Dvorecký most
 Přespolní
 Chmelová
 Jugoslávských partyzánů
@@ -29557,3 +29519,456 @@ Ovčárská
 K Barrandovu
 K Barrandovu
 Na Farkách
+Jaurisova
+Služeb
+Hugo Haase
+Za Pavilónem
+Městská
+Na Žvahově
+Na Žvahově
+Lipové náměstí
+Na Lávce
+Na Lávce
+Sekaninova
+Jaromírova
+Jaromírova
+Sekaninova
+Driveway to Underground Garage at Svornosti 2b
+Driveway to Underground Garage at Svornosti 2b
+Karlovarská
+Karlovarská
+Karlovarská
+Olbrachtova
+Olbrachtova
+Vyskočilova
+K Metru
+Mölzerova
+Všestarská
+Nové Dvory
+Opletalova
+Vápeníkova
+Kavkazská
+Gotthardská
+5. května
+5. května
+Vyskočilova
+5. května
+5. května
+5. května
+5. května
+U Vršovického nádraží
+Argentinská
+Argentinská
+Rašínovo nábřeží
+Rašínovo nábřeží
+Jiráskův most
+Pod Hotelem
+Pod Hotelem
+Nádvorní
+Strakonická
+Strakonická
+Strakonická
+Hybernská
+Hybernská
+Nádražní
+U Viktorie
+Charvátova
+Hybernská
+náměstí Republiky
+Masarykovo nábřeží
+Strakonická
+Strakonická
+Novopacká
+Kobylisy
+Vršovická
+Otakarova
+Otakarova
+Otakarova
+Jeseniova
+Ke Klánovickému lesu
+Ke Klánovickému lesu
+Placina
+Ke Klánovickému lesu
+Ke Klánovickému lesu
+Ke Klánovickému lesu
+Zárubova
+Tuniská
+Tuniská
+Těšnov
+Freyova
+Freyova
+Freyova
+Freyova
+Freyova
+Havlíčkova
+Havlíčkova
+Masná
+Seifertova
+Bohdalecká
+Průběžná
+nábřeží Kapitána Jaroše
+Zapova
+Zapova
+Švédská
+Lodecká
+Lodecká
+Lodní mlýny
+Hybernská
+Hybernská
+Strossmayerovo náměstí
+Lednická
+Klostermannova
+U chmelnice
+U chmelnice
+Lysinská
+Ratajská
+K Sedlišti
+Hybernská
+Českobrodská
+Na Pěšině
+Na Pěšině
+Smetanovo nábřeží
+Smetanovo nábřeží
+Masarykovo nábřeží
+Poláčkova
+Pod Zámečkem
+Bílenecké náměstí
+Krbická
+Hrušovanské náměstí
+Havlíčkova
+Na Černé strouze
+Česká
+Divoká Šárka
+Divoká Šárka
+Novodvorská
+Durychova
+Durychova
+Durychova
+Durychova
+Durychova
+Durychova
+Durychova
+Durychova
+U Kamýku
+U Kamýku
+U Kamýku
+U Kamýku
+Soukupova
+V Kratinách
+Pod Křížem
+Na Pěšině
+Liboňovská
+Klášterecká
+Klášterecká
+Dvorní
+Dvorní
+Bílenecké náměstí
+Měděnecká
+Bílenecké náměstí
+Ferrariho
+Durychova
+Durychova
+Durychova
+U Kamýku
+U Kamýku
+Bartolomějská
+Pernerova
+Zrzavého
+Za Tratí
+Leitzova
+Slunná
+Na Ořechovce
+Na Ořechovce
+Východní
+Lomená
+V Průhledu
+Ctiradova
+Ctiradova
+Vejvodova
+Jankovcova
+Drnovská
+Masarykovo nábřeží
+Koulova
+V Zářezu
+Na Balkáně
+Na Balkáně
+Na Balkáně
+Žernovská
+Ukrajinská
+Ukrajinská
+Ukrajinská
+Ukrajinská
+U Vršovického nádraží
+U Vršovického nádraží
+Ukrajinská
+Hrazanská
+Na Jitřence
+Na Petřinách
+Türkova
+Türkova
+Hlávkův most
+Bubenská
+Donátorská cesta
+Donátorská cesta
+Drnovská
+Machovcova
+K Žižkovu
+Partyzánská
+Partyzánská
+Matúškova
+Na Zábradlí
+Karoliny Světlé
+Novosibřinská
+Staroklánovická
+Staroklánovická
+K Hrnčířům
+Na Strži
+Na Strži
+Na Strži
+Na Strži
+Na Strži
+Na Strži
+Na Strži
+Oktábcových
+Oktábcových
+Pechmanových
+Pobřežní
+Přátelství
+U Nádražní lávky
+Muzikova
+Ve Výrech
+Mirošovská
+Kryštofova
+V lipách
+Klánovická
+Jankovcova
+Jankovcova
+Na Žertvách
+Jateční
+Františka Kadlece
+Na Kindlovce
+Thunovská
+Šporkova
+Lázeňská
+Frýdecká
+U Proseckého kostela
+Za Elektrárnou
+Za Elektrárnou
+Českobrodská
+Českobrodská
+Otakarova
+Bělohorská
+Vídeňská
+U Kina
+U Kina
+K Železnici
+K Železnici
+Do Dubče
+Do Dubče
+Bělehradská
+Táborská
+Vaníčkova
+Na Pankráci
+Na Pankráci
+Jičínská
+Seifertova
+Husitská
+Seifertova
+Kardausova
+Honzíkova
+Kryšpínova
+Ankarská
+Radlická
+Osadní
+Osadní
+Tusarova
+U Sloupu
+most Závodu míru
+Dvořákovo nábřeží
+Dvořákovo nábřeží
+Starokolínská
+Starokolínská
+Možného
+Strossmayerovo náměstí
+Šimůnkova
+Šimůnkova
+Archeologická
+Archeologická
+Sladkovského náměstí
+Mezi Vodami
+Rabakovská
+Rabakovská
+Na Stárce
+Heroldovy sady
+Tusarova
+Tusarova
+Bubenské nábřeží
+Přetlucká
+Průběžná
+Průběžná
+Průběžná
+Palmovka
+Palmovka
+Na Florenci
+Havlíčkova
+Havlíčkova
+Pod Hranicí
+Pod Hranicí
+Vitáčkova
+Růžodolská
+Buriánkova
+Všestarská
+Všestarská
+Nové Dvory
+Starostrašnická
+V Olšinách
+Na Hlinách
+Přetlucká
+Přetlucká
+Přetlucká
+Přetlucká
+Olbrachtova
+K Žižkovu
+U Balabenky
+Sokolovská
+Sokolovská
+Sokolovská
+Jiříkovská
+Heřmanická
+Křižanská
+Chilská
+K Ubytovnám
+Na Plácku
+U Prádelny
+Elišky Přemyslovny
+Zbraslavské náměstí
+Nad Berounkou
+Ke Zděři
+U Starého stadionu
+U Starého stadionu
+K Cementárně
+K Cementárně
+K Cementárně
+Za Ovčínem
+Rabakovská
+Rabakovská
+Topolová
+Karafiátová
+Jesenická
+HolKa
+Ke Klánovickému lesu
+Černokostelecká
+Černokostelecká
+Černokostelecká
+Černokostelecká
+Ocelkova
+Plzeňská
+Plzeňská
+Plzeňská
+Plzeňská
+Vlastina
+Rohanské nábřeží
+Rohanské nábřeží
+Rohanské nábřeží
+Pobřežní
+Voctářova
+U Rustonky
+U Rustonky
+Za Arielem
+U Botiče
+Makovského
+Makovského
+Slánská
+Trojská
+Povltavská
+Letenské sady
+U Řepory
+U Řepory
+Proti Proudu
+Bedřichovská
+Na Valentince
+Ferbasové
+Šlemrové
+Jilemnická
+Waltariho
+Laponská
+Waltariho
+Zapova
+Zapova
+Zapova
+Zapova
+Zapova
+Chlumecká
+Chlumecká
+Bubenské nábřeží
+K Táboru
+K Táboru
+Nedokončená
+Nedokončená
+U Hostavického potoka
+Hrabovská
+Labuťská
+Novodvorská
+Moskevská
+Moskevská
+Moskevská
+Moskevská
+Moskevská
+Moskevská
+Moskevská
+Vaníčkova
+Pohořelec
+Dlabačov
+Dlabačov
+Patočkova
+Patočkova
+Na Jílu
+U Dubečské tvrze
+Koulova
+ostrov Štvanice
+Radimova
+Bryksova
+Ankarská
+Do Píšovic
+Krouzova
+Krouzova
+Královská obora
+K Žižkovu
+Barrandovský most
+Zenklova
+Vinohradská
+Smyčka Vozovna Kobylisy
+Smyčka Vozovna Kobylisy
+Smyčka Vozovna Kobylisy
+Smyčka Vozovna Kobylisy
+Podléšková
+Podléšková
+Ke Střelnici
+Ke Střelnici
+Ke Střelnici
+U Arborky
+Dolnoměcholupská
+Gollové
+U Parku
+Vorařská
+Vorařská
+Vorařská
+V Lipkách
+Ve Smrčině
+Na Přídole
+K Lochkovu
+Ke Slivenci
+Hindlova
+Ke Stadionu
+Čečelická
+Zápská
+Jitrocelová
+Starodubečská
+náměstí U lípy svobody
+Anny Rybníčkové
+Jižní spojka
+U Meteoru
+Zenklova
+Čuprova
+HolKa
+Čimická

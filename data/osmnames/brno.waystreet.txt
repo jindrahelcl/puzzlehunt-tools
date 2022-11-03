@@ -30,6 +30,7 @@ Antonína Procházky
 Mendlovo náměstí
 Zájezdní
 Zájezdní
+Skalní
 Křivánky
 Přístavní
 Palcary
@@ -103,6 +104,7 @@ Pellicova
 Úvoz
 Žabovřeská
 Hlavní
+Hlavní
 Štursova
 Kroftova
 Práčata
@@ -144,7 +146,6 @@ Svatopetrská
 Plotní
 Plotní
 Dornych
-Poříčí
 Opuštěná
 Zvonařka
 Vídeňská
@@ -216,6 +217,7 @@ Kamenomlýnská
 Květná
 Hroznová
 Arne Nováka
+Přímá
 Kampelíkova
 Trávníky
 Muchova
@@ -232,7 +234,6 @@ Ječná
 Jabloňová
 Olomoucká
 Zvonařka
-Poříčí
 Ostrá
 Bayerova
 Vídeňská
@@ -374,6 +375,7 @@ Konopiska
 Ševčenkova
 Ševčenkova
 Ševčenkova
+Ševčenkova
 Plachty
 Hrozňatova
 Bosonožská
@@ -423,6 +425,7 @@ bratří Čapků
 Komenského náměstí
 Solniční
 Solniční
+Neumannova
 Neumannova
 Hroznová
 Hroznová
@@ -693,6 +696,8 @@ Vídeňská
 Vídeňská
 Vídeňská
 Vídeňská
+Ořechovská
+Ořechovská
 Heršpická
 Heršpická
 K dálnici
@@ -733,7 +738,6 @@ třída Generála Píky
 třída Generála Píky
 třída Generála Píky
 třída Generála Píky
-Provazníkova
 Provazníkova
 Karlova
 Provazníkova
@@ -852,6 +856,7 @@ Duhová
 Azurová
 Žlutá
 Leitnerova
+Kociánka
 Kociánka
 Kociánka
 Školní
@@ -1183,7 +1188,6 @@ Holubova
 Marie Majerové
 Lozíbky
 Kohoutova
-Kohoutova
 Slezákova
 Kohoutova
 Fügnerova
@@ -1192,7 +1196,6 @@ Mathonova
 Janouškova
 Krkoškova
 Hansmannova
-Klecandova
 Bendlova
 Bieblova
 náměstí SNP
@@ -1359,6 +1362,7 @@ Bažinka
 Mechová
 Dlouhé vrchy
 Boří
+Adamovská
 Fillova
 Mariánské údolí
 Mariánské údolí
@@ -1374,6 +1378,7 @@ Taussigova
 Foltýnova
 Nad dědinou
 Lísky
+Branka
 Záhumní
 Vavřinecká
 Vrbenského
@@ -1387,7 +1392,7 @@ Olšová
 Gellnerova
 Šeříková
 Osiková
-Kopretinová
+Jasanová
 Březová
 Rozmarýnová
 Bystrcká
@@ -1415,6 +1420,7 @@ Dolnopolní
 Světlá
 Těsná
 náměstí Republiky
+Vídeňská
 Evropská
 Letiště Brno-Tuřany
 Dobrovského
@@ -1511,6 +1517,7 @@ Valchařská
 Nedbalova
 Zedníkova
 Rybářská
+Sportovní
 Luční
 Pivodova
 Rekreační
@@ -1528,10 +1535,12 @@ Malínská
 Měšťanská
 Haraštova
 Švédská
+Měšťanská
 Dvorecká
 Střížova
 Východní
 Tuřanské náměstí
+Režná
 Moravská
 Karkulínova
 Vítězná
@@ -1629,7 +1638,7 @@ Zemanova
 Jihomoravské náměstí
 Ondřeje Veselého
 Ráj
-Za Kostelem
+Za kostelem
 Šikova
 Šikulova
 U zvoničky
@@ -1697,6 +1706,8 @@ U vodárny
 Zámecká
 Zámecká
 Za kovárnou
+Ořechovská
+Ořechovská
 K Železnici
 Průmyslová
 Švédské valy
@@ -1758,7 +1769,6 @@ Koutného
 Goldova
 Michalova
 Rotreklova
-Rybářská
 Rybářská
 Hlinky
 Křížkovského
@@ -1879,6 +1889,7 @@ Turistická
 Turistická
 Kolejní
 Palackého náměstí
+Bratří Křičků
 Ovčírna
 Podhájí
 Podhájí
@@ -1975,7 +1986,11 @@ Kopečná
 Nádražní
 Jehnická
 náměstí Vojtěšky Matyášové
+Královka
 náměstí Vojtěšky Matyášové
+bratří Křičků
+bratří Křičků
+bratří Křičků
 Petrov
 Petrov
 Biskupská
@@ -2009,6 +2024,7 @@ Bohatcova
 Boženy Antonínové
 Jandáskova
 Mendlovo náměstí
+Mendlovo náměstí
 Rybářská
 Pivovarská
 Proškovo náměstí
@@ -2027,6 +2043,7 @@ Vyškovská
 Vlnitá
 Jírovcova
 Libušina třída
+Staré náměstí
 Žlutý kopec
 Žlutý kopec
 Mášova
@@ -2219,6 +2236,8 @@ Zelná
 Vídeňská
 Staré náměstí
 Staré náměstí
+Staré náměstí
+Ořechovská
 Lužná
 Lomená
 Lomená
@@ -2249,6 +2268,7 @@ Krásného
 Krásného
 Boettingrova
 Hájecká
+Drobného
 Košinova
 Palírenská
 Palcary
@@ -2364,6 +2384,8 @@ Rakovecká
 Rakovecká
 Rakovecká
 Suzova
+Podveská
+Podveská
 Ondrova
 Kotěrova
 Podlesná
@@ -2530,7 +2552,6 @@ Weissova
 Bauerova
 Bítešská
 Bohunická
-Šoustalova
 Podsedky
 Podsedky
 Dvořiště
@@ -2632,6 +2653,7 @@ Herčíkova
 Herčíkova
 Galandauerova
 Galandauerova
+Vycházková
 Kotlářská
 Hoppova
 Dvorského
@@ -2790,6 +2812,7 @@ Sklenářská
 K Povodí
 Lomená
 Cihelní
+Hudcova
 Cihelní
 Cihelní
 Zahradnická
@@ -2840,6 +2863,7 @@ Srbská
 Skrejš
 Tuřanka
 Pahrbek
+Hudcova
 Za Školou
 Turgeněvova
 Bílovická
@@ -2893,6 +2917,7 @@ Jandáskova
 Křižíkova
 Křižíkova
 Sladkovského
+Pražská
 Dunajská
 Dunajská
 U hřiště
@@ -2910,6 +2935,7 @@ Fantova
 Loosova
 Haškova
 obchvat Slatina
+Hájecká
 obchvat Slatina
 obchvat Slatina
 náměstí SNP
@@ -2944,9 +2970,9 @@ Heršpická
 Bidláky
 Pražákova
 Pražákova
-Opuštěná
+Poříčí
 Heršpická
-Opuštěná
+Poříčí
 Dornych
 Jemelkova
 Kyjevská
@@ -2957,6 +2983,7 @@ náměstí 28. dubna
 Trnitá
 Olomoucká
 Trnitá
+Jezerní
 Zelná
 Jezerní
 Jezerní
@@ -3072,10 +3099,14 @@ Podskalská
 Ruský vrch
 Kristenova
 Kristenova
+Hlavní
+Absolonova
+Absolonova
 Podveská
 Čichnova
 Rebešovická
 Vilová
+Obilní
 Rebešovická
 Prokešova
 Kunešova
@@ -3090,6 +3121,8 @@ Jana Broskvy
 U Dráhy
 U Dráhy
 Na Mlatech
+Na Mlatech
+V Rejích
 Slovanské náměstí
 Milady Horákové
 Opuštěná
@@ -3109,6 +3142,7 @@ Tišnovská
 Tišnovská
 Tišnovská
 Trávníky
+Sportovní
 Švestková
 Jarní
 Jarní
@@ -3120,6 +3154,7 @@ Lísky
 Lísky
 Včeličkova
 Měnínská
+U lípy Svobody
 U lípy Svobody
 Jahodová
 Jiřinová
@@ -3229,6 +3264,7 @@ Preslova
 Wolkrova
 Barvičova
 Barvičova
+Barvičova
 Úvoz
 Dubová
 Šmahova
@@ -3259,6 +3295,8 @@ Terezy Novákové
 Veselka
 Prašnice
 Režná
+Heřmánková
+Heřmánková
 Pod Horkou
 Pod Horkou
 Pod Horkou
@@ -3269,6 +3307,7 @@ Renneská třída
 Renneská třída
 Uzavřená
 Terezy Novákové
+U Viaduktu
 Jandáskova
 Jandáskova
 Železná
@@ -3301,6 +3340,7 @@ V Luzích
 Nálepkova
 Lelkova
 Optátova
+Hlavní
 Pastviny
 Šaracova
 Pastviny
@@ -3342,7 +3382,6 @@ Kuldova
 Lány
 Bohunická
 Vídeňská
-Pražákova
 Pražákova
 Traťová
 Bohunická
@@ -3388,6 +3427,7 @@ Veslařská
 Jerlínová
 Štouračova
 Palachovo náměstí
+U Viaduktu
 Nové sady
 Bítešská
 Hatě
@@ -3474,6 +3514,7 @@ Húskova
 Jedovnická
 Jedovnická
 Jedovnická
+Křtinská
 Šámalova
 Jílkova
 Gajdošova
@@ -3625,6 +3666,7 @@ Rozdrojovická
 Palouk
 Pisárecká
 Gromešova
+Gromešova
 Vejrostova
 Tylova
 Palackého třída
@@ -3643,6 +3685,7 @@ Palackého třída
 Húskova
 Húskova
 Wollmanova
+Větrná
 Vídeňská
 Vídeňská
 Zborovská
@@ -3772,6 +3815,7 @@ Gajdošova
 Líšeňská
 Křtinská
 Gajdošova
+Trnkova
 Nopova
 Hrozňatova
 Trnkova
@@ -3779,6 +3823,7 @@ Líšeňská
 Viniční
 Vinařického
 Rotreklova
+Bořetická
 Meluzínova
 Jedovnická
 Jírova
@@ -3825,6 +3870,7 @@ U Velké ceny
 Africká vesnice
 Ráječek
 Konečného
+Zapletalova
 Na Hrázi
 Javorová
 U Potoka
@@ -3868,6 +3914,7 @@ V Polích
 V Polích
 Hliniště
 Vomáčkova
+Bernáčkova
 Vomáčkova
 Bernáčkova
 Otakara Ševčíka
@@ -3899,7 +3946,6 @@ Marie Uherkové
 Zahradní
 Macháčkova
 Mojžíšova
-A Bašta
 Fialová
 Nachová
 Azurová
@@ -3994,6 +4040,7 @@ Zlatníky
 Zlatníky
 Mateří
 Kulkova
+Neumannova
 Marešova
 Azurová
 Staré náměstí
@@ -4062,6 +4109,7 @@ Jana Uhra
 Jana Uhra
 Tuháčkova
 Tuháčkova
+Barvičova
 Neumannova
 Preslova
 Hybešova
@@ -4122,6 +4170,7 @@ Preslova
 Preslova
 Preslova
 Tůmova
+Barvičova
 Barvičova
 Barvičova
 Staňkova
@@ -4236,6 +4285,7 @@ Bulharská
 Nad dědinou
 Karásek trail
 Jedovnická
+Trnkova
 Bidláky
 Bidláky
 Gorazdova
@@ -4292,7 +4342,6 @@ Hvozdecká
 Nad kašnou
 Chaloupkova
 Mlýnská
-služební přechod
 U Velké ceny
 Černohorská
 Voříškova
@@ -4344,13 +4393,14 @@ Obilní
 Petlákova
 Podhrázní
 Podhrázní
-Prokešova
 Písečná
 Rebešovická
 Sladovnická
 Sladovnická
 Sokolnická
 Sokolnická
+Na Mlatech
+Jiřinová
 Chrlická
 Grunty
 Švédská
@@ -4412,7 +4462,6 @@ Ericha Roučky
 Rysova
 Uhelná
 Karlova
-Provazníkova
 Ečerova
 Ečerova
 Fleischnerova
@@ -4521,7 +4570,6 @@ Urbánkova
 Olbrachtovo náměstí
 Sovova
 Výpravní
-Včeličkova
 Urbánkova
 Olbrachtovo náměstí
 Včeličkova
@@ -4537,6 +4585,7 @@ obchvat Brno-Slatina
 obchvat Brno-Slatina
 obchvat Brno-Slatina
 obchvat Brno-Slatina
+Bratří Křičků
 Úhledná
 Provazníkova
 Provazníkova
@@ -4582,7 +4631,7 @@ Křehlíkova
 Kobylnická
 Blažovická
 Za kostelem
-Za Kostelem
+Za kostelem
 Ponětovická
 Křížová
 Sportovní
@@ -4659,8 +4708,6 @@ Lazaretní
 Svitavské nábřeží
 Hrnčířská
 Poříčí
-Poříčí
-Poříčí
 Antonínská
 Antonínská
 Mezírka
@@ -4717,6 +4764,7 @@ Táborská
 Šámalova
 Osamělá
 Pastviny
+Jateční
 Dlouhá
 Výšina
 Rosická
@@ -4815,7 +4863,6 @@ Provazníkova
 Provazníkova
 Dukelská
 Provazníkova
-Mathonova
 Merhautova
 Merhautova
 Merhautova
@@ -4924,7 +4971,7 @@ Heršpická
 Heršpická
 Heršpická
 Heršpická
-Za Kostelem
+Za kostelem
 Palackého třída
 Palackého třída
 Žabovřeská
@@ -4933,6 +4980,7 @@ obchvat Slatina
 Rostislavovo náměstí
 Stamicova
 Svitavské nábřeží
+Za kostelem
 Ruda
 Velká Klajdovka
 Velká Klajdovka
@@ -4990,6 +5038,7 @@ Veveří
 Podsedky
 Podsedky
 Absolonova
+Hlavní
 Trávníky
 Píškova
 Tábor
@@ -5034,14 +5083,13 @@ Otevřená
 Sirotkova
 Řípská
 Ráj
-Za Kostelem
+Za kostelem
 Šmahova
 Šmahova
 Božetěchova
 Dufkovo nábřeží
 Mácova
 Příjezdová
-Fügnerova
 Moravské náměstí
 Mikuláškovo náměstí
 Mikuláškovo náměstí
@@ -5111,6 +5159,7 @@ Dobrovského
 Dobrovského
 Vodova
 Vodova
+Bašného
 Londýnské náměstí
 Pisárecká
 Životského
@@ -5199,6 +5248,7 @@ Ječná
 Ječná
 Vodova
 Malinovského náměstí
+Moravské náměstí
 Moravské náměstí
 Moravské náměstí
 Moravské náměstí
@@ -5406,9 +5456,11 @@ Výspa
 VMO Brno x Svitavská radiála
 Křižíkova
 Horova
+Kociánka
 Pionýrská
 Slatinská
 Opuštěná
+Úlehlova
 Dělostřelecká
 Dělostřelecká
 Břeclavská
@@ -5442,6 +5494,7 @@ Psotova
 Rozárka
 Rozárka
 Zeiberlichova
+Vinohradská
 Turgeněvova
 Charbulova
 Charbulova
@@ -5456,6 +5509,7 @@ Psotova
 Miry Figarové
 Kožíkova
 Menšíkova
+Miry Figarové
 Moskalykova
 Firkušného
 Miry Figarové
@@ -5534,6 +5588,8 @@ Tůmova
 Ondráčkova
 Ondráčkova
 Ondráčkova
+Ondráčkova
+Ondráčkova
 Belcrediho
 Dubová
 Hladíkova
@@ -5592,7 +5648,6 @@ Koliště
 Oblá
 Oblá
 Novotného
-Fügnerova
 Podstránská
 Podstránská
 Piňosova
@@ -5706,11 +5761,11 @@ Opuštěná
 Opuštěná
 Opuštěná
 Uhelná
-Opuštěná
-Opuštěná
+Poříčí
 Heršpická
 Heršpická
 Heršpická
+Trnkova
 Sentická
 Líšeňská
 Dulánek
@@ -5872,8 +5927,6 @@ Líšeňská
 Líšeňská
 Šedova
 Olší
-Chochola trail
-Chochola trail
 třída Generála Píky
 Pionýrská
 Pionýrská
@@ -5915,7 +5968,6 @@ Kampelíkova
 Roubalova
 Chmelnice
 Chmelnice
-Bylinková
 Košuličova
 Podhorní
 Macháčkova
@@ -5947,6 +5999,8 @@ Občasná polní cesta
 Polní cesta
 Podhorní
 Podhorní
+Sportovní
+Sportovní
 Režná
 Říčanská
 Laštůvkova
@@ -5955,6 +6009,7 @@ Pasáž Koruna
 Kamínky
 Kamínky
 Kamínky
+Úlehlova
 Martina Kříže
 Rebešovická
 Kuleho trail
@@ -5995,6 +6050,7 @@ Sportovní
 Sportovní
 Sportovní
 Jihomoravské náměstí
+Slavkovská
 Krysí štola
 průzkumná štola tramvajové tratě
 Kaštanová
@@ -6021,6 +6077,7 @@ Křenová
 Křenová
 Křenová
 Bělohorská
+Kubešova
 Ostravská
 Kozí
 náměstí Svobody
@@ -6098,6 +6155,7 @@ Sokolova
 Útěchovská
 Mojmírovo náměstí
 Hlinky
+Mechová
 Hlaváčova
 Špitálka
 Poděbradova
@@ -6109,6 +6167,7 @@ Studentská
 Kounicova
 Údolní
 Grohova
+Palackého třída
 Rakovecká
 Nová Komárka
 Jump line Komárky
@@ -6138,6 +6197,7 @@ Rebešovická
 Zámecká
 Chrlické náměstí
 V Rejích
+U Viaduktu
 U Viaduktu
 U Viaduktu
 Horníkova
@@ -6174,6 +6234,7 @@ U Vránova mlýna
 Blanenská
 Blanenská
 Blanenská
+Vlasty Fialové
 Letiště Brno-Tuřany
 Joštova
 Vychodilova
@@ -6184,8 +6245,7 @@ Novolíšeňská
 Kamenice
 Budovcova
 Křížová
-Křížová
-Poříčí
+Valašská
 Křížová
 Brandlova
 Srbská
@@ -6261,6 +6321,7 @@ Kohoutova
 Purkyňova
 Podnikatelská
 Technická
+Kárníkova
 Kosmova
 Mendlovo náměstí
 Adamovská
@@ -6302,8 +6363,6 @@ Vrbí
 Potácelova
 Tuřanská
 Pospíšilova
-Fügnerova
-Fügnerova
 Boří
 Dornych
 Dornych
@@ -6312,6 +6371,7 @@ Dornych
 Dornych
 Žlutá
 Sušilova
+Sportovní
 Dornych
 Zemanova
 Martinelliho
@@ -6319,13 +6379,17 @@ Meduňková
 Ke Káčatům
 Střední
 Vejrostova
+Sokolnická
 Těšanská
+Za kostelem
+Vomáčkova
 Remízky
 Nad cihelnou
 Žabí
 Žabí
 Fantova
 Fantova
+U lípy Svobody
 Labská
 Sosnová
 Bratislavská
@@ -6339,7 +6403,6 @@ Vejrostova
 Mikuláškovo náměstí
 Bělohorská
 Bělohorská
-Palackého náměstí
 Palackého náměstí
 Svážná
 Plachty
@@ -6493,6 +6556,7 @@ Synkova
 Masarova
 Masarova
 Merhautova
+Pod Hády
 Masarova
 Elplova
 Elplova
@@ -6549,6 +6613,7 @@ Poděbradova
 Kurská
 Krymská
 Bosonožská
+Zapletalova
 Zapletalova
 Čekanková
 Krásného
@@ -6612,7 +6677,6 @@ Firemní
 Firemní
 Bítešská
 Trnitá
-služební přechod
 Vídeňská
 Vídeňská
 Koma Trail 1
@@ -6625,6 +6689,7 @@ Vejrostova
 Vejrostova
 Vejrostova
 Vejrostova
+Valouškova
 Merhautova
 Merhautova
 Merhautova
@@ -6648,6 +6713,7 @@ Mlýnské nábřeží
 Kmochova
 Bílovická
 pumptrack
+Heyrovského
 Voroněžská
 Voroněžská
 Záhřebská
@@ -6687,6 +6753,7 @@ Záhřebská
 Makovského náměstí
 Záhumní
 Spojovací
+Na zeliskách
 Březová
 Hlavní
 Hlavní
@@ -6784,8 +6851,8 @@ Vrázova
 Fojtíkova
 Pilařova
 Bartolomějská
-Pod Kopcem
-Pod Kopcem
+Pod kopcem
+Pod kopcem
 Bešůvka
 Bešůvka
 Bešůvka
@@ -6813,6 +6880,7 @@ Kopanina
 Nádražní
 Šámalova
 Pramenná
+Gustava Broma
 Letiště Brno-Tuřany
 Koma Trail 2
 Střední
@@ -6893,11 +6961,9 @@ Plotní
 Dornych
 Plotní
 Plotní
-Plotní
 Prašnice
 Pod Holednou
 Londýnské náměstí
-Poříčí
 Poříčí
 Rybářská
 Dukelská třída
@@ -6963,13 +7029,15 @@ Lesnická
 Jarní
 Kalová
 Plotní
-Stezku bosou nohou
+Stezka bosou nohou
 Charbulova
 Charbulova
+Absolonova
 Úvoz
 Veselá
 Křivánky
 Ulrychova
+Šromova
 Vychodilova
 Vychodilova
 Benešova
@@ -6990,9 +7058,6 @@ Drobného
 Drobného
 Trnkova
 Trnkova
-Rybářská
-Poříčí
-Poříčí
 Rybářská
 Vlněna
 Vlněna
@@ -7035,3 +7100,285 @@ Merhautova
 Blažovická
 Šumavská
 Halasovo náměstí
+Žižkova
+Vychodilova
+Bochořákova
+Křížkovského
+Křížkovského
+Křížkovského
+Křížkovského
+Křížkovského
+Křížkovského
+Křížkovského
+Biskupská
+Peroutková
+Kalová
+Kalová
+Plotní
+Zvonařka
+Zvonařka
+Heršpická
+Kamenice
+Studentská
+Úzká
+Úzká
+Úzká
+Netroufalky
+Plotní
+Plotní
+Kamenice
+Rosická
+Kamenice
+Rosická
+Dornych
+Akademická
+Skandinávská
+Skandinávská
+Skandinávská
+Kamechy
+Říčanská
+Pálavské náměstí
+Pálavské náměstí
+Novolíšeňská
+Pálavské náměstí
+Pálavské náměstí
+Pálavské náměstí
+Pálavské náměstí
+Pálavské náměstí
+Koperníkova
+Koperníkova
+Koperníkova
+Ukrajinská
+Ukrajinská
+Trnkova
+Trnkova
+Dukelská
+Dornych
+Dornych
+Plotní
+Plotní
+Zvonařka
+Ostravská
+Dornych
+Zvonařka
+Klimešova
+Palackého třída
+Nádražní
+Srbská
+Purkyňova
+Podnikatelská
+Palackého třída
+Vinohradská
+Charbulova
+Benešova
+Benešova
+Černovická
+Bubeníčkova
+Svatoplukova
+Vltavská
+Osová
+Úzká
+Hviezdoslavova
+Hviezdoslavova
+Gajdošova
+Hády
+Jarní
+Zimní
+Zimní
+Životského
+Životského
+Životského
+Životského
+Staré náměstí
+Staré náměstí
+U jezu
+Mostecká
+Mostecká
+Benešova
+Nádražní
+Labská
+Křížová
+Medlánecká
+Údolní
+náměstí Míru
+Kounicova
+Nad Pisárkami
+Vaňkovo náměstí
+Štefánikova
+náměstí Míru
+Komenského náměstí
+Zimní
+Zimní
+Zimní
+Libušina třída
+Bohunická
+Hviezdoslavova
+Purkyňova
+Veslařská
+Veslařská
+Bohunická
+Ríšova
+Ríšova
+Ríšova
+Akademická
+Akademická
+Akademická
+Akademická
+Joštova
+Joštova
+Cimburkova
+Tuřanka
+U hřiště
+Ořechovská
+Červený kopec
+Červený kopec
+Červený kopec
+Červený kopec
+Červený kopec
+Osová
+ulice Kosmonautů
+ulice Kosmonautů
+Benešova
+Joštova
+Heršpická
+Heršpická
+Poříčí
+Poříčí
+Poříčí
+Poříčí
+Poříčí
+Poříčí
+Poříčí
+Poříčí
+Poříčí
+Poříčí
+Renneská třída
+Nové sady
+Poříčí
+Poříčí
+Renneská třída
+Nové sady
+Poříčí
+Poříčí
+Poříčí
+Nové sady
+Poříčí
+Renneská třída
+Poříčí
+Poříčí
+Poříčí
+Poříčí
+Poříčí
+Poříčí
+Renneská třída
+Poříčí
+Poříčí
+Křížová
+Poříčí
+Poříčí
+Poříčí
+Vídeňská
+Poříčí
+Poříčí
+Poříčí
+Poříčí
+Poříčí
+Poříčí
+Křížová
+Nové sady
+Poříčí
+Valašská
+Vídeňská
+Bauerova
+Hálkova
+Úvoz
+Úvoz
+Provazníkova
+Žabovřeská
+Žabovřeská
+Růžová
+Růžová
+Palackého náměstí
+Režná
+Žabovřeská
+Žabovřeská
+Žabovřeská
+Žabovřeská
+Rokytova
+Rokytova
+Lávka Cyklistická stezka Rebešovice-Bobrava
+Moravské náměstí
+Moravské náměstí
+Mírová
+Božetěchova
+Francouzská
+Líšeňská
+Lidická
+Uhelná
+Stezka bosých nohou
+Heyrovského
+Křižíkova
+Solniční
+Drobného
+Drobného
+Husova
+Husova
+Opuštěná
+Holzova
+Žabovřeská
+Žabovřeská
+Žabovřeská
+Žabovřeská
+Kumpoštova
+Trtílkova
+Zvěřinova
+Babická
+Dornych
+Cacovice
+Cacovice
+Vyškovská
+Hatě
+třída Generála Píky
+třída Generála Píky
+Melatín
+Podnikatelská
+Podnikatelská
+Podnikatelská
+Urbánkova
+Urbánkova
+Slovinská
+Velatická
+Klasika Trail
+Vinohradská
+Klášterského
+Zemědělská
+Jugoslávská
+Tomešova
+Tomešova
+Tomešova
+Tomešova
+Tomešova
+Kaštanová
+Žebětínská
+Žebětínská
+Myslivní
+Myslivní
+Výletní
+Kleštínek
+Kleštínek
+Trnkova
+Vejrostova
+Vejrostova
+Alešova
+Alešova
+Suchého
+Neklanova
+Neklanova
+Meluzínova
+Freeride
+Marianův trail
+Jump line Komárky
+Komárka
+Komárka
+Rozmr*ávka
+Marianův trail

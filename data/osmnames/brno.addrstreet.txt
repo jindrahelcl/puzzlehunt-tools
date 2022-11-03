@@ -2,6 +2,8 @@ Vzhledná
 Heršpická
 Kobližná
 Moravské náměstí
+Moravské náměstí
+Kraví
 Zelný trh
 Panská lícha
 Cihlářská
@@ -916,7 +918,6 @@ Holásecká
 Lieberzeitova
 Myslbekova
 Jánská
-Rosická
 Zemědělská
 Selská
 Hybešova
@@ -2700,7 +2701,6 @@ Bednářova
 Zájezdní
 Haasova
 Zákoutí
-Hlavní
 Vyšehradská
 Záhumenice
 Obřanská
@@ -3402,7 +3402,6 @@ Běly Pažoutové
 Jílkova
 Vrbí
 Holásecká
-Jundrovská
 Čejkova
 Matlachova
 Šmejkalova
@@ -3734,7 +3733,6 @@ Panská
 Zeleného
 Třískalova
 Slevačská
-Spolková
 Olší
 Slezákova
 Kristenova
@@ -4050,7 +4048,6 @@ Studená
 Charvatská
 Dukelská třída
 Kameníčkova
-Šámalova
 Vachova
 Hlavní
 Ruská
@@ -5738,7 +5735,6 @@ Bělohorská
 Přímá
 Hutařova
 Skorkovského
-Kollárova
 Zámecká
 Nálepkova
 Hlavní
@@ -7281,7 +7277,6 @@ Zeiberlichova
 Selská
 Žebětínská
 Zeleného
-Lužická
 Dvorecká
 Franzova
 Ondráčkova
@@ -7312,7 +7307,6 @@ Kamenná čtvrť
 Jamborova
 Fibichova
 Wintrova
-Slovákova
 Teyschlova
 Stromovka
 Mařákova
@@ -9733,7 +9727,6 @@ Měřičkova
 Kroftova
 Podhorní
 Dusíkova
-Kytnerova
 Šámalova
 Viniční
 Buková
@@ -10233,7 +10226,6 @@ Herbenova
 Štolcova
 Obecká
 Matlachova
-Plotní
 Leitnerova
 Brigádnická
 Pastrnkova
@@ -10593,7 +10585,6 @@ Jírovcova
 Matulkova
 Kořískova
 Potocká
-Žilkova
 Barvičova
 Táborská
 Starobrněnská
@@ -10654,7 +10645,6 @@ U dráhy
 Nálepkova
 Mendlovo náměstí
 Pechova
-Hlinky
 Komárovská
 Valchařská
 Kroftova
@@ -14078,7 +14068,6 @@ Záhumní
 Výstavní
 Ráj
 Puškinova
-Perunova
 Skorkovského
 Kamenná čtvrť
 Neklež
@@ -14352,7 +14341,6 @@ Heinrichova
 Mečířova
 Merhautova
 Božetěchova
-Porážka
 Tenorova
 Olomoucká
 Spáčilova
@@ -14416,7 +14404,6 @@ Jarní
 Kupkova
 Terezy Novákové
 Hrázní
-Žilkova
 Došlíkova
 Dykova
 Komínská
@@ -14968,7 +14955,6 @@ Klicperova
 Myslínova
 Došlíkova
 Kotlářská
-Jiránkova
 Slovinská
 Nohavicova
 Kamenná
@@ -15407,7 +15393,6 @@ Královopolská
 Horova
 Bohuslava Martinů
 Jílkova
-Kounicova
 Hlaváčova
 Čejkova
 Bílovická
@@ -16874,7 +16859,6 @@ Kudrnova
 Březová
 Kárníkova
 Farní
-Přístavní
 Tuřanská
 Chlubnova
 Obřanská
@@ -18671,7 +18655,6 @@ Olomoucká
 U Velké ceny
 Potácelova
 Alešova
-Žebětínek
 Kounicova
 Jírovcova
 Filipínského
@@ -18707,7 +18690,6 @@ Borky
 Filipova
 Barvičova
 Karolíny Světlé
-Kotlářská
 Viniční
 Hlavní
 Talichova
@@ -19133,7 +19115,6 @@ Pod kaštany
 Pekařská
 Kneslova
 Svatopluka Čecha
-Wainerovo náměstí
 Včelařská
 Výpustky
 Vinohrady
@@ -20713,7 +20694,6 @@ Jílkova
 Foustkova
 Chudobova
 Balbínova
-Křížová
 Laštůvkova
 Böhmova
 Mezníkova
@@ -21213,7 +21193,6 @@ Moravanská
 Vyhlídka
 Luční
 Škroupova
-Ivanovické náměstí
 K lázinkám
 Topolky
 Pražská
@@ -21270,7 +21249,6 @@ Kupkova
 Podešvova
 Minská
 Sedlákova
-Žebětínek
 Jánská
 Ořechovská
 Kuršova
@@ -22019,7 +21997,6 @@ Budínská
 Dlážděná
 Vránova
 Jižní náměstí
-Sirotkova
 Viniční
 Jírovcova
 Filipínského
@@ -22450,7 +22427,6 @@ Hroznová
 Palackého třída
 Bohunická
 Malíkova
-Pramenná
 Olomoucká
 Šmejkalova
 Buzkova
@@ -24568,7 +24544,6 @@ Optátova
 Bellova
 Výpadní
 Tábor
-Grmelova
 Kubelíkova
 Lány
 Poledníkova
@@ -24825,7 +24800,6 @@ Luční
 Palackého třída
 Ulrychova
 Hluboká
-Lozíbky
 Hrozňatova
 Ondráčkova
 Mučednická
@@ -25607,7 +25581,6 @@ Gargulákova
 Dykova
 Zahradní
 Viniční
-Sychrov
 Minská
 Vlhká
 Obůrky
@@ -34016,7 +33989,6 @@ Podstránská
 Mezníkova
 Ostopovická
 Jírovcova
-Zapletalova
 Jandáskova
 Kounicova
 Lipová
@@ -35377,7 +35349,6 @@ Francouzská
 Skoumalova
 Auerswaldova
 Fryčajova
-Jarní
 Kainarova
 Kudrnova
 Hrozňatova
@@ -35736,7 +35707,6 @@ Klácelova
 Vítězná
 Jana Uhra
 Vrbenského
-Fügnerova
 Chodská
 Ronovská
 Tišnovská
@@ -36346,7 +36316,6 @@ Ostopovická
 Stránského
 Urbánkova
 Kapucínské náměstí
-Vaníčkova
 Křivánky
 Rozhraní
 Stavební
@@ -38022,7 +37991,6 @@ Svatopluka Čecha
 Za klášterem
 Hradiska
 Botanická
-Haraštova
 Roháčkova
 Wintrova
 Hansmannova
@@ -38084,7 +38052,6 @@ Minská
 Dlouhé hony
 Bedřichovická
 Šmejkalova
-Sokolnická
 Kupkova
 Dominikánské náměstí
 Zemědělská
@@ -38406,7 +38373,6 @@ Růžová
 Čichnova
 Čápkova
 Rotalova
-Pražská
 Boettingrova
 Křehlíkova
 Bohunická
@@ -38834,7 +38800,6 @@ Terezy Novákové
 Třískalova
 Banskobystrická
 ulice Čoupkových
-Královopolská
 Lacinova
 Královopolská
 Tábor
@@ -39388,7 +39353,6 @@ Tihůvka
 Samoty
 Ukrajinská
 Štompil
-Křivánkovo náměstí
 Tilhonova
 Vinohrady
 Malinová
@@ -39663,7 +39627,6 @@ Pflegrova
 Dlážděná
 Preslova
 Zdislavina
-Šmahova
 Cupákova
 Svitavské nábřeží
 Janouškova
@@ -39956,7 +39919,6 @@ Adamovská
 Klarisky
 Výholec
 Kšírova
-Kounicova
 Rygle
 Mokrohorská
 Podlesí
@@ -40171,7 +40133,6 @@ Okružní
 Svitavská
 Žleb
 Vaníčkova
-Trnitá
 Kohoutova
 Lavičky
 Majdalenky
@@ -40356,7 +40317,6 @@ Tomáškova
 Černíkova
 Klarisky
 Blümlova
-Žleb
 Cejl
 Úhledná
 Borůvková
@@ -40487,7 +40447,9 @@ Bieblova
 Zdislavina
 V zahradách
 Jedovnická
+Masarova
 Panská lícha
+Křížkovského
 Pekařská
 Heršpická
 Mendlovo náměstí
@@ -40669,6 +40631,8 @@ Hviezdoslavova
 Hviezdoslavova
 Hviezdoslavova
 Pomezní
+Petrov
+Muzejní
 Jihomoravské náměstí
 Jihomoravské náměstí
 Křehlíkova
@@ -40912,6 +40876,8 @@ Trýbova
 Černopolní
 Jugoslávská
 Petra Křivky
+Petra Křivky
+Libušina třída
 Libušina třída
 Libušina třída
 Kurská
@@ -40926,7 +40892,7 @@ K Lesu
 K Lesu
 K Lesu
 K Lesu
-K Lesu
+K lesu
 K Lesu
 K Lesu
 U luhu
@@ -41189,6 +41155,7 @@ Chochola
 Chochola
 Veveří
 Pisárecká
+Pisárecká
 Místní
 Místní
 Místní
@@ -41196,6 +41163,7 @@ U luhu
 U luhu
 U luhu
 U luhu
+náměstí 28. dubna
 Koliště
 Borůvková
 Koliště
@@ -41265,6 +41233,7 @@ náměstí Svobody
 Černopolní
 Černopolní
 Hlinky
+Zelný
 Kobližná
 Hudcova
 Hudcova
@@ -41294,7 +41263,6 @@ Heršpická
 Františkánská
 Sokolova
 Slepá
-Dukelská
 Nováčkova
 Netroufalky
 Petra Křivky
@@ -41306,7 +41274,6 @@ Dukelská
 náměstí Republiky
 Dukelská
 Nováčkova
-Dukelská třída
 Dukelská třída
 Dukelská
 Dukelská třída
@@ -41326,7 +41293,6 @@ Mendlovo náměstí
 Solniční
 Holandská
 Ríšova
-Zemědělská
 Mendlovo náměstí
 Jírova
 Minská
@@ -41442,6 +41408,7 @@ Rekreační
 Šumavská
 Kounicova
 Metodějova
+Hrnčířská
 Zemědělská
 Zemědělská
 Zemědělská
@@ -41501,7 +41468,6 @@ Leskauerova
 Otiskova
 Leskauerova
 Leskauerova
-Slovákova
 Novobranská
 Bašty
 Poštovská
@@ -41852,9 +41818,8 @@ Rybkova
 Rybkova
 Rybkova
 Žižkova
-Poděbradova
+Palackého třída
 Starobrněnská
-Královopolská
 Krajní
 Krajní
 Nad kašnou
@@ -42049,6 +42014,7 @@ Purkyňova
 Purkyňova
 Petrov
 náměstí 28. dubna
+Ečerova
 Chudčická
 Křížová
 Palackého třída
@@ -42058,6 +42024,7 @@ Rybnická
 Kozí Horka
 Josefská
 Úvoz
+Ve Vaňkovce
 Koliště
 Divadelní
 Marešova
@@ -42084,6 +42051,7 @@ Sedláčkova
 Sedláčkova
 Železná
 Vejrostova
+Lidická
 Hrázní
 Kytnerova
 Hudcova
@@ -42150,7 +42118,6 @@ Nad dědinou
 Nad dědinou
 Nad dědinou
 Vavřinecká
-Viniční
 Škrochova
 Veveří
 Kounicova
@@ -42244,7 +42211,6 @@ Moravské náměstí
 Dvořákova
 náměstí Svobody
 Údolní
-Merhautova
 Majdalenky
 U Leskavy
 U Leskavy
@@ -42276,6 +42242,7 @@ Orlí
 Josefská
 Josefská
 Slámova 1150/6a
+Cornovova
 Pálavské náměstí
 Pálavské náměstí
 Pálavské náměstí
@@ -42418,7 +42385,6 @@ Věstonická
 Líšeňská
 Pálavské náměstí
 Cejl
-Mojmírovo náměstí
 Malátova
 Veveří
 Veveří
@@ -42531,7 +42497,6 @@ Pekařská
 Hvozdecká
 Říčanská
 náměstí Svobody
-Nové sady
 Bašty
 U Dalnice
 bratří Čapků
@@ -42632,7 +42597,6 @@ Tuřanka
 Řípská
 Řípská
 Tuřanka
-Hybešova
 Slatinka
 Tuřanka
 Tuřanka
@@ -42650,7 +42614,6 @@ Olomoucká
 Za kostelem
 Šmahova
 Leitnerova
-Netroufalky
 Nové sady
 Heršpická
 Pražákova
@@ -42838,13 +42801,11 @@ Kotlářská
 Veletržní
 Hlinky
 Rybnická
-Rybnická
 Veslařská
 Rosického náměstí
 Skácelova
 U Červeného mlýna
 Martinkova
-Provazníkova
 Provazníkova
 Provazníkova
 Provazníkova
@@ -42903,7 +42864,6 @@ Studentská
 Studentská
 Netroufalky
 Netroufalky
-Kamenice
 Vyhlídalova
 Lány
 Vyhlídalova
@@ -43862,7 +43822,6 @@ Prokofjevova
 Bašného
 Myslivní
 Žebětínská
-Svahová
 Hlaváčova
 Hlaváčova
 Mlýnské nábřeží
@@ -43973,7 +43932,6 @@ Růženec
 Weissova
 Melatín
 Kaštanová
-Saidova
 Jubilejní
 Kaštanová
 Kaštanová
@@ -44152,6 +44110,10 @@ Ondřeje Veselého
 Stránská
 Hliník
 Ondřeje Veselého
+Tilhonova
+Tilhonova
+Tilhonova
+Tilhonova
 Za kostelem
 Tuřanka
 Řípská
@@ -44302,6 +44264,9 @@ Krejčího
 Křehlíkova
 Kikrleho
 Stránská
+Mikulčická
+Ondřeje Veselého
+Mikulčická
 Ivanovické náměstí
 Turistická
 Kaštanová
@@ -44681,7 +44646,6 @@ Vídeňská
 Vídeňská
 Vídeňská
 Vídeňská
-Vídeňská
 Novomoravanská
 Moravanská
 Staré náměstí
@@ -44962,6 +44926,7 @@ Zámezí
 U Mostku
 Aloise Havla
 Blanenská
+Ořešínská
 Kociánka
 Kociánka
 Kociánka
@@ -45063,8 +45028,8 @@ Bažinka
 Bezinková
 Bezinková
 Bažinka
+Bezinková
 Dlouhé vrchy
-V Polích
 V Polích
 V Polích
 V Polích
@@ -45202,7 +45167,6 @@ Masná
 Skořepka
 Masná
 Škrobárenská
-Rosická
 Černovická
 Tuháčkova
 Kovářská
@@ -46141,33 +46105,6 @@ Lísky
 Lísky
 Lísky
 Lísky
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
-Podlesí
 Podlesí
 Podlesí
 Podlesí
@@ -47513,6 +47450,7 @@ Husova
 Husova
 Štefánikova
 Jugoslávská
+Nádražní
 Benešova
 Benešova
 Benešova
@@ -47539,13 +47477,11 @@ Vranovská
 Vranovská
 Vranovská
 Vranovská
-Vranovská
 Palackého třída
 Běhounská
 Jakubské náměstí
 Jakubské náměstí
 Jakubské náměstí
-Běhounská
 Běhounská
 Běhounská
 Běhounská
@@ -47675,7 +47611,6 @@ Slovákova
 Veveří
 Mezírka
 Kounicova
-Veveří
 Veveří
 Veveří
 Kotlářská
@@ -47863,8 +47798,6 @@ Lidická
 Lidická
 Lidická
 Lidická
-Lidická
-Lidická
 Jakubské náměstí
 Lidická
 Lidická
@@ -47970,7 +47903,6 @@ Kollárova
 Palackého třída
 Mojmírovo náměstí
 Mojmírovo náměstí
-Palackého třída
 Palackého třída
 Palackého třída
 Palackého třída
@@ -48097,7 +48029,6 @@ Moravské náměstí
 Krkoškova
 Krkoškova
 Krkoškova
-Krkoškova
 Optátova
 Vinohradská
 Havraní
@@ -48108,6 +48039,7 @@ V aleji
 U Dubu
 Myslivecká
 Dominikánské náměstí
+Nádražní
 Vídeňská
 Kopečná
 Tilhonova
@@ -48278,7 +48210,6 @@ Vachova
 Vachova
 Vachova
 Vachova
-Vachova
 Dvořákova
 Dvořákova
 Dvořákova
@@ -48349,6 +48280,7 @@ Cejl
 Cejl
 Cejl
 Jugoslávská
+Herčíkova
 Opletalova
 Zelný trh
 Orlí
@@ -48534,6 +48466,7 @@ Rolencova
 Kopretinová
 Heršpická
 Netroufalky
+Netroufalky
 Hlinky
 Šimáčkova
 Husitská
@@ -48561,7 +48494,6 @@ Drobného
 Pražákova
 Šoustalova
 U Dubu
-Ostrovačická
 Rašínova
 Rašínova
 Masarykova
@@ -48589,7 +48521,6 @@ Solniční
 Joštova
 Londýnské náměstí
 Křenová
-Holandská
 Renneská třída
 Vídeňská
 Běhounská
@@ -48627,7 +48558,6 @@ Bratislavská
 Bratislavská
 Hlinky
 Hlinky
-Křížkovského
 Hybešova
 Křídlovická
 Hybešova
@@ -48656,6 +48586,7 @@ Domažlická
 Tábor
 Tábor
 Tábor
+Tábor
 Minská
 Veveří
 Veveří
@@ -48676,7 +48607,6 @@ Kopečná
 Kopečná
 Anenská
 Anenská
-Kopečná
 Kopečná
 Kopečná
 Kopečná
@@ -48713,6 +48643,7 @@ Jugoslávská
 Mečová
 Skandinávská
 Trnitá
+Říčanská
 Vídeňská
 Vídeňská
 Selská
@@ -48730,6 +48661,7 @@ Grohova
 Šilingrovo náměstí
 Kurská
 Na Kopaninách
+Jihomoravské náměstí
 Rooseveltova
 Okružní
 Vlastimila Pecha
@@ -48778,7 +48710,6 @@ Karásek
 Trnkova
 U viaduktu
 Bayerova
-Merhautova
 Masarykova
 náměstí Svobody
 Vachova
@@ -48885,7 +48816,6 @@ Pražákova
 Chleborádova
 Jezerní
 Sokolova
-Sokolova
 Dufkovo nábřeží
 Záhumenice
 Přadlácká
@@ -48907,7 +48837,6 @@ Hlávkova
 Útěchovská
 Výzkumní
 Výzkumní
-Kobylín
 Merhautova
 Minoritská
 náměstí Svobody
@@ -49085,6 +49014,7 @@ Dvorecká
 Dvorecká
 Fryčajova
 Weissova
+Černovičky
 Osamělá
 Karáskovo náměstí
 Koliště
@@ -49107,7 +49037,6 @@ Bednaříkova
 Bednaříkova
 Křižíkova
 náměstí Míru
-Poštovská
 Olomoucká
 Údolní
 Bučkova
@@ -49146,7 +49075,6 @@ Moskalykova
 Vlasty Fialové
 Šimáčkova
 Bašty
-Hybešova
 Holandská
 U zoologické zahrady
 Kounicova
@@ -49284,6 +49212,7 @@ Hoštická
 U viaduktu
 Grohova
 Divadelní
+Maničky
 Vodova
 Kristenova
 Orlí
@@ -49370,7 +49299,6 @@ Pálavské náměstí
 Pálavské náměstí
 Pálavské náměstí
 Pálavské náměstí
-Valtická
 Bořetická
 Purkyňova
 Kuršova
@@ -49469,6 +49397,7 @@ Jižní svahy
 Pěkná
 Weissova
 Bratislavská
+Stefánikova
 Provazníkova
 Hybešova
 Merhautova
@@ -49556,7 +49485,6 @@ Holandská
 Holandská
 Holandská
 Holandská
-Holandská
 Renneská třída
 Jílkova
 Gajdošova
@@ -49625,12 +49553,9 @@ Milady Horákové
 Křenová
 Jírova
 Bažinka
-Podlesí
 Trtílkova
 Trtílkova
 Cacovická
-Podlesí
-Svratecká
 Líšeňská
 Líšeňská
 K Jelenici
@@ -49663,18 +49588,13 @@ Líšeňská
 Líšeňská
 Kumpoštova
 Podlesí
-Podlesí
-Podlesí
 Zapletalova
 Podlesí
-Podlesí
 Dlouhé vrchy
-Podlesí
 Trtílkova
 Zábrdovická
 Trtílkova
 Zábrdovická
-Podlesí
 Jarmily Kurandové
 Trtílkova
 Trtílkova
@@ -49820,7 +49740,6 @@ Bartolomějská
 Pod Červenou skálou
 Kotoulky
 Kulkova
-Dukelská třída
 Dukelská třída
 Hálkova
 Dukelská třída
@@ -49981,6 +49900,7 @@ Lelkova
 Běhounská
 Kobližná
 Životského
+Zelný trh
 Olomoucká
 náměstí Svobody
 náměstí Svobody
@@ -50023,6 +49943,7 @@ Líšeňská
 Pramenná
 Plotní
 Ječmínkova
+Nad Přehradou
 Palackého třída
 Palackého třída
 Malátova
@@ -50154,7 +50075,6 @@ Benešova
 Škrobárenská
 Škrobárenská
 Škrobárenská
-Škrobárenská
 Špitálka
 Křenová
 Potocká
@@ -50202,7 +50122,6 @@ Kulkova
 Venhudova
 Nezvalova
 Nezvalova
-Škrobárenská
 Okružní
 Antonínská
 Antonínská
@@ -50447,6 +50366,7 @@ Včelařská
 Jemelkova
 Lomená
 Provazníkova
+Hradecká
 Fryčajova
 Božetěchova
 Ořechovská
@@ -50671,6 +50591,7 @@ Srbská
 Josefská
 Česká
 Veveří
+Muzejní
 Vranovská
 Minská
 Hybešova
@@ -50692,10 +50613,10 @@ Piňosova
 Menšíkova
 Sokolská
 Moravské náměstí
-Žarošická
 náměstí Svobody
 Solniční
 Benešova
+Makovského náměstí
 Makovského náměstí
 Makovského náměstí
 Pellicova
@@ -50804,6 +50725,7 @@ Panská
 Bělohorská
 Táborská
 Táborská
+Bayerova
 Gajdošova
 Moravanské lány
 Žilkova
@@ -50873,10 +50795,10 @@ Provazníkova
 Jugoslávská
 Svitavská
 Smetanova
-Londýnské náměstí
 Cimburkova
 Pražská
 Jezuitská
+Jaselská
 Moskalykova
 Královopolská
 Lidická
@@ -51011,6 +50933,7 @@ Hradiska
 Malostranská
 Šikova
 Trnkova
+Jakubské náměstí
 Kobližná
 Lazaretní
 Gargulákova
@@ -51152,7 +51075,6 @@ Vančurova
 Zemanova
 Pod kopcem
 Přístavní
-Lazaretní
 Vltavská
 Bratří Ocelků
 Polní
@@ -51353,6 +51275,7 @@ Purkyňova
 Purkyňova
 Kigginsova
 Bohuňova
+Sportovní
 Přemyslovo náměstí
 Sokolnická
 Palackého náměstí
@@ -51389,6 +51312,7 @@ Bubeníčkova
 Bubeníčkova
 Modřická
 Kociánka
+Ruský vrch
 Březová
 Havránkova
 Trnkova
@@ -51402,3 +51326,217 @@ Jedovnická
 Útěchovská
 Výstaviště
 Firkušného
+Křenová
+Jiráskova
+Duhová
+Novomoravanská
+Vyhlídalova
+Vyhlídalova
+Kleštínek
+Kleštínek
+Scheinerova
+Purkyňova
+Purkyňova
+Kytnerova
+K dálnici
+Jerlínová
+Vídeňská
+Wainerovo náměstí
+Kamenačky
+Banskobystrická
+Vránova
+Kolaříkova
+Kolaříkova
+Kolaříkova
+Kolaříkova
+Moravské náměstí
+Mírová
+Havránkova
+Wintrova
+Františkánská
+Sportovní
+Střední
+Střední
+Sportovní
+Lány
+Achtelky
+Výpadní
+Bedřichovická
+Šárka
+Dornych
+Novomoravanská
+Táborská
+Chaloupky
+Londýnské náměstí
+Ečerova
+Ečerova
+Lidická
+Jeřabinová
+Moravanská
+Mokrohorská
+Kučerova
+Ráječek
+Hasičská
+Chvalovka
+Dornych
+Pod Mniší horou
+Žebětínek
+U vodárny
+Heršpická
+Mozolky
+Hvozdecká
+Veslařská
+Hraničky
+Bedřichovická
+Vlnitá
+Osamělá
+V rejích
+Vlnitá
+Vlnitá
+Firkušného
+Černovičky
+Fuchsova
+Bedřichovická
+Vlnitá
+Bedřichovická
+Černovičky
+Vlnitá
+Vlnitá
+Pod Mniší horou
+Vlnitá
+Vlnitá
+Heršpická
+Vlnitá
+Miry Figarové
+Na klínku
+Vlnitá
+Tuřanka
+Vlnitá
+Vlnitá
+Stránská
+Bulínova
+Vlnitá
+Vlnitá
+Vídeňská
+Vlnitá
+Vlnitá
+Vlnitá
+Vlnitá
+Bedřichovická
+Kohoutovická
+Černovičky
+Vlnitá
+Vlnitá
+Vlnitá
+Černovičky
+Vlnitá
+Táborská
+Bedřichovická
+Za vodojemem
+Černovičky
+Lažanská
+Vlnitá
+Bedřichovická
+Tuřanka
+Dusíkova
+Vlnitá
+Vlnitá
+Tuřanka
+Šaumannova
+Vlnitá
+Vlnitá
+Tuřanka
+Štouračova
+Černovičky
+Vlnitá
+Placzkova
+Placzkova
+Fuchsova
+Fuchsova
+Placzkova
+Placzkova
+Vlnitá
+Trnitá
+Vlnitá
+Vlnitá
+Na klínku
+Vlnitá
+Trnitá
+Vlnitá
+Černovičky
+Vlnitá
+Vlnitá
+Vlnitá
+Vlnitá
+Firkušného
+Bednářova
+Alešova
+Podkomorská
+Vlnitá
+Tuřanka
+Vlnitá
+Tuřanka
+Žlutý kopec
+Cejl
+Černovické nábřeží
+Purkyňova
+Marie Steyskalové
+Hněvkovského
+Hněvkovského
+Jakubské náměstí
+Svatopetrská
+Holzova
+Tilhonova
+Slatinka
+Zaječí hora
+Mikulčická
+Tilhonova
+Tilhonova
+Veslařská
+Vaníčkova
+Černovičky
+Tilhonova
+Bedřichovická
+Vlasty Fialové
+Černovičky
+Hlávkova
+Kyselkova
+Miry Figarové
+Černovičky
+Mikulčická
+Firkušného
+Mikulčická
+Hviezdoslavova
+Tilhonova
+Kociánka
+Medkova
+Tilhonova
+Žižkova
+Listnatá
+Kopečná
+Lidická
+Jakubské náměstí
+Šumavská
+Makovského náměstí
+Vychodilova
+Nad Přehradou
+Branka
+Zámezí
+Kleštínek
+Londýnské náměstí
+Žebětínek
+Remízky
+Kleštínek
+Kleštínek
+Perunova
+Firkušného
+Křivánkovo náměstí
+Kleštínek
+Matlachova
+Zborovská
+Otevřená
+Kleštínek
+Firkušného
+Remízky
+Meduňková
+Dvorecká

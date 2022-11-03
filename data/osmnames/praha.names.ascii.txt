@@ -1,12 +1,8 @@
-1. nadvori
 17. listopadu
-2. nadvori
 2.5
 28. pluku
 28. rijna
-3. nadvori
 351/25
-4. nadvori
 5. kvetna
 5. maje
 7. kvetna
@@ -96,7 +92,6 @@ Aubrechtove
 Augustinova
 Augustova
 Austova
-Autobusove nadrazi Depo Hostivar
 Aviaticka
 Axmanova
 Azalkova
@@ -235,7 +230,6 @@ Bestakova
 Betanska
 Betlemska
 Betlemske namesti
-Bez Jmena
 Bezdekovska
 Bezdrevska
 Bezecka
@@ -394,6 +388,7 @@ Brehmova
 Brehova
 Breitcetlova
 Breitfeldova
+Brenova
 Bretislavova
 Brevnovska
 Brevnovska radiala
@@ -479,6 +474,7 @@ Buliznikova
 Bulovka
 Burdova
 Buresova
+Buriankova
 Burianova
 Bustehradska
 Butovicka
@@ -677,7 +673,6 @@ Chyjicka
 Chynicka
 Chynovska
 Chynska
-Cibulka
 Cibuzska
 Cidlinska
 Cigankova
@@ -730,13 +725,13 @@ Cvicebna
 Cvikovska
 Cvrckova
 Cyklostezka Dolnokreslicka
-Cyklostezka Smetanka
 Cyklostezka Vestec-Hrncire
 Cyklostezka Vestec-Kunratice
 Cyprichova
 Dablicka
 Dacicka
 Dacickeho
+Dagmar Buresove
 Daimlerova
 Dalejska
 Dalesicka
@@ -840,6 +835,7 @@ Do Vrchu
 Do Vrsku
 Do Zahradek I
 Do Zahradek II
+Do borovin
 Do ctvrti
 Do dubin
 Do kopecka
@@ -877,7 +873,6 @@ Dobrovskeho
 Dobrusska
 Dobsicka
 Dobsinska
-Docasny podchod
 Dohalicka
 Doksanska
 Doktora Zikmunda Wintra
@@ -911,6 +906,7 @@ Domkarska
 Domkovska
 Domousnicka
 Donatellova
+Donatorska cesta
 Donatova
 Doninska
 Donovalska
@@ -919,6 +915,7 @@ Dopplerova
 Dopravaku
 Dopravni
 Dostalova
+Dostalove
 Dostihova
 Dostojevskeho
 Doubecka
@@ -1014,7 +1011,6 @@ Dvorakovo nabrezi
 Dvorecka
 Dvorecke namesti
 Dvoreckeho
-Dvorecky most
 Dvoristska
 Dvorni
 Dvorska
@@ -1078,6 +1074,7 @@ Federova
 Fejfarova
 Felberova
 Fenyklova
+Ferbasove
 Ferrariho
 Fertekova
 Fetrovska
@@ -1260,6 +1257,7 @@ Heckova
 Heineho
 Heinemannova
 Heinikarna
+Hejlovych
 Hejneho
 Hejnicka
 Hejplikova
@@ -1301,6 +1299,7 @@ Hildy Cihakove
 Hillebrantova
 Hilmarova
 Himrova
+Hindlova
 Hirslova
 Hladkov
 Hladova
@@ -1315,6 +1314,7 @@ Hlavni
 Hlavova
 Hlavsova
 Hledikova
+Hlinirska
 Hlinska
 Hlivicka
 Hlivova
@@ -1346,6 +1346,7 @@ Hokesovo namesti
 HolKa
 Holandska
 Holatova
+Holbova
 Holcovicka
 Holeckova
 Holekova
@@ -1499,6 +1500,7 @@ Husovo namesti
 Hutnicka
 Hutska
 Hvezdarska
+Hvezdna cesta
 Hvezdonicka
 Hvezdova
 Hviezdoslavova
@@ -1582,6 +1584,7 @@ Janska
 Janskeho
 Jansky vrsek
 Jansova
+Jansove
 Jantarova
 Janyrova
 Jaresova
@@ -1711,6 +1714,7 @@ Jiriho Cerveneho
 Jiriho Jandy
 Jiriho Masina
 Jiriho ze Vtelna
+Jirikovska
 Jirinkova
 Jiriny Stepnickove
 Jirkovska
@@ -1752,6 +1756,7 @@ Jizni XVII
 Jizni namesti
 Jizni predpoli Pisecke brany
 Jizni spojka
+Jizni svah
 Johanitska
 Jordana Jovkova
 Jordanska
@@ -1767,7 +1772,6 @@ Josefska
 Juarezova
 Jugoslavska
 Jugoslavskych partyzanu
-Juliska
 Junacka
 Jungmannova
 Jungmannovo nam.
@@ -2271,6 +2275,7 @@ Kakosova
 Kakostova
 Kalabisova
 Kalasova
+Kaliberove
 Kalikova
 Kalinak
 Kalinova
@@ -2339,7 +2344,6 @@ Karpatska
 KartPlanet
 Kartounaru
 Kartouzska
-Kartplanet
 Kasalicka
 Kaseho
 Kaskova
@@ -2434,6 +2438,7 @@ Ke Smejkalu
 Ke Smichovu
 Ke Smrcine
 Ke Spalence
+Ke Splavku
 Ke Splavu
 Ke Spofe
 Ke Sporilovu
@@ -2443,6 +2448,7 @@ Ke Stadionu
 Ke Stanici
 Ke Staremu hristi
 Ke Staremu lomu
+Ke Statku
 Ke Stepcum
 Ke Stinkovskemu rybniku
 Ke Stirce
@@ -2458,6 +2464,7 @@ Ke Stvanici
 Ke Svatemu Izidoru
 Ke Svestkovce
 Ke Trem mostum
+Ke Tvrzi
 Ke Xaverovu
 Ke Zbraslavi
 Ke Zbrojnici
@@ -2842,6 +2849,7 @@ Krivanska
 Krivatcova
 Krivenicka
 Krivoklatska
+Krizanska
 Krizeneckeho namesti
 Krizikova
 Krizkovskeho
@@ -3068,6 +3076,7 @@ Libedicka
 Libenska
 Libensky most
 Libensky ostrov
+Libensky zamek
 Liberecka
 Liberijska
 Liberska
@@ -3206,6 +3215,7 @@ Lucni
 Ludmilina
 Ludvikova
 Luhovska
+Luka
 Lukasova
 Lukavecka
 Lukavskeho
@@ -4002,6 +4012,7 @@ Na Sejdru
 Na Sekyrce
 Na Selskem
 Na Seniku
+Na Silbochu
 Na Skalach
 Na Skalce
 Na Skale
@@ -4261,6 +4272,7 @@ Na mocale
 Na mokline
 Na mokrine
 Na mustku
+Na myte
 Na naspu
 Na navrati
 Na navrsi
@@ -4426,7 +4438,6 @@ Na zkratce
 Na zlate
 Na znelci
 Naardenska
-Nabrezi Ludvika Svobody
 Nabrezni
 Naceradecka
 Nacesicka
@@ -4771,6 +4782,7 @@ Nad vodovodem
 Nad vojenskym hrbitovem
 Nad vrbami
 Nad vrstvami
+Nad vsi
 Nad vypusti
 Nad zahradnictvim
 Nad zaloznou
@@ -4796,7 +4808,6 @@ Namesti Dr. Vaclava Holeho
 Namesti Osvoboditelu
 Namesti Republiky
 Namesti Seberov
-Namesti Vseobecneho Klidu
 Naplavni
 Naprstkova
 Narcisova
@@ -4913,6 +4924,7 @@ Novakova
 Novakovo namesti
 Novakovych
 Novarska
+Nove Dvory
 Nove Mesto
 Nove Mlyny
 Nove Petrovice
@@ -5018,6 +5030,7 @@ Okrouhlikova
 Okrova
 Okruhova
 Okruzni
+Oktabcovych
 Olbrachtova
 Olbramovicka
 Oldrichova
@@ -5194,6 +5207,7 @@ Peceradska
 Pechackova
 Pecharova
 Pechlatova
+Pechmanovych
 Peckova
 Pejevove
 Pekarenska
@@ -5223,6 +5237,7 @@ Perucka
 Perunova
 Pesakova
 Pesi
+Pesikova
 Pesinova
 Peskova
 Peslova
@@ -5725,6 +5740,7 @@ Podkrkonosskych tkalcu
 Podle Kacerova
 Podle Lomu
 Podle Nahonu
+Podle Trati
 Podle lomu
 Podle nahonu
 Podle sadu
@@ -5772,6 +5788,7 @@ Polesovicka
 Policanska
 Polikenska
 Poliklinika Budejovicka
+Poliklinika Vysocany
 Politickych veznu
 Polivkova
 Poljanovova
@@ -5907,12 +5924,13 @@ Prichovicka
 Pricka
 Pricna
 Pridolska
+Prihodova
 Prikra
 Prilepska
 Prima
 Primatorska
 Primeticka
-Primske namesti
+Princova
 Pripotocni
 Priprezni
 Prirodni
@@ -6039,6 +6057,7 @@ Rakousova
 Rakovnicka
 Rakovskeho
 Ramanova
+Ramonova
 Ramova
 Randova
 Ranska
@@ -6090,7 +6109,6 @@ Revellova
 Revnicka
 Revoluce
 Revolucni
-Revolurni
 Revova
 Rezacovo namesti
 Rezedova
@@ -6205,10 +6223,12 @@ Ruzeninova
 Ruzeninska
 Ruzickova rokle
 Ruzinovska
+Ruzodolska
 Ruzova
 Ruzynska
 Ruzynske schody
 Ruzynsky hrbitov
+Ruzynsky velkoobchod
 Rybalkova
 Rybarska
 Rybizova
@@ -6249,7 +6269,6 @@ Sakvicka
 Salabova
 Salacova
 Saldova
-Saldove
 Salmovska
 Salounova
 Salounovy schody
@@ -6294,6 +6313,7 @@ Schodova
 Schoellerova
 Schofflerova
 Schollova
+Schorova
 Schranilova
 Schulhoffova
 Schwaigerova
@@ -6417,6 +6437,7 @@ Sitkova
 Sitteho
 Siwiecova
 Skabova
+Skakunuv most
 Skalaku
 Skalecka
 Skalnata
@@ -6478,6 +6499,7 @@ Slavonicka
 Slavy Hornika
 Slechtitelska
 Slejnicka
+Slemrove
 Slepa I
 Slepa II
 Slevacska
@@ -6526,6 +6548,7 @@ Smrkova
 Smrzova
 Smrzovska
 Smrzovych
+Smycka Vozovna Kobylisy
 Snemovni
 Snezenkova
 Snezna
@@ -6715,8 +6738,10 @@ Stitova
 Stivinove
 Stochlova
 Stochovska
+Stockeho
 Stockholmska
 Stodulecka
+Stodulky - Bavorska
 Stojicka
 Stolbova
 Stolcova
@@ -6766,7 +6791,6 @@ Strnady
 Strojicka
 Strojirenska
 Strojnicka
-Stromovka
 Stromy
 Stropnicka
 Strossmayerovo namesti
@@ -6937,6 +6961,7 @@ Thunovska
 Thurnova
 Tibetska
 Ticha
+Tiche
 Ticheho
 Tichnova
 Tichonicka
@@ -7252,9 +7277,11 @@ U Letohradku kralovny Anny
 U Libenskeho mostu
 U Libenskeho pivovaru
 U Libenskeho zamku
+U Libosadu
 U Libusinych lazni
 U Lidoveho domu
 U Lihni
+U Lip
 U Lipove aleje
 U Lipy
 U Lisu
@@ -7377,6 +7404,7 @@ U Pujcovny
 U Pumpy
 U Radialy
 U Radnice
+U Radosti
 U Rajske zahrady
 U Rakovky
 U Rempa
@@ -7454,6 +7482,7 @@ U Stareho hriste
 U Stareho nadrazi
 U Stareho splavu
 U Stareho stadionu
+U Stareho vystaviste
 U Stareho zidovskeho hrbitova
 U Statku
 U Statni drahy
@@ -8045,6 +8074,7 @@ V Kolkovne
 V Korytech
 V Kotcich
 V Koute
+V Koutku
 V Kratinach
 V Krepelkach
 V Krizkach
@@ -8552,6 +8582,7 @@ Vinarska
 Vindysova
 Vinicna
 Vinicni
+Vinna
 Vinohradska
 Vinohradska vodarna
 Vinohrady
@@ -8565,6 +8596,7 @@ Visnova
 Visnovka
 Visnovka;U jezirka
 Vita Nejedleho
+Vitackova
 Vitejovska
 Vitezna
 Vitezne namesti
@@ -8724,7 +8756,6 @@ Vyhledova
 Vyhledske namesti
 Vyhlidka
 Vyhlidkova
-Vyhybna Hrabovka
 Vyjezdni
 Vyjezdova
 Vykanska
@@ -9116,7 +9147,6 @@ Zehunska
 Zehusicka
 Zelena
 Zelena louka
-Zelene domky
 Zelenecska
 Zelenkova
 Zelenky-Hajskeho
@@ -9150,6 +9180,7 @@ Zeyerova alej
 Zezulak
 Zherska
 Zhorelecka
+Zibrtova
 Zichlinska
 Zidlickeho
 Zikova
@@ -9245,7 +9276,6 @@ most Barikadniku
 most Legii
 most Sue Ryder
 most Velka Hrabovka
-most Vitalije Skakuna
 most Zavodu miru
 most na Cisarskou louku
 most na Veslarsky ostrov
@@ -9351,6 +9381,7 @@ podel Rokytky
 promenada Anny Politkovske
 promenada Pawla Adamowicze
 pruzkumna stola tunelu Radlice
+rybna
 sady Bratri Capku
 sala terrena
 skolni cesta

@@ -2,6 +2,7 @@ Cesta na Senec
 Sklabinská
 Račianska
 Svornosti
+Rustaveliho
 Lamačská cesta
 Drieňová
 Laurinská
@@ -27,7 +28,6 @@ Heyrovského
 Furdekova
 Bosákova
 Haanova
-M. Schneidra Trnavského
 Pankúchova
 Pankúchova
 Nobelovo námestie
@@ -36,7 +36,6 @@ Nobelovo námestie
 Harmincova
 Rusovská cesta
 Hálova
-Segnerova
 Segnerova
 Beňadická
 Beňadická
@@ -60,6 +59,7 @@ Dulovo námestie
 Hurbanovo námestie
 Uršulínska
 Lamačská cesta
+Záhradnícka
 Karpatská
 Vazovova
 Račianske mýto
@@ -75,7 +75,9 @@ Priekopy
 Rytierska
 Tematínska
 Karloveská
+M. Schneidra Trnavského
 Bieloruská
+Miletičova
 Prievozská
 Mlynské nivy
 Rusovská cesta
@@ -107,14 +109,12 @@ Krížna
 Krížna
 Obchodná
 Obchodná
-Obchodná
 Michalská
 Michalská
 Michalská
 Sedlárska
 Laurinská
 Židovská
-Laurinská
 Kamenné námestie
 Záhradnícka
 Gorkého
@@ -135,8 +135,6 @@ Zámocká
 Zámocká
 Saratovská
 Plynárenská
-Mozartova
-Kvačalova
 Mudroňova
 Drotárska cesta
 Biela
@@ -336,7 +334,6 @@ Koncová
 Hospodárska
 Pri starom letisku
 Roľnícka
-Pri mlyne
 Šuty
 Pri struhe
 Tibenského
@@ -368,7 +365,6 @@ Roľnícka
 Roľnícka
 Roľnícka
 Roľnícka
-Uhliská
 Roľnícka
 Tomanova
 Šuty
@@ -376,7 +372,6 @@ Roľnícka
 Osloboditeľská
 Šaldova
 Pračanská
-Uhliská
 Roľnícka
 Nad jazierkom
 Roľnícka
@@ -384,12 +379,10 @@ Pod Válkom
 Roľnícka
 Pri starom letisku
 Roľnícka
-Uhliská
 Koncová
 Koncová
 Roľnícka
 Tomanova
-Uhliská
 Jačmenná
 Uhliská
 Buzalkova
@@ -448,7 +441,6 @@ Roľnícka
 Koncová
 Pri starom letisku
 Roľnícka
-Pri mlyne
 Rybničná
 Roľnícka
 Roľnícka
@@ -497,7 +489,6 @@ Dorastenecká
 Tibenského
 Tomanova
 Šinkovské
-Uhliská
 Roľnícka
 Koncová
 Koncová
@@ -566,7 +557,6 @@ Baničova
 Čierny chodník
 Pračanská
 Tomanova
-Uhliská
 Dorastenecká
 Koncová
 Roľnícka
@@ -576,7 +566,6 @@ Pri starom letisku
 Roľnícka
 Tomanova
 Zbrody
-Pri mlyne
 Šuty
 Zátureckého
 Roľnícka
@@ -586,7 +575,6 @@ Roľnícka
 Rybničná
 Koncová
 Pri struhe
-Pri mlyne
 Dorastenecká
 Roľnícka
 Čierny chodník
@@ -638,7 +626,6 @@ Jačmenná
 Pračanská
 Pračanská
 Rybničná
-Pri mlyne
 Pračanská
 Roľnícka
 Veľké Štepnice
@@ -667,7 +654,6 @@ Dorastenecká
 Koncová
 Príjazdná
 Zátureckého
-Pri mlyne
 Zátureckého
 Roľnícka
 Tomanova
@@ -676,7 +662,6 @@ Tomanova
 Roľnícka
 Roľnícka
 Čierny chodník
-Uhliská
 Príjazdná
 Čierny chodník
 Zátureckého
@@ -706,7 +691,6 @@ Roľnícka
 Pri starom letisku
 Koncová
 Roľnícka
-Pri mlyne
 Roľnícka
 Šuty
 Roľnícka
@@ -715,7 +699,6 @@ Roľnícka
 Roľnícka
 Za Farou
 Zátureckého
-Pri mlyne
 Zbrody
 Roľnícka
 Roľnícka
@@ -735,7 +718,6 @@ Roľnícka
 Roľnícka
 Roľnícka
 Tomanova
-Uhliská
 Roľnícka
 Koniarkova
 Pri struhe
@@ -781,7 +763,6 @@ Roľnícka
 Koncová
 Rybničná
 Zátureckého
-Pri mlyne
 Roľnícka
 Roľnícka
 Tomanova
@@ -823,7 +804,6 @@ Tomanova
 Roľnícka
 Pri struhe
 Rybničná
-Pri mlyne
 Kratiny
 Šuty
 Príjazdná
@@ -849,7 +829,6 @@ Tibenského
 Čierny chodník
 Roľnícka
 Roľnícka
-Uhliská
 Nad jazierkom
 Zbrody
 Roľnícka
@@ -886,7 +865,6 @@ Tibenského
 Čierny chodník
 Roľnícka
 Roľnícka
-Pri mlyne
 Roľnícka
 Pri struhe
 Tomanova
@@ -915,7 +893,6 @@ Pri starom letisku
 Dorastenecká
 Šuty
 Roľnícka
-Uhliská
 Nad jazierkom
 Pri struhe
 Roľnícka
@@ -924,13 +901,11 @@ Tomanova
 Roľnícka
 Roľnícka
 Tibenského
-Uhliská
 Roľnícka
 Za Farou
 Pod Válkom
 Roľnícka
 Rybničná
-Uhliská
 Roľnícka
 Tibenského
 Roľnícka
@@ -954,16 +929,13 @@ Roľnícka
 Zátureckého
 Čierny chodník
 Roľnícka
-Pri mlyne
 Šuty
 Roľnícka
 Nad jazierkom
 Koncová
-Pri mlyne
 Roľnícka
 Osloboditeľská
 Roľnícka
-Príjazdná
 Roľnícka
 Roľnícka
 Tomanova
@@ -1037,7 +1009,6 @@ Koncová
 Roľnícka
 Tomanova
 Rybničná
-Pri mlyne
 Tomanova
 Roľnícka
 Pri struhe
@@ -1046,7 +1017,6 @@ Za Farou
 Tomanova
 Osloboditeľská
 Tomanova
-Pri mlyne
 Koncová
 Roľnícka
 Za Farou
@@ -1100,7 +1070,6 @@ Roľnícka
 Zbrody
 Pri struhe
 Pri starom letisku
-Pri mlyne
 Baničova
 Tomanova
 Tomanova
@@ -1112,7 +1081,6 @@ Rybničná
 Čierny chodník
 Zátureckého
 Čierny chodník
-Pri mlyne
 Kataríny Brúderovej
 Dorastenecká
 Pri starom letisku
@@ -1127,7 +1095,6 @@ Roľnícka
 Nad jazierkom
 Šuty
 Kataríny Brúderovej
-Uhliská
 Buzalkova
 Roľnícka
 Dorastenecká
@@ -1182,22 +1149,18 @@ Zátureckého
 Čierny chodník
 Dorastenecká
 Osloboditeľská
-Uhliská
-Pri mlyne
 Buzalkova
 Dorastenecká
 Rybničná
 Zbrody
 Pračanská
 Hospodárska
-Pri mlyne
 Koncová
 Tomanova
 Za Farou
 Pračanská
 Dorastenecká
 Príjazdná
-Pri mlyne
 Zátureckého
 Dorastenecká
 Zbrody
@@ -1209,7 +1172,6 @@ Roľnícka
 Šuty
 Roľnícka
 Tomanova
-Uhliská
 Dorastenecká
 Roľnícka
 Roľnícka
@@ -1217,7 +1179,6 @@ Koniarkova
 Tomanova
 Čierny chodník
 Zbrody
-Pri mlyne
 Dorastenecká
 Pračanská
 Roľnícka
@@ -1243,7 +1204,6 @@ Roľnícka
 Dorastenecká
 Baničova
 Roľnícka
-Uhliská
 Roľnícka
 Tomanova
 Roľnícka
@@ -1253,7 +1213,6 @@ Pri struhe
 Tomanova
 Pri struhe
 Šuty
-Uhliská
 Rybničná
 Zbrody
 Roľnícka
@@ -1261,7 +1220,6 @@ Baničova
 Pri starom letisku
 Dorastenecká
 Rybničná
-Pri mlyne
 Pračanská
 Roľnícka
 Príjazdná
@@ -1274,8 +1232,6 @@ Roľnícka
 Roľnícka
 Roľnícka
 Roľnícka
-Pri mlyne
-Uhliská
 Nad jazierkom
 Roľnícka
 Dorastenecká
@@ -1289,9 +1245,9 @@ Račianske mýto
 Račianske mýto
 Račianske mýto
 Staré záhrady
+Námestie hraničiarov
 Prešovská
 Tokajícka
-Vysoká
 Harmincova
 Za kasárňou
 Lovinského
@@ -1351,6 +1307,7 @@ Bajkalská
 Bajkalská
 Bajkalská
 Majerníkova
+Hollého
 Povraznícka
 Povraznícka
 Lackova
@@ -1364,7 +1321,6 @@ Borská
 Cukrová
 Karloveská
 Karloveská
-Dvořákovo nábrežie
 Kresánkova
 Gorkého
 Tomanova
@@ -1377,7 +1333,6 @@ Dorastenecká
 Kataríny Brúderovej
 Zátureckého
 Pračanská
-Pri mlyne
 Príjazdná
 Primaciálne námestie
 Budyšínska
@@ -1468,6 +1423,7 @@ Hany Meličkovej
 Hany Meličkovej
 Hany Meličkovej
 Stolárska
+Kubačova
 Mudrochova
 Pri Šajbách
 Molecova
@@ -1617,7 +1573,7 @@ Dúbravská cesta
 Radlinského
 Wilsonova
 Trenčianska
-Palisády
+Nevädzová
 Šancová
 Uhrova
 Uhrova
@@ -1634,50 +1590,7 @@ Vresová
 Stromová
 Stromová
 Klenová
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
-Vlárska
-Olivová
-Olivová
-Vlárska
-Olivová
-Vlárska
-Olivová
-Vlárska
-Olivová
-Olivová
-Vlárska
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
-Olivová
 Klenová
-Olivová
-Olivová
-Olivová
 Klenová
 Devínska cesta
 Röntgenova
@@ -1769,7 +1682,6 @@ Ružinovská
 Košická
 Vazovova
 Sedmokrásková
-Vazovova
 Gercenova
 Lenardova
 Lenardova
@@ -1784,7 +1696,6 @@ Pasienková
 Pasienková
 Pasienková
 Pasienková
-Tilgnerova
 Pivoňková
 Ďatelinová
 Miletičova
@@ -1849,23 +1760,12 @@ Hany Meličkovej
 Hany Meličkovej
 Hany Meličkovej
 Hany Meličkovej
-Mikulášska
 Stará Vajnorská
-Mikulášska
-Mikulášska
 Vajnorská
-Mikulášska
-Mikulášska
-Mikulášska
-Mikulášska
 Židovská
 Mikulášska
 Mikulášska
-Mikulášska
 Mýtna
-Mikulášska
-Mikulášska
-Mikulášska
 Stará Vajnorská
 Sedmokrásková
 Astrová
@@ -1876,7 +1776,6 @@ Pažítková
 Bajkalská
 Pažítková
 Pivoňková
-Bajkalská
 Ľudovíta Fullu
 Krížna
 Röntgenova
@@ -1959,6 +1858,7 @@ Tomášikova
 29. augusta
 Sinokvetná
 Kladnianska
+Hodžovo námestie
 Tretia
 Podkolibská
 Hlavná
@@ -2081,7 +1981,6 @@ Bajkalská
 Komárňanská
 Vajanského nábrežie
 Tučkova
-Bajkalská
 Prievozská
 Košická
 Súmračná
@@ -2151,6 +2050,7 @@ Ružová dolina
 Páričkova
 Trnavská cesta
 Trnavská cesta
+Vajnorská
 Varšavská
 Martinčekova
 Pribinova
@@ -2257,7 +2157,6 @@ Bilíkova
 Drobného
 Saratovská
 Saratovská
-Drobného
 Drobného
 Daxnerovo námestie
 Kvetná
@@ -2424,7 +2323,6 @@ Tomášikova
 Tomášikova
 Tomášikova
 Pluhová
-Pajštúnska
 Námestie SNP
 Vajnorská
 Vajnorská
@@ -2496,13 +2394,12 @@ Zelená
 Rybárska brána
 Panská
 Saratovská
+Saratovská
 Gorkého
 Gorkého
 Košická
-Krupinská
 Záporožská
 Röntgenova
-Laurinská
 Radničná
 Laurinská
 Laurinská
@@ -2535,6 +2432,7 @@ Borská
 Borská
 Borská
 Borská
+Karadžičova
 Karadžičova
 Pluhová
 Pluhová
@@ -2588,14 +2486,11 @@ Vlčie hrdlo
 Šancová
 Strakova
 Bajkalská
-Bajkalská
-Bajkalská
 Vysoká
 Obchodná
 Vysoká
 Kollárovo námestie
 Kollárovo námestie
-Vysoká
 Vysoká
 Vysoká
 Živnostenská
@@ -2616,6 +2511,7 @@ Mojmírova
 Mostová
 Prepoštská
 Nevädzová
+Lamačská cesta
 Bazová
 Kvačalova
 Bazová
@@ -2641,7 +2537,6 @@ Kollárovo námestie
 Živnostenská
 Kollárovo námestie
 Živnostenská
-Vysoká
 Vysoká
 Vysoká
 Živnostenská
@@ -2696,7 +2591,6 @@ Záhradnícka
 Záhradnícka
 Záhradnícka
 Záhradnícka
-Košická
 Dopravná
 Dopravná
 Dopravná
@@ -2929,6 +2823,7 @@ Trnavská cesta
 Bajkalská
 Ivanská cesta
 Májkova
+Ambrušova
 Ivanská cesta
 Ivanská cesta
 Ivanská cesta
@@ -3160,6 +3055,7 @@ Záhradnícka
 Laurinská
 Záhradnícka
 Záhradnícka
+Staré Grunty
 Guothova
 Guothova
 Tabaková
@@ -3331,7 +3227,6 @@ Námestie Martina Benku
 Vazovova
 Námestie Martina Benku
 Vazovova
-Vazovova
 Námestie Martina Benku
 Vazovova
 Vazovova
@@ -3404,25 +3299,23 @@ Lužná
 Lužná
 Na Hrebienku
 Na Hrebienku
+Na Hrebienku
+Na Hrebienku
+Na Hrebienku
+Na Hrebienku
+Na Hrebienku
+Na Hrebienku
+Na Hrebienku
+Na Hrebienku
+Na Hrebienku
+Na Hrebienku
+Na Hrebienku
+Drotárska cesta
+Na Hrebienku
+Drotárska cesta
+Drotárska cesta
+Na Hrebienku
 Drotárska cesta
-Na Hrebienku
-Na Hrebienku
-Drotárska cesta
-Na Hrebienku
-Drotárska cesta
-Drotárska cesta
-Na Hrebienku
-Na Hrebienku
-Drotárska cesta
-Na Hrebienku
-Na Hrebienku
-Na Hrebienku
-Na Hrebienku
-Na Hrebienku
-Na Hrebienku
-Na Hrebienku
-Na Hrebienku
-Na Hrebienku
 Na Hrebienku
 Na Hrebienku
 Na Hrebienku
@@ -3673,12 +3566,10 @@ Povraznícka
 Björnsonova
 Tabaková
 Záhrebská
-Björnsonova
 Povraznícka
 Záhrebská
 Björnsonova
 Záhrebská
-Björnsonova
 Záhrebská
 Björnsonova
 Björnsonova
@@ -3701,32 +3592,24 @@ Záhrebská
 Povraznícka
 Tabaková
 Záhrebská
-Björnsonova
 Povraznícka
 Záhrebská
 Tabaková
 Záhrebská
-Björnsonova
 Povraznícka
 Záhrebská
 Belopotockého
 Björnsonova
-Povraznícka
-Povraznícka
-Povraznícka
-Povraznícka
 Björnsonova
 Lehockého
 Belopotockého
 Björnsonova
-Belopotockého
 Björnsonova
 Lehockého
 Björnsonova
 Björnsonova
 Lehockého
 Björnsonova
-Povraznícka
 Osuského
 Osuského
 Osuského
@@ -3866,7 +3749,6 @@ Björnsonova
 Karadžičova
 Rajská
 Heydukova
-Kolárska
 Treskoňova
 Kolárska
 Heydukova
@@ -3934,6 +3816,7 @@ Galvaniho
 Bulharská
 Odborárske námestie
 Americké námestie
+Dunajská
 Námestie SNP
 Lazaretská
 Lazaretská
@@ -4107,7 +3990,6 @@ Palisády
 Mudroňova
 Drotárska cesta
 Matúšova
-Hroboňova
 Brnianska
 Sklenárska
 Matúšova
@@ -4619,6 +4501,7 @@ Rákosová
 Motýlia
 Motýlia
 Jarná
+Znievska
 Albánska
 Albánska
 Albánska
@@ -5158,6 +5041,7 @@ Hagarova
 Hagarova
 Budatínska
 Budatínska
+Pribinova
 Bajkalská
 Bajkalská
 Bajkalská
@@ -6627,10 +6511,6 @@ Borekova
 Šamorínska
 Borekova
 Bodrocká
-Uzbecká
-Uzbecká
-Uzbecká
-Uzbecká
 Kvetinárska
 Slovnaftská
 Borekova
@@ -6639,9 +6519,6 @@ Podunajská
 Podunajská
 Podunajská
 Dvojkrížna
-Uzbecká
-Uzbecká
-Uzbecká
 Hydinárska
 Družobná
 Borekova
@@ -7303,8 +7180,6 @@ Estónska
 Estónska
 Estónska
 Estónska
-Uzbecká
-Uzbecká
 Máchova
 Máchova
 Máchova
@@ -10034,7 +9909,6 @@ Heydukova
 Milana Marečka
 Stará Ivanská cesta
 Jasovská
-Einsteinova
 Dunajská
 Lazaretská
 Dunajská
@@ -10550,6 +10424,7 @@ Pri vinohradoch
 Pri vinohradoch
 Pri vinohradoch
 Pri vinohradoch
+Námestie Andreja Hlinku
 Na vrátkach
 Púchovská
 Púchovská
@@ -13248,40 +13123,12 @@ Obchodná
 Štefánikova
 Križkova
 Križkova
-Sokolská
 Laurinská
 Bajkalská
-Andreja Plávku
-Andreja Plávku
-Andreja Plávku
-Andreja Plávku
-Andreja Plávku
-Banícka
-Banícka
-Banícka
-Banícka
-Banícka
-Banícka
-Banícka
-Banícka
-Banícka
-Banícka
-Banícka
-Banícka
 Bartókova
 Bartókova
 Bartókova
 Bartókova
-Bartoňova
-Bartoňova
-Bartoňova
-Bartoňova
-Bartoňova
-Bartoňova
-Bartoňova
-Bartoňova
-Bartoňova
-Bartoňova
 Bartoňova
 Bartoňova
 Bartoňova
@@ -13650,7 +13497,6 @@ Brigádnická
 Brigádnická
 Brigádnická
 Kremeľská
-Avarská
 Brigádnická
 Kremeľská
 Brigádnická
@@ -13739,27 +13585,6 @@ Kremeľská
 Kremeľská
 Bohúňova
 Bohúňova
-Bohúňova
-Bohúňova
-Bohúňova
-Bohúňova
-Bohúňova
-Bohúňova
-Bohúňova
-Bohúňova
-Bohúňova
-Bohúňova
-Bohúňova
-Bohúňova
-Bohúňova
-Bohúňova
-Bohúňova
-Bohúňova
-Bohúňova
-Bohúňova
-Bohúňova
-Bohúňova
-Bohúňova
 Boženy Němcovej
 Boženy Němcovej
 Boženy Němcovej
@@ -13767,18 +13592,6 @@ Boženy Němcovej
 Boženy Němcovej
 Boženy Němcovej
 Boženy Němcovej
-Bôrik
-Bôrik
-Bôrik
-Bôrik
-Bôrik
-Bôrik
-Bôrik
-Bôrik
-Bôrik
-Bôrik
-Bôrik
-Bôrik
 Bôrik
 Bradlianska
 Bradlianska
@@ -13790,24 +13603,11 @@ Brnianska
 Brnianska
 Brnianska
 Brnianska
-Brnianska
-Brnianska
-Brnianska
-Brnianska
-Brnianska
-Brnianska
-Brnianska
-Brnianska
-Brnianska
 Broskyňová
 Broskyňová
 Broskyňová
 Broskyňová
 Broskyňová
-Břeclavská
-Břeclavská
-Břeclavská
-Břeclavská
 Búdková
 Búdková
 Búdková
@@ -13820,33 +13620,6 @@ Búdková
 Búdková
 Búdková
 Búdková
-Búdková
-Búdková
-Búdková
-Búdková
-Búdková
-Búdková
-Búdková
-Búdková
-Búdková
-Búdková
-Búdková
-Búdková
-Búdková
-Búdková
-Búdková
-Búdková
-Búdková
-Buková
-Buková
-Buková
-Buková
-Buková
-Buková
-Buková
-Buková
-Buková
-Buková
 Buková
 Cesta na Červený most
 Buková
@@ -13856,24 +13629,6 @@ Buková
 Buková
 Buková
 Buková
-Buková
-Buková
-Buková
-Buková
-Buková
-Buková
-Buková
-Buková
-Buková
-Čapkova
-Čapkova
-Čapkova
-Čapkova
-Čapkova
-Čapkova
-Čapkova
-Čapkova
-Čapkova
 Čapkova
 Čapkova
 Čapkova
@@ -13926,9 +13681,6 @@ Cukrová
 Červeňova
 Červeňova
 Červeňova
-Čerešňová
-Čerešňová
-Čerešňová
 Dankovského
 Dankovského
 Dankovského
@@ -13943,18 +13695,6 @@ Dankovského
 Dobšinského
 Dobšinského
 Dobšinského
-Dobšinského
-Dobšinského
-Dobšinského
-Dobšinského
-Dolná
-Dolná
-Dolná
-Dolná
-Dolná
-Dolná
-Dolná
-Dolná
 Drevená
 Drevená
 Drevená
@@ -13978,22 +13718,6 @@ Drotárska cesta
 Drotárska cesta
 Drotárska cesta
 Drotárska cesta
-Drotárska cesta
-Drotárska cesta
-Drotárska cesta
-Drotárska cesta
-Drotárska cesta
-Drotárska cesta
-Drotárska cesta
-Drotárska cesta
-Drotárska cesta
-Drotárska cesta
-Drotárska cesta
-Drotárska cesta
-Drotárska cesta
-Drotárska cesta
-Drotárska cesta
-Dubová
 Dunajská
 Dunajská
 Dunajská
@@ -14013,10 +13737,6 @@ Dunajská
 Dunajská
 Dunajská
 Dunajská
-Fándlyho
-Fándlyho
-Fándlyho
-Fándlyho
 Fándlyho
 Fándlyho
 Fándlyho
@@ -14032,71 +13752,8 @@ Fándlyho
 Fándlyho
 Fazuľová
 Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Flöglova
-Flöglova
-Flöglova
-Flöglova
-Flöglova
-Flöglova
-Flöglova
-Flöglova
-Fraňa Kráľa
-Fraňa Kráľa
-Fraňa Kráľa
-Fraňa Kráľa
-Fraňa Kráľa
-Fraňa Kráľa
-Fraňa Kráľa
-Fraňa Kráľa
-Fraňa Kráľa
 Fraňa Kráľa
 Župné námestie
-Javorová
-Jaseňová
-Jaseňová
-Jaseňová
-Topoľová
-Topoľová
-Topoľová
-Topoľová
 Západný rad
 Západný rad
 Západný rad
@@ -14148,17 +13805,6 @@ Mlynská dolina
 Pri Habánskom mlyne
 Pri Habánskom mlyne
 Západný rad
-Topoľová
-Topoľová
-Topoľová
-Topoľová
-Úprkova
-Úprkova
-Úprkova
-Úprkova
-Úprkova
-Úprkova
-Úprkova
 Gaštanová
 Gaštanová
 Gaštanová
@@ -14251,7 +13897,6 @@ Martinengova
 Martinengova
 Martinengova
 Martinengova
-Pod vinicami
 29. augusta
 29. augusta
 29. augusta
@@ -14408,7 +14053,6 @@ Timravina
 Šulekova
 Šulekova
 Šulekova
-Šulekova
 Timravina
 Novosvetská
 Novosvetská
@@ -14450,270 +14094,28 @@ Legionárska
 Wilsonova
 Vazovova
 29. augusta
-Pod vinicami
-Pod vinicami
-Pod vinicami
-Pod vinicami
-Na kopci
-Na kopci
-Na kopci
-Nad lomom
-Malá
-Na kopci
-Na kopci
-Nad lomom
-Nad lomom
-Révová
-Na kopci
-Na kopci
-Na kopci
 Nábrežie arm. gen. Ludvíka Svobodu
 Malá
-Malá
-Malá
-Malá
-Malá
-Malá
-Malá
-Malá
-Malá
-Malá
-Malá
-Nad lomom
-Nad lomom
-Nad lomom
-Nad lomom
 Nad lomom
 Révová
 Révová
-Révová
-Révová
-Révová
-Révová
-Révová
-Révová
-Révová
-Na kopci
-Na kopci
-Na kopci
-Na kopci
-Na kopci
-Malá
-Pod vinicami
-Na kopci
-Na kopci
-Pod vinicami
 V záhradách
 V záhradách
-V záhradách
-V záhradách
-V záhradách
-Pod vinicami
 Na kopci
-Pod vinicami
-Pod vinicami
-Pod vinicami
-Pod vinicami
-Lipová
-Na kopci
-Na kopci
-Révová
-Na kopci
-Lipová
-Pod vinicami
-Révová
-Nábrežie arm. gen. Ludvíka Svobodu
-Nábrežie arm. gen. Ludvíka Svobodu
-Nábrežie arm. gen. Ludvíka Svobodu
-Nábrežie arm. gen. Ludvíka Svobodu
-Nábrežie arm. gen. Ludvíka Svobodu
-Nábrežie arm. gen. Ludvíka Svobodu
-Lipová
-Lipová
-Lipová
-Révová
-Révová
-Révová
-Révová
-Révová
-Révová
-Révová
-Révová
-Révová
-Na kopci
-Na kopci
-Na kopci
-Na kopci
-Na kopci
-Na kopci
-Na kopci
-Pod vinicami
-Pod vinicami
-Pod vinicami
-Pod vinicami
-Pod vinicami
-Lipová
-Lipová
-Na kopci
-Na kopci
-Na kopci
-Pod vinicami
-Révová
-Na kopci
-Pod vinicami
-Na kopci
-Pod vinicami
-Pod vinicami
-Žižkova
 Žižkova
 Žižkova
 Kráľovské údolie
 Žižkova
-Révová
-Kráľovské údolie
-Kráľovské údolie
-Révová
-Révová
-Kráľovské údolie
-Kráľovské údolie
-Kráľovské údolie
-Kráľovské údolie
-Kráľovské údolie
-Kráľovské údolie
-Kráľovské údolie
-Kráľovské údolie
-Kráľovské údolie
-Kráľovské údolie
-Kráľovské údolie
-Kráľovské údolie
-Kráľovské údolie
-Kráľovské údolie
-Révová
-Révová
-Révová
-Révová
-Révová
-Révová
-Révová
-Révová
-Révová
-Révová
-Kráľovské údolie
-Kráľovské údolie
-Kráľovské údolie
-Kráľovské údolie
-Kráľovské údolie
-Kráľovské údolie
-Údolná
-Kráľovské údolie
-Kráľovské údolie
 Kráľovské údolie
 Kráľovské údolie
 Údolná
 Údolná
 Údolná
-Údolná
-Údolná
-Údolná
-Údolná
-Údolná
-Údolná
-Údolná
-Jančova
-Jančova
-Jančova
-Údolná
-Údolná
-Jančova
-V záhradách
-Radvanská
-Jančova
-Radvanská
-Radvanská
-Radvanská
-Radvanská
-Radvanská
-Radvanská
-Radvanská
-Radvanská
-Radvanská
-Radvanská
-Radvanská
-Slepá
-Slepá
-Slepá
-Slepá
-Slepá
-Radvanská
-Radvanská
-Radvanská
-Radvanská
-Radvanská
-Radvanská
-Radvanská
-Radvanská
-Medzierka
-Medzierka
-Radvanská
-Radvanská
-Medzierka
-Radvanská
-Medzierka
-Radvanská
-Radvanská
-Radvanská
-Radvanská
-Radvanská
-Radvanská
-Radvanská
-Radvanská
-Radvanská
-Mudroňova
-Mudroňova
-Mudroňova
-Mudroňova
-Mudroňova
 Mudroňova
 Hummelova
 Hummelova
 Hummelova
 Hummelova
-Hummelova
-Hummelova
-Hummelova
-Hummelova
-Hummelova
-Hummelova
-Hummelova
-Hummelova
-Mudroňova
-Pri hradnej studni
-V záhradách
-V záhradách
-V záhradách
-V záhradách
-V záhradách
-V záhradách
-V záhradách
-V záhradách
-V záhradách
-V záhradách
-V záhradách
-V záhradách
-Radvanská
-Radvanská
-Mudroňova
-Radvanská
-Radvanská
-V záhradách
-V záhradách
-V záhradách
-Radvanská
-V záhradách
-Riznerova
-Riznerova
-Riznerova
-Riznerova
 Mošovského
 Mošovského
 Mošovského
@@ -14765,41 +14167,10 @@ Mošovského
 Mošovského
 Mošovského
 Mošovského
-Mudroňova
-Mudroňova
-Mudroňova
-Mudroňova
-Mudroňova
-Mudroňova
-Mudroňova
-Staroturský chodník
-Riznerova
-Mudroňova
-Staroturský chodník
-Staroturský chodník
-Staroturský chodník
-Mudroňova
 Lermontovova
 Partizánska
 Partizánska
 Partizánska
-Partizánska
-Partizánska
-Partizánska
-Partizánska
-Partizánska
-Lichardova
-Lichardova
-Lichardova
-Lichardova
-Partizánska
-Partizánska
-Partizánska
-Mudroňova
-Inovecká
-Inovecká
-Inovecká
-Inovecká
 Inovecká
 Inovecká
 Hradné údolie
@@ -14809,9 +14180,6 @@ Hradné údolie
 Hradné údolie
 Hradné údolie
 Hradné údolie
-Mudroňova
-Mudroňova
-Mudroňova
 Mudroňova
 Mudroňova
 Mudroňova
@@ -14823,10 +14191,7 @@ Mudroňova
 Mudroňova
 Mudroňova
 Strmá cesta
-Mudroňova
 Panenská
-Mudroňova
-Mudroňova
 Smetanova
 Smetanova
 Smetanova
@@ -14916,170 +14281,66 @@ Lichardova
 Myjavská
 Lichardova
 Lichardova
-Hrebendova
-Hrebendova
-Hrebendova
-Hrebendova
-Hrebendova
-Tichá
-Hrebendova
 Nad lomom
-Nad lomom
-Nad lomom
-Nad lomom
-Nad lomom
-Hrebendova
-Hrebendova
-Nad lomom
-Hrebendova
-Hrebendova
 Svetlá
-Hrebendova
-Hrebendova
-Hrebendova
-Hrebendova
-Nad lomom
-Hrebendova
-Hrebendova
-Hrebendova
-Hrebendova
-Svetlá
-Hrebendova
 Pod Bôrikom
 Pod Bôrikom
 Pod Bôrikom
 Hrebendova
-Tichá
-Tichá
-Pod Bôrikom
-Pod Bôrikom
 Hrebendova
-Hrebendova
-Nad lomom
-Hrebendova
-Tichá
 Nad lomom
 Údolná
-Hrebendova
-Hrebendova
 Údolná
 Hrebendova
 Údolná
 Nad lomom
-Tichá
-Tichá
 Korabinského
 Korabinského
 Korabinského
-Korabinského
-Korabinského
-Korabinského
-Korabinského
-Korabinského
-Slávičie údolie
 Slávičie údolie
 Tichá
 Hrebendova
 Hrebendova
 Hrebendova
-Tichá
-Slávičie údolie
-Slávičie údolie
-Slávičie údolie
-Korabinského
-Slávičie údolie
-Korabinského
-Slávičie údolie
 Slávičie údolie
 Slávičie údolie
 Slávičie údolie
 Prvosienková
-Korabinského
-Korabinského
-Tichá
 Hrebendova
-Korabinského
-Slávičie údolie
 Slávičie údolie
 Prvosienková
-Tichá
+Hrebendova
 Slávičie údolie
 Hrebendova
-Korabinského
-Slávičie údolie
-Slávičie údolie
-Hrebendova
-Korabinského
-Slávičie údolie
-Slávičie údolie
-Tichá
-Slávičie údolie
 Slávičie údolie
 Korabinského
 Korabinského
 Korabinského
-Javorová
-Úprkova
-Úprkova
 Korabinského
 Korabinského
 Korabinského
-Korabinského
-Korabinského
-Korabinského
-Na Hrebienku
 Na Hrebienku
 Haydnova
-Mudroňova
-Na Hrebienku
 Slávičie údolie
 Slávičie údolie
 Šafranová
 Šafranová
 Šafranová
 Sklenárska
-Na Hrebienku
-Mozartova
-Mozartova
-Mozartova
-Mozartova
-Mozartova
-Mozartova
-Mozartova
-Mozartova
-Mozartova
-Mozartova
-Mozartova
-Mozartova
-Mozartova
-Mozartova
-Mozartova
-Mozartova
 Mozartova
 Mozartova
 Mozartova
 Na Hrebienku
-Na Hrebienku
 Rubinsteinova
 Rubinsteinova
 Rubinsteinova
 Rubinsteinova
-Haydnova
 Haydnova
 Haydnova
 Haydnova
 Haydnova
 Na Hrebienku
 Rubinsteinova
-Haydnova
-Haydnova
-Haydnova
-Haydnova
-Haydnova
-Haydnova
-Haydnova
-Haydnova
-Haydnova
 Haydnova
 Mudroňova
 Mudroňova
@@ -15093,63 +14354,13 @@ Myjavská
 Myjavská
 Holubyho
 Myjavská
-Mudroňova
-Mudroňova
-Mudroňova
 Haydnova
 Haydnova
 Mudroňova
-Šulekova
 Holubyho
 Holubyho
 Holubyho
 Holubyho
-Holubyho
-Holubyho
-Holubyho
-Holubyho
-Holubyho
-Holubyho
-Holubyho
-Holubyho
-Šulekova
-Šulekova
-Šulekova
-Šulekova
-Šulekova
-Holubyho
-Holubyho
-Holubyho
-Holubyho
-Holubyho
-Holubyho
-Holubyho
-Holubyho
-Holubyho
-Šulekova
-Šulekova
-Stará vinárska
-Šulekova
-Šulekova
-Šulekova
-Šulekova
-Šulekova
-Šulekova
-Stará vinárska
-Stará vinárska
-Šulekova
-Šulekova
-Šulekova
-Šulekova
-Šulekova
-Holubyho
-Šulekova
-Šulekova
-Šulekova
-Šulekova
-Šulekova
-Šulekova
-Šulekova
 Stará vinárska
 Zrínskeho
 Holubyho
@@ -15160,41 +14371,14 @@ Zrínskeho
 Myjavská
 Myjavská
 Myjavská
-Slávičie údolie
-Slávičie údolie
-Vrchná
-Jančova
-Lubinská
-Lubinská
-Mudroňova
-Mudroňova
-Mudroňova
-Mudroňova
-Pri hradnej studni
 Mudroňova
 Hummelova
 Hummelova
-V záhradách
-V záhradách
-V záhradách
-V záhradách
 V záhradách
 Svetlá
-Mudroňova
-Pri hradnej studni
-Tichá
 Hummelova
-Lubinská
 Svetlá
 Slávičie údolie
-Topoľová
-Topoľová
-Topoľová
-Topoľová
-Topoľová
-Topoľová
-Topoľová
-Topoľová
 Súbežná
 Matúšova
 Hroboňova
@@ -15214,26 +14398,6 @@ Hriňovská
 Hriňovská
 Hriňovská
 Hriňovská
-Javorová
-Úprkova
-Javorová
-Úprkova
-Úprkova
-Úprkova
-Topoľová
-Úprkova
-Jaseňová
-Úprkova
-Úprkova
-Úprkova
-Úprkova
-Úprkova
-Úprkova
-Úprkova
-Úprkova
-Úprkova
-Jaseňová
-Jaseňová
 Jaseňová
 Jaseňová
 Jaseňová
@@ -15241,52 +14405,14 @@ Jaseňová
 Jaseňová
 Kubániho
 Kubániho
-Kubániho
-Šípková
-Prokopa Veľkého
-Prokopa Veľkého
-Hroboňova
-Hroboňova
-Hroboňova
-Kubániho
-Kubániho
-Úprkova
-Úprkova
-Prokopa Veľkého
-Hroboňova
-Úprkova
-Hroboňova
-Prokopa Veľkého
 Gorazdova
 Gorazdova
-Prokopa Veľkého
-Prokopa Veľkého
-Krčméryho
-Prokopa Veľkého
 Gorazdova
-Prokopa Veľkého
-Prokopa Veľkého
-Prokopa Veľkého
-Prokopa Veľkého
 Tajovského
-Tajovského
-Tajovského
-Tajovského
-Tajovského
-Tajovského
-Langsfeldova
-Langsfeldova
-Langsfeldova
-Langsfeldova
-Langsfeldova
-Langsfeldova
-Langsfeldova
 Langsfeldova
 Lesná
 Gorazdova
 Gorazdova
-Gorazdova
-Gorazdova
 Žižkova
 Žižkova
 Žižkova
@@ -15299,41 +14425,9 @@ Gorazdova
 Gorazdova
 Gorazdova
 Gorazdova
-Gorazdova
-Gorazdova
-Gorazdova
-Gorazdova
-Gorazdova
-Gorazdova
-Gorazdova
-Prokopa Veľkého
-Jánošíkova
-Jánošíkova
-Jánošíkova
-Jánošíkova
-Prokopa Veľkého
-Prokopa Veľkého
-Krivá
-Gorazdova
-Lesná
-Prokopa Veľkého
-Gorazdova
-Prokopa Veľkého
-Prokopa Veľkého
-Langsfeldova
-Langsfeldova
-Prokopa Veľkého
-Prokopa Veľkého
 Gorazdova
 Tajovského
 Tajovského
-Prokopa Veľkého
-Prokopa Veľkého
-Prokopa Veľkého
-Gorazdova
-Gorazdova
-Prokopa Veľkého
-Prokopa Veľkého
 Palisády
 Židovská
 Židovská
@@ -15341,20 +14435,10 @@ Mikulášska
 Mikulášska
 Mikulášska
 Mikulášska
-Topoľová
 Matúšova
 Matúšova
 Matúšova
 Matúšova
-Na stráni
-Na stráni
-Na stráni
-Na stráni
-Majakovského
-Majakovského
-Na stráni
-Na stráni
-Na stráni
 Zámocká
 Zámocká
 Palisády
@@ -15362,8 +14446,6 @@ Palisády
 Svoradova
 Svoradova
 Kapitulská
-Hollého
-Heydukova
 Hollého
 Vysoká
 Vysoká
@@ -15397,23 +14479,8 @@ Urbánkova
 Urbánkova
 Urbánkova
 Urbánkova
-Urbánkova
-Urbánkova
-Urbánkova
-Urbánkova
-Urbánkova
-Urbánkova
-Urbánkova
-Havlíčkova
-Havlíčkova
-Havlíčkova
-Mišíkova
-Mišíkova
-Havlíčkova
-Urbánkova
 Na Slavíne
 Havlíčkova
-Havlíčkova
 Mišíkova
 Mišíkova
 Mišíkova
@@ -15426,9 +14493,6 @@ Na Štyridsiatku
 Mišíkova
 Na Štyridsiatku
 Mišíkova
-Novosvetská
-Novosvetská
-Novosvetská
 Novosvetská
 Novosvetská
 Novosvetská
@@ -15445,9 +14509,6 @@ Novosvetská
 Majakovského
 Na Baránku
 Novosvetská
-Novosvetská
-Novosvetská
-Novosvetská
 Pažického
 Novosvetská
 Novosvetská
@@ -15464,14 +14525,12 @@ Novosvetská
 Novosvetská
 Novosvetská
 Novosvetská
-Novosvetská
 Mišíkova
 Mišíkova
 Timravina
 Timravina
 Stará vinárska
 Timravina
-Stará vinárska
 Pažického
 Na Slavíne
 Na Slavíne
@@ -15480,17 +14539,6 @@ Na Slavíne
 Na Slavíne
 Stará vinárska
 Stará vinárska
-Stará vinárska
-Stará vinárska
-Stará vinárska
-Stará vinárska
-Stará vinárska
-Stará vinárska
-Stará vinárska
-Novosvetská
-Vlčkova
-Vlčkova
-Vlčkova
 Vlčkova
 Vlčkova
 Vlčkova
@@ -15504,9 +14552,6 @@ Gunduličova
 Moyzesova
 Moyzesova
 Moyzesova
-Lermontovova
-Lermontovova
-Lermontovova
 Lermontovova
 Kozia
 Palisády
@@ -15542,64 +14587,14 @@ Somolického
 Somolického
 Havlíčkova
 Havlíčkova
-Havlíčkova
-Havlíčkova
-Havlíčkova
-Havlíčkova
-Havlíčkova
-Havlíčkova
-Havlíčkova
-Havlíčkova
-Havlíčkova
-Havlíčkova
 Schillerova
-Schillerova
-Schillerova
-Schillerova
-Schillerova
-Schillerova
-Havlíčkova
-Schillerova
-Havlíčkova
-Havlíčkova
 Pažického
-Malinová
-Schillerova
-Schillerova
-Schillerova
-Hlboká cesta
-Havlíčkova
-Havlíčkova
-Schillerova
-Havlíčkova
-Havlíčkova
-Havlíčkova
-Havlíčkova
 Hlboká cesta
 Hlboká cesta
 Hlboká cesta
 Školská
 Mýtna
-Vlčkova
-Vlčkova
-Vlčkova
-Vlčkova
-Vlčkova
-Vlčkova
-Vlčkova
-Vlčkova
-Podtatranského
-Podtatranského
-Podtatranského
-Mišíkova
-Mišíkova
-Mišíkova
 Na Slavíne
-Mišíkova
-Vlčkova
-Vlčkova
-Vlčkova
-Vlčkova
 Štefanovičova
 Štefanovičova
 Leškova
@@ -15610,144 +14605,20 @@ Kýčerského
 Kýčerského
 Jozefa Kronera
 Jozefa Kronera
-Nekrasovova
-Nekrasovova
-Nekrasovova
-Nekrasovova
-Nekrasovova
-Gorazdova
-Laučekova
-Laučekova
-Lesná
-Lesná
-Lesná
-Gorazdova
-Gorazdova
-Gorazdova
-Gorazdova
-Gorazdova
-Prokopa Veľkého
-Prokopa Veľkého
-Prokopa Veľkého
-Lesná
-Prokopa Veľkého
-Prokopa Veľkého
-Lesná
-Lesná
-Prokopa Veľkého
-Lesná
-Lesná
-Nekrasovova
-Nekrasovova
-Nekrasovova
-Prokopa Veľkého
 Havlíčkova
-Gorazdova
-Laučekova
-Na Kalvárii
-Na Kalvárii
 Tajovského
-Tajovského
-Tajovského
-Gorazdova
-Gorazdova
-Na Kalvárii
-Na Kalvárii
-Tajovského
-Na Kalvárii
-Na Kalvárii
-Na Kalvárii
-Tajovského
-Tajovského
-Tajovského
-Tajovského
-Tajovského
-Tajovského
-Tajovského
-Tajovského
-Tajovského
-Tajovského
-Tajovského
-Tablicova
-Tajovského
-Langsfeldova
-Langsfeldova
-Langsfeldova
-Langsfeldova
-Langsfeldova
-Langsfeldova
-Langsfeldova
-Langsfeldova
-Langsfeldova
-Langsfeldova
-Langsfeldova
-Langsfeldova
-Langsfeldova
-Langsfeldova
-Langsfeldova
-Langsfeldova
-Langsfeldova
-Na Kalvárii
-Na Kalvárii
-Na Kalvárii
 Ostravská
 Ostravská
 Ostravská
-Ostravská
-Ostravská
-Ostravská
-Ostravská
-Ostravská
-Ostravská
-Ostravská
-Ostravská
-Na Kalvárii
-Na Kalvárii
-Ostravská
-Ostravská
-Na Kalvárii
-Na Kalvárii
-Podhorského chodník
-Podhorského chodník
-Podhorského chodník
-Podhorského chodník
-Okánikova
-Podhorského chodník
-Na Kalvárii
-Malinová
-Malinová
-Malinová
-Podhorského chodník
-Na Kalvárii
-Na Kalvárii
-Malinová
-Hlboká cesta
-Malinová
-Malinová
-Na Kalvárii
-Na Kalvárii
-Malinová
-Malinová
-Malinová
-Malinová
 Hlboká cesta
 Pražská
 Sokolská
 Sokolská
 Sokolská
-Okánikova
-Okánikova
 Sokolská
-Sokolská
-Sokolská
-Okánikova
-Sokolská
-Pražská
 Pražská
 Beskydská
 Karpatská
-Za sokolovňou
-Za sokolovňou
 Balkánska
 Kovácsova
 Irkutská
@@ -15769,9 +14640,7 @@ Keltská
 Keltská
 Balkánska
 Trenčianska
-Hájovňa
 Lieskovec
-Hájovňa
 Hlavná
 Floriánske námestie
 Bajkalská
@@ -15973,9 +14842,6 @@ Na Koziarke
 Na Koziarke
 Myjavská
 Myjavská
-Klenová
-Klenová
-Rozvodná
 Tupého
 Frankovská
 Brusnicová
@@ -16273,11 +15139,6 @@ Klenová
 Klenová
 Klenová
 Klenová
-Klenová
-Klenová
-Klenová
-Olivová
-Olivová
 Stará Klenová
 Stará Klenová
 Stará Klenová
@@ -16291,9 +15152,7 @@ Klenová
 Klenová
 Klenová
 Klenová
-Klenová
 Stará Klenová
-Olivová
 Klenová
 Stará Klenová
 Stará Klenová
@@ -16389,8 +15248,6 @@ Na Pažiti
 Na Pažiti
 Vančurova
 Matúškova
-Pod Strážami
-Jaskový rad
 Bellova
 Bellova
 Bellova
@@ -16960,7 +15817,6 @@ Hodžovo námestie
 Godrova
 Búdková
 Slávičie údolie
-Na kopci
 Pri starom mýte
 Vajnorská
 Pod Klepáčom
@@ -17059,6 +15915,7 @@ Nová
 Osadná
 Magurská
 Kopčianska
+Kopčianka
 Mandľová
 Michalská
 Michalská
@@ -17068,7 +15925,6 @@ Michalská
 Vietnamská
 Vietnamská
 Vietnamská
-Riznerova
 Vajnorská
 Tomášikova
 Tomášikova
@@ -17133,34 +15989,13 @@ Uhrova
 Jelšová
 Jelšová
 Klenová
-Klenová
-Klenová
 Stará Klenová
 Klenová
 Klenová
-Klenová
-Vlárska
-Olivová
 Vlárska
 Vlárska
 Vlárska
-Vlárska
-Vlárska
-Vlárska
-Vlárska
-Vlárska
-Vlárska
-Vlárska
-Vlárska
-Vlárska
-Vlárska
-Vlárska
-Vlárska
-Olivová
-Vlárska
-Vlárska
-Vlárska
-Vlárska
+Lamač
 Bajkalská
 Trenčianska
 Šustekova
@@ -17405,7 +16240,7 @@ Jaskový rad
 Jaskový rad
 Jaskový rad
 Karadžičova
-Rozvodná
+Pribinova
 Rozvodná
 Rozvodná
 Rozvodná
@@ -17602,7 +16437,6 @@ Suché mýto
 Lýcejná
 F. Kostku
 Námestie SNP
-Štefánikova
 Šachorová
 Šachorová
 Šachorová
@@ -17620,6 +16454,7 @@ Dobrovičova
 Dobrovičova
 Cukrová
 Košická
+Obchodná
 Obchodná
 Obchodná
 Račianska
@@ -17644,7 +16479,6 @@ Mokrohájska cesta
 Kráľovské údolie
 Kráľovské údolie
 Kráľovské údolie
-Nábrežie arm. gen. Ludvíka Svobodu
 Odborárske námestie
 Na vŕšku
 Na vŕšku
@@ -17798,7 +16632,6 @@ Drieňová
 Prešovská
 Prešovská
 Karloveská
-Radlinského
 Hálova
 Vazovova
 Vazovova
@@ -17822,11 +16655,6 @@ Námestie 1. mája
 Námestie 1. mája
 Námestie 1. mája
 Námestie 1. mája
-Námestie Martina Benku
-Einsteinova
-Einsteinova
-Einsteinova
-Einsteinova
 Einsteinova
 Einsteinova
 Einsteinova
@@ -17846,10 +16674,9 @@ Trnavská cesta
 Na križovatkách
 Kollárovo námestie
 Fraňa Kráľa
-Fraňa Kráľa
-Fraňa Kráľa
 Cintorínska
 Mickiewiczova
+Znievska
 Obchodná
 Rádiová
 Rádiová
@@ -17873,40 +16700,11 @@ Elektrárenská
 Elektrárenská
 Elektrárenská
 Elektrárenská
-Elektrárenská
-Elektrárenská
 Marie Curie Sklodowskej
 Baštová
-Rozvodná
-Rozvodná
-Rozvodná
-Rozvodná
-Rozvodná
-Rozvodná
-Rozvodná
-Rozvodná
-Rozvodná
-Rozvodná
-Rozvodná
 Martinengova
 Slávičie údolie
 Drotárska cesta
-Rozvodná
-Rozvodná
-Rozvodná
-Rozvodná
-Rozvodná
-Rozvodná
-Rozvodná
-Rozvodná
-Klenová
-Klenová
-Klenová
-Klenová
-Klenová
-Klenová
-Klenová
-Klenová
 Sabinovská
 Sabinovská
 Tŕňová
@@ -17933,6 +16731,7 @@ Mlynské luhy
 Rajčianska
 Kalinčiakova
 Vrútocká
+Metodova
 Fajnorovo nábrežie
 Vajanského nábrežie
 Fajnorovo nábrežie
@@ -17976,6 +16775,7 @@ Cukrová
 Špitálska
 Mlynské nivy
 Mlynské nivy
+Znievska
 Kolárska
 Bulharská
 Krížna
@@ -18014,10 +16814,8 @@ Staré záhrady
 Staré záhrady
 Staré záhrady
 Staré záhrady
-Uzbecká
 Karadžičova
 Panenská
-Zámocká
 Ilkovičova
 Krajná
 Maďarská
@@ -18131,6 +16929,7 @@ Latorická
 Vývojová
 Bodvianska
 Hraničiarska
+OC Rača
 Bajzova
 Strojnícka
 Na piesku
@@ -18183,9 +16982,7 @@ Račianska
 Tomášikova
 Ivanská cesta
 Panská
-Šípková
 Úprkova
-Hroboňova
 Panská
 Jungmannova
 Dr. Vladimíra Clementisa
@@ -18238,13 +17035,15 @@ Rajská
 Mokráň záhon
 Viedenská cesta
 Budatínska
+Staré Grunty
 Elektrárenská
 Palackého
+Ivanská cesta
 Námestie SNP
 Nedbalova
 Námestie SNP
+Svornosti
 Komárovská
-Svätoplukova
 Ventúrska
 Ventúrska
 Zelená
@@ -18288,6 +17087,7 @@ Zelená
 Zelená
 Šoltésovej
 Školská
+Mýtna
 Beskydská
 Liptovská
 Palisády
@@ -18315,8 +17115,6 @@ Nevädzová
 Studená
 Oráčska
 Votrubova
-Košická
-Košická
 Bachova
 Seberíniho
 Stará Vajnorská
@@ -18334,7 +17132,6 @@ Na piesku
 Na piesku
 Na piesku
 Studenohorská
-Stará Ivanská cesta
 Rascová
 Žižkova
 Čučoriedková
@@ -18349,50 +17146,13 @@ Námestie SNP
 Nad lomom
 Údolná
 Údolná
-Bôrik
-Bôrik
-Údolná
 Kráľovské údolie
-Révová
-Révová
-Révová
-Révová
-Révová
-Žižkova
-Kráľovské údolie
-Révová
-Malá
 Malá
 Révová
-Malá
-Nad lomom
-Nad lomom
-Nad lomom
 Na kopci
-Na kopci
-Na kopci
-Na kopci
-Na kopci
-Na kopci
-Na kopci
-Révová
-Révová
-Révová
-Révová
-Révová
-Révová
-Révová
-Révová
 Révová
 Révová
 Pod vinicami
-Pod vinicami
-Pod vinicami
-Pod vinicami
-Pod vinicami
-Nábrežie arm. gen. Ludvíka Svobodu
-Pod vinicami
-Nad lomom
 Révová
 Štítová
 Jaskový rad
@@ -18401,20 +17161,20 @@ Na križovatkách
 Rytierska
 Dulovo námestie
 Elektrárenská
-Holekova
 Galvaniho
 Galvaniho
 Mierová
 Zámocká
+Mýtna
 Milana Marečka
 Milana Marečka
 Botanická
 Botanická
 Botanická
 Landererova
+Landererova
 Vajnorská
 Novoveská
-Tylova
 Tylova
 Tylova
 Mikulášska
@@ -18474,6 +17234,7 @@ Koceľova
 Za tehelňou
 Za tehelňou
 Černockého
+Hviezdoslavovo námestie
 Černockého
 Černockého
 Černockého
@@ -18650,7 +17411,6 @@ Obchodná
 Na pántoch
 Hviezdoslavovo námestie
 Obchodná
-Kulíškova
 Miletičova
 Hviezdoslavovo námestie
 Račianska
@@ -18698,7 +17458,6 @@ Hviezdoslavovo námestie
 Jašíkova
 Dúbravská cesta
 Račianska
-Nobelova
 Račianska
 Račianska
 Hany Meličkovej
@@ -18721,12 +17480,6 @@ Potočná
 Rudnícka
 Cesta mládeže
 Karpatská
-Mudroňova
-Mudroňova
-Mudroňova
-Mudroňova
-Hummelova
-Mudroňova
 Račianska
 Račianska
 Račianska
@@ -18747,7 +17500,6 @@ Baltská
 Hornádska
 Tylova
 Budatínska
-Krasovského
 Laurinská
 Višňová
 Chemická
@@ -18777,6 +17529,8 @@ Chemická
 Chemická
 Chemická
 Chemická
+Olbrachtova
+Olbrachtova
 Matejkova
 Komárovská
 Sliačska
@@ -18950,7 +17704,6 @@ Grösslingová
 Knižkova dolina
 Knižkova dolina
 Knižkova dolina
-Šulekova
 Muchovo námestie
 Muchovo námestie
 Muchovo námestie
@@ -18993,6 +17746,7 @@ Vtáčikova cesta
 Turčianska
 Račianska
 Staré Grunty
+Cesta na Senec
 Na križovatkách
 Na križovatkách
 Na križovatkách
@@ -19051,7 +17805,6 @@ Nobelova
 Nobelova
 Nobelova
 Nobelova
-Nobelova
 Janáčkova
 Tomášikova
 Tomášikova
@@ -19069,6 +17822,7 @@ Drieňová
 Drieňová
 Košická
 Sokolská
+Pri starom letisku
 Vodné dielo Čunovo
 Na križovatkách
 Hurbanovo námestie
@@ -19107,16 +17861,6 @@ Mlynské luhy
 Štedrá
 Odborárska
 Havlíčkova
-Havlíčkova
-Havlíčkova
-Havlíčkova
-Havlíčkova
-Drotárska cesta
-Drotárska cesta
-Búdková
-Búdková
-Búdková
-Šulekova
 Novosvetská
 Na Baránku
 Novosvetská
@@ -19131,9 +17875,6 @@ Jarabinková
 Turčianska
 Svornosti
 Svornosti
-Svornosti
-Svornosti
-Hájovňa
 Ružová dolina
 Námestie SNP
 Pri starom letisku
@@ -19243,26 +17984,6 @@ Knižkova dolina
 Knižkova dolina
 Knižkova dolina
 Svornosti
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Fialkové údolie
-Radvanská
-Medzierka
-Medzierka
-Medzierka
-Riznerova
-Riznerova
-Riznerova
-Riznerova
-Riznerova
-Riznerova
 Hradné údolie
 Mudroňova
 Mudroňova
@@ -19439,6 +18160,7 @@ Limbová
 Ďumbierska
 Ďumbierska
 Ďumbierska
+Lazaretská
 Hrdličkova
 Bajkalská
 Bajkalská
@@ -19454,11 +18176,7 @@ Saratovská
 Veternicová
 Medená
 Medená
-Búdková
-Búdková
-Búdková
-Búdková
-Búdková
+Kamenné Námestie
 Búdková
 Majoránová
 Majoránová
@@ -20457,10 +19175,7 @@ Mandľová
 Zeleninová
 Seberíniho
 Doležalova
-Tajovského
-Laučekova
 Podhorského chodník
-Gorazdova
 Námestie sv. Františka
 Sabinovská
 Novackého
@@ -20469,11 +19184,6 @@ Cesta mládeže
 Cesta mládeže
 Klariská
 Za kasárňou
-Tichá
-Tichá
-Hrebendova
-Hrebendova
-Hrebendova
 Hrebendova
 Slávičie údolie
 Búdková
@@ -20556,7 +19266,6 @@ Frankovská
 Frankovská
 Frankovská
 Frankovská
-Frankovská
 Tupého
 Tupého
 Tupého
@@ -20617,8 +19326,6 @@ Jurská
 Jurská
 Trnavská cesta
 Tŕňová
-Údernícka
-Závodu Matador
 Pod Válkom
 Koprivnická
 Agátová
@@ -20641,7 +19348,6 @@ Kazanská
 Ševčenkova
 Belehradská
 Kováčska
-Ostravská
 Svätoplukova
 Kolárska
 Granitová
@@ -20705,7 +19411,7 @@ Mierová
 Pečnianska
 Palackého
 Miletičova
-Račianska
+Mlynské nivy
 Bazová
 Matejkova
 Pšeničná
@@ -20758,13 +19464,15 @@ Jarabinková
 Jarabinková
 Landererova
 Žižkova
+Panónska cesta
+Panónska cesta
 Prešovská
 Pri Suchom mlyne
 Bučinová
 Hradská
+Panónska cesta
 Križkova
 Križkova
-Mlynské nivy
 Koprivnická
 Lidická
 Lidická
@@ -20891,6 +19599,8 @@ Stará Vajnorská
 Stará Vajnorská
 Stará Vajnorská
 Studená
+Uzbecká
+Uzbecká
 Priekopnícka
 Bočná
 Stredná
@@ -20984,5 +19694,171 @@ Alviano
 Alviano
 Zámocké schody
 Zohorská
-M. Schneidra Trnavského
 Galvaniho
+Miletičova
+Ožvoldíkova
+Ožvoldíkova
+Jašíkova
+Jašíkova
+Matúšova
+Stará vinárska
+Šulekova
+Jelšova
+Čerešňová
+Bohúňova
+Slovienska
+Rímska
+Solúnska
+Solúnska
+Bajkalská
+Galvaniho
+Svätoplukova
+Svätoplukova
+Pastierska
+Einsteinova
+Ivanská cesta
+Metodova
+Eisnerova
+Ivanská cesta
+Vajnorská
+Kolárska
+Račianska
+Domové role
+Studená
+Horská
+Michala Bučiča
+Michala Bučiča
+Michala Bučiča
+Michala Bučiča
+Pražská
+Orechová
+Orechová
+Uzbecká
+Uzbecká
+Uzbecká
+Uzbecká
+M. Schneidra Trnavského
+M. Schneidra Trnavského
+M. Schneidra Trnavského
+M. Schneidra Trnavského
+M. Schneidra Trnavského
+M. Schneidra Trnavského
+M. Schneidra Trnavského
+Hanulova
+Hanulova
+Hanulova
+M. Schneidra Trnavského
+M. Schneidra Trnavského
+M. Schneidra Trnavského
+M. Schneidra Trnavského
+M. Schneidra Trnavského
+M. Schneidra Trnavského
+M. Schneidra Trnavského
+M. Schneidra Trnavského
+M. Schneidra Trnavského
+Vranovská
+Vranovská
+Pri Bielom kríži
+Pri Bielom kríži
+Pri Bielom kríži
+Pri Bielom kríži
+Pri Bielom kríži
+Pri Bielom kríži
+Pri Bielom kríži
+Pri Bielom kríži
+Odborárska
+Tupého
+Tupého
+Tupého
+Tupého
+Einsteinova
+Einsteinova
+Dúbravská cesta
+Vysoká
+Malokarpatské námestie
+Kukučínova
+Panónska cesta
+Staré Grunty
+Jaspisová
+Jaspisová
+Jaspisová
+Jaspisová
+Jaspisová
+Jaspisová
+Jaspisová
+Jaspisová
+Jaspisová
+Jaspisová
+Jaspisová
+Aragonitová
+Aragonitová
+Aragonitová
+Aragonitová
+Aragonitová
+Aragonitová
+Aragonitová
+Aragonitová
+Aragonitová
+Jaspisová
+Jaspisová
+Jaspisová
+Jaspisová
+Ónyxová
+Ónyxová
+Ónyxová
+Ónyxová
+Ónyxová
+Ónyxová
+Ónyxová
+Ónyxová
+Ónyxová
+Ónyxová
+Ónyxová
+Ónyxová
+Sklabinská
+Sklabinská
+Sklabinská
+Bezručova
+Lomonosovova
+Lomonosovova
+Bezručova
+Mariánska
+Suché mýto
+Oravská
+Turčianska
+Prievozská
+Uhliská
+Uhliská
+Špitálska
+Košická
+Košická
+Košická
+Košická
+Košická
+Sklabinská
+Kremnická
+Hodonínska
+Hodonínska
+Bosákova
+Polianky
+Polianky
+Červeňova
+Tylova
+Dvořákovo nábrežie
+Plynárenská
+Bernolákova
+Bernolákova
+Bernolákova
+Bernolákova
+Tylova
+Tylova
+Tylova
+Tylova
+Olbrachtova
+Tylova
+Tylova
+Tylova
+Tylova
+Tylova
+Tylova
+Tylova

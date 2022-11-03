@@ -76,7 +76,6 @@ Baníkova
 Banšelova
 Barancová
 Bardejovská
-Barokový most
 Bartoňova
 Bartoškova
 Bartókova
@@ -134,6 +133,7 @@ Bojnická
 Borekova
 Borievková
 Borinská
+Borisa Nemcova
 Borodáčova
 Borovicová
 Borská
@@ -203,6 +203,7 @@ Cesta na Zajačie
 Cesta na Červený most
 Cesta pri Biskupickom ramene
 Cesta pri Prívodnom kanáli
+Cestička z ulice Mokrohájska na žel. stanicu Železná Studienka.
 Cezmínová
 Chalcedónová
 Chalupkova
@@ -563,6 +564,7 @@ Jedľová
 Jegenešská
 Jelačičova
 Jelenia
+Jelšova
 Jelšová
 Jesenná
 Jesenského
@@ -612,6 +614,7 @@ Kalinová
 Kalinčiakova
 Kalištná
 Kamenná
+Kamenné Námestie
 Kamenné námestie
 Kamenárska
 Kameňolom
@@ -677,8 +680,10 @@ Konopná
 Konvalinková
 Konventná
 Kopanice
+Kopaničarska
 Koperníkova
 Koprivnická
+Kopčianka
 Kopčianska
 Korabinského
 Koreničova
@@ -841,7 +846,6 @@ Lubinská
 Luhačovická
 Lužická
 Lužná
-Lužný most
 Lykovcová
 Lysákova
 Líščie nivy
@@ -1104,11 +1108,9 @@ Námestie Jána Kostru
 Námestie Jána Pavla II.
 Námestie Martina Benku
 Námestie Mateja Korvína
-Námestie Nežnej revolúcie
 Námestie SNP
-Námestie Slovenského národného povstania
 Námestie hraničiarov
-Námestie pri sýpke
+Námestie nežnej revolúcie
 Námestie rodiny
 Námestie slobody
 Námestie sv. Floriána
@@ -1117,6 +1119,7 @@ Námestie sv. Petra a Pavla
 Námestie Ľudovíta Štúra
 Nástupná časť
 Nížinná
+OC Rača
 Obchodná
 Obežná
 Obilná
@@ -1167,7 +1170,7 @@ Oskorušová
 Osloboditeľská
 Ostravská
 Ostredková
-Ostricova
+Ostricová
 Ostriežová
 Ostružinová
 Osuského
@@ -1268,8 +1271,10 @@ Pod Rakytami
 Pod Rovnicami
 Pod Strážami
 Pod Vachmajstrom
+Pod Vajspetrom
 Pod Vtáčnikom
 Pod Válkom
+Pod Zemným vrchom
 Pod Zečákom
 Pod agátmi
 Pod brehmi
@@ -1356,12 +1361,15 @@ Pri kolíske
 Pri kríži
 Pri lesostepi
 Pri letisku
+Pri majeri
 Pri mlyne
 Pri nadjazde
 Pri parku
 Pri pasienku
+Pri pekárni
 Pri pieskovom hone
 Pri potoku
+Pri rybníku
 Pri smaltovni
 Pri starej prachárni
 Pri starom letisku
@@ -1410,6 +1418,7 @@ Pyrenejská
 Pálavská
 Pántikova
 Páričkova
+Párna
 Päťbojársky trail
 Pílová
 Píniová
@@ -1455,13 +1464,13 @@ Riazanská
 Ribayova
 Riečna
 Rigeleho
-Riviéra
 Rizlingová
 Riznerova
 Robotnícka
 Romanova
 Rosná
 Rostovská
+Rovinka
 Rovniankova
 Rovná
 Rovníková
@@ -1495,7 +1504,6 @@ Ružičková
 Ružomberská
 Ružová dolina
 Rybničná
-Rybné námestie
 Rybárska brána
 Rytierska
 Rácova
@@ -1936,7 +1944,7 @@ Záveterná
 Závodná
 Závodníkova
 Závodu Matador
-vstup do Horského parku zo zastávky MHD Horský park
+k internátu
 Ágosta Sőtéra
 Ílová
 Ónyxová
@@ -2000,7 +2008,7 @@ vstup do Horského parku zo zastávky MHD Horský park
 Šachorová
 Šafranová
 Šafárikovo námestie
-Šagátova
+Šagátová
 Šaldova
 Šalviová
 Šamorínska

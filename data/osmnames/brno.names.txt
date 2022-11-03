@@ -1,4 +1,3 @@
-A Bašta
 Absolonova
 Achtelky
 Adamcova
@@ -104,6 +103,7 @@ Božetěchova
 Brandlova
 Branka
 Bratislavská
+Bratří Křičků
 Bratří Ocelků
 Brechtova
 Breitcetlova
@@ -166,7 +166,6 @@ Chlupova
 Chládkova
 Chmelnice
 Chochola
-Chochola trail
 Chodnik Křižkovského
 Chodská
 Chopinova
@@ -295,6 +294,7 @@ Franzova
 Freeride
 Fričova
 Fryčajova
+Fuchsova
 Fučíkova
 Fügnerova
 Gabriely Preissové
@@ -676,6 +676,7 @@ Krameriova
 Krasová
 Kratina
 Krausova
+Kraví
 Kraví hora
 Krejčího
 Kremličkova
@@ -792,6 +793,7 @@ Lužova
 Lužánecká
 Lysická
 Lány
+Lávka Cyklistická stezka Rebešovice-Bobrava
 Lískovecká
 Lísky
 Líšeňská
@@ -1106,6 +1108,7 @@ Pivoňkova
 Piňosova
 Plachtova
 Plachty
+Placzkova
 Planinka
 Platní
 Plevova
@@ -1122,7 +1125,6 @@ Pod Horkou
 Pod Hády
 Pod Hájkem
 Pod Komorou
-Pod Kopcem
 Pod Mezí
 Pod Mniší horou
 Pod Nemocnicí
@@ -1440,8 +1442,10 @@ Staré náměstí
 Staré zámky
 Stavební
 Staňkova
+Stefánikova
 Stejskalova
-Stezku bosou nohou
+Stezka bosou nohou
+Stezka bosých nohou
 Stinná
 Stojanova
 Strakatého
@@ -1762,7 +1766,6 @@ Za Divadlem
 Za Hasičkou
 Za Humny
 Za Kněžským hájkem
-Za Kostelem
 Za Mostem
 Za Parkem
 Za divadlem
@@ -1796,6 +1799,7 @@ Zeleného
 Zelinkova
 Zelinky
 Zelná
+Zelný
 Zelný trh
 Zemanova
 Zemkova

@@ -77,7 +77,6 @@ Banskobystricka
 Barancova
 Bardejovska
 Bardosova
-Barokovy most
 Baronka
 Bartokova
 Bartonova
@@ -139,6 +138,7 @@ Borekova
 Borievkova
 Borik
 Borinska
+Borisa Nemcova
 Borodacova
 Borovicova
 Borska
@@ -229,6 +229,7 @@ Cesta na Senec
 Cesta na Zajacie
 Cesta pri Biskupickom ramene
 Cesta pri Privodnom kanali
+Cesticka z ulice Mokrohajska na zel. stanicu Zelezna Studienka.
 Cezminova
 Chalcedonova
 Chalupkova
@@ -653,6 +654,7 @@ Kalistna
 Kameliova
 Kamenarska
 Kamenna
+Kamenne Namestie
 Kamenne namestie
 Kamenolom
 Kamilkova
@@ -718,7 +720,9 @@ Konopiska
 Konopna
 Konvalinkova
 Konventna
+Kopanicarska
 Kopanice
+Kopcianka
 Kopcianska
 Kopernikova
 Koprivnicka
@@ -896,7 +900,6 @@ Ludovita Fullu
 Luhacovicka
 Luzicka
 Luzna
-Luzny most
 Lycejna
 Lykovcova
 Lysakova
@@ -1111,11 +1114,9 @@ Namestie Jana Pavla II.
 Namestie Ludovita Stura
 Namestie Martina Benku
 Namestie Mateja Korvina
-Namestie Neznej revolucie
 Namestie SNP
-Namestie Slovenskeho narodneho povstania
 Namestie hraniciarov
-Namestie pri sypke
+Namestie neznej revolucie
 Namestie rodiny
 Namestie slobody
 Namestie sv. Floriana
@@ -1167,6 +1168,7 @@ Novosadna
 Novosvetska
 Novoveska
 Novy zahon
+OC Raca
 Obchodna
 Obezna
 Obilna
@@ -1253,6 +1255,7 @@ Parcelna
 Parenicova
 Parickova
 Parkova
+Parna
 Partizanska
 Pasaz Elektro
 Pasaz Luxor
@@ -1326,9 +1329,11 @@ Pod Rakytami
 Pod Rovnicami
 Pod Strazami
 Pod Vachmajstrom
+Pod Vajspetrom
 Pod Valkom
 Pod Vtacnikom
 Pod Zecakom
+Pod Zemnym vrchom
 Pod agatmi
 Pod brehmi
 Pod ceresnami
@@ -1416,12 +1421,15 @@ Pri koliske
 Pri krizi
 Pri lesostepi
 Pri letisku
+Pri majeri
 Pri mlyne
 Pri nadjazde
 Pri parku
 Pri pasienku
+Pri pekarni
 Pri pieskovom hone
 Pri potoku
+Pri rybniku
 Pri sanci
 Pri smaltovni
 Pri stadione
@@ -1515,7 +1523,6 @@ Ribezlova
 Riecna
 Rigeleho
 Rimska
-Riviera
 Rizlingova
 Riznerova
 Robotnicka
@@ -1525,6 +1532,7 @@ Rontgenova
 Rosickeho
 Rosna
 Rostovska
+Rovinka
 Rovna
 Rovniankova
 Rovnikova
@@ -1556,7 +1564,6 @@ Ruzinovska
 Ruzomberska
 Ruzova dolina
 Rybarska brana
-Rybne namestie
 Rybnicna
 Rydzikova
 Rynska
@@ -2072,4 +2079,4 @@ Zupne namestie
 Zuzany Chalupovej
 Zvolenska
 Zvoncekova
-vstup do Horskeho parku zo zastavky MHD Horsky park
+k internatu

@@ -214,6 +214,7 @@ Miletičova
 Doležalova
 Bencúrova
 Mlynská dolina
+Kutuzovova
 Priečna
 Tehelná
 Kukuričná
@@ -250,7 +251,7 @@ Limbová
 Vlárska
 Pražská
 Suché mýto
-Námestie Slovenského národného povstania
+Námestie SNP
 Stromová
 Trnavské mýto
 Šancová
@@ -484,7 +485,6 @@ Pavlovova
 Daxnerovo námestie
 Šumavská
 Liptovská
-Zvolenská
 Zvolenská
 Slávičie údolie
 Kalinčiakova
@@ -945,6 +945,7 @@ Cígeľská
 Karpatské námestie
 Rybničná
 Rybničná
+Pri majeri
 Líščie údolie
 Svrčia
 Trnavská cesta
@@ -1202,6 +1203,7 @@ Malé pálenisko III
 Vlčie hrdlo
 Budatínska
 Námestie Biely kríž
+Pri Bielom kríži
 Skalická cesta
 Námestie Biely kríž
 Račianska
@@ -1405,6 +1407,7 @@ Pavla Horova
 Pod Glavicou
 Vápenka
 Agátová
+Malodunajská
 Estónska
 Stavbárska
 Lotyšská
@@ -1466,6 +1469,8 @@ Za mlynom
 Šachorová
 Široká
 Rybničná
+Pri rybníku
+Pri rybníku
 Regrútska
 Baničova
 Terchovská
@@ -1603,7 +1608,7 @@ Somolického
 Na Brezinách
 Maróthyho
 Somolického
-Godrova
+Borisa Nemcova
 Godrova
 Godrova
 Porubského
@@ -1695,7 +1700,6 @@ Cesta na Klanec
 Cesta na Klanec
 Havelkova
 Studenohorská
-Malokarpatské námestie
 Kopčianska
 Ľubietovská
 Valentína Matrku
@@ -1721,6 +1725,9 @@ Pri Suchej Vydrici
 Sad J. Kráľa
 Šustekova
 Sosnová
+Šustekova
+Blagoevova
+Blagoevova
 Bulíkova
 Blagoevova
 Medveďovej
@@ -1868,7 +1875,6 @@ Pernecká
 Pernecká
 Púpavová
 Pustá
-Námestie sv. Františka
 Kresánkova
 Cikkerova
 Jamnického
@@ -1887,7 +1893,7 @@ Vincenta Hložníka
 Albína Brunovského
 Lipová
 Kráľovské údolie
-Rybné námestie
+Bôrik
 Slávičie údolie
 Drotárska cesta
 Súbežná
@@ -1899,7 +1905,6 @@ Bratská
 Bratská
 Bratská
 1. alej
-Barokový most
 7. alej
 5. alej
 Plánky
@@ -2114,7 +2119,7 @@ Májová
 Strmá cesta
 Vansovej
 Jantárová cesta
-Námestie Slovenského národného povstania
+Námestie SNP
 Jaskový rad
 Ráztočná
 Čiližská
@@ -3533,7 +3538,6 @@ Mlynská
 Tomášikova
 Záborského
 Halašova
-Námestie sv. Františka
 Fadruszova
 Zohorská
 Silvánska
@@ -3610,7 +3614,6 @@ Bojnická
 Bojnická
 Legionárska
 Legionárska
-Floriánske námestie
 Blumentálska
 Metodova
 Päťbojársky trail
@@ -3646,7 +3649,7 @@ Staromestská
 Slovanská
 Rizlingová
 Veltlínska
-Šagátova
+Šagátová
 Pri vinohradoch
 Alstrova
 Pri vinohradoch
@@ -3997,6 +4000,7 @@ Vlčie hrdlo
 Prístavná
 Prístavná
 Sedmokrásková
+Bôrik
 Geologická
 Schody pri Starej Vodárni
 Pivoňková
@@ -4192,6 +4196,8 @@ Bagarova
 Podchod študentov 16. novembra 1989
 Podchod študentov 16. novembra 1989
 Mlynarovičova
+Bulíkova
+Bulíkova
 Šustekova
 Klobučnícka
 Malé pálenisko I
@@ -4283,19 +4289,7 @@ Vápenka
 Albrechtova
 Špitálska
 Špitálska
-Námestie Slovenského národného povstania
-Námestie sv. Františka
-Námestie sv. Františka
-Námestie sv. Františka
-Námestie sv. Františka
-Námestie sv. Františka
-Námestie sv. Františka
-Námestie sv. Františka
-Námestie sv. Františka
-Námestie sv. Františka
-Námestie sv. Františka
-Námestie sv. Františka
-Námestie sv. Františka
+Námestie SNP
 Cesta na Marínu
 Cesta pri Prívodnom kanáli
 Cesta na Marínu
@@ -4387,14 +4381,11 @@ Limbová
 Pluhová
 Hurbanovo námestie
 Hurbanovo námestie
-Námestie Slovenského národného povstania
+Námestie SNP
 Pilárikova
 Štúrova
 Židovská
 Židovská
-Rybné námestie
-Rybné námestie
-Rybné námestie
 Zavadilova
 Eisnerova
 Tomášikova
@@ -4552,7 +4543,6 @@ Vajnorská
 Záhradnícka
 Jesenského
 Karloveská
-Námestie sv. Františka
 Karloveská
 Nábrežie arm. gen. Ludvíka Svobodu
 Panónska cesta
@@ -4634,14 +4624,14 @@ Vínna
 Gorazdova
 Pražská
 Prokopa Veľkého
-Námestie Slovenského národného povstania
+Námestie SNP
 Ružinovská
 Líščie nivy
 Líščie nivy
-Námestie Slovenského národného povstania
+Námestie SNP
 Štúrova
-Námestie Slovenského národného povstania
-Námestie Slovenského národného povstania
+Námestie SNP
+Námestie SNP
 Tomášikova
 Ivana Horvátha
 Seberíniho
@@ -4767,6 +4757,8 @@ Májová
 A. Gwerkovej
 Bradáčova
 Dudova
+Blagoevova
+Blagoevova
 Húščavova
 Cesta na Klanec
 Rajtákova
@@ -4798,7 +4790,6 @@ Pustá
 Pustá
 Púpavová
 Tilgnerova
-Námestie sv. Františka
 Čavojského
 Páričkova
 Továrenská
@@ -4915,7 +4906,6 @@ Jančova
 Mikulášska
 Mudroňova
 Radvanská
-Rybné námestie
 Židovská
 Starhradská
 Prokofievova
@@ -4993,7 +4983,6 @@ Cintorínska
 Pri starej prachárni
 Kalinčiakova
 Námestie slobody
-Očovská
 Očovská
 Pod Vachmajstrom
 Chrasťová
@@ -5094,6 +5083,7 @@ Strmé sady
 Strmé sady
 Tavaríkova osada
 Strmý bok
+Tavaríkova osada
 Dražická
 Brižitská
 Tranovského
@@ -5540,11 +5530,11 @@ Borágová
 Východná
 Východná
 Dostojevského rad
-Námestie Slovenského národného povstania
-Námestie Slovenského národného povstania
-Námestie Slovenského národného povstania
-Námestie Slovenského národného povstania
-Námestie Slovenského národného povstania
+Námestie SNP
+Námestie SNP
+Námestie SNP
+Námestie SNP
+Námestie SNP
 Šafárikovo námestie
 Rožňavská
 Rožňavská
@@ -5617,7 +5607,7 @@ Rybničná
 Rybničná
 Rybničná
 Nábrežie arm. gen. Ludvíka Svobodu
-Závodu Matador
+Gustáva Mallého
 Gustáva Mallého
 Na pántoch
 Pri vinohradoch
@@ -5705,9 +5695,7 @@ Svornosti
 Svornosti
 Svornosti
 Závodná
-Vlčie hrdlo
 Micherova zátoka
-Vlčie hrdlo
 Vlčie hrdlo
 Micherova zátoka
 Cesta na Marínu
@@ -5763,7 +5751,7 @@ Račianska
 Rusovská cesta
 Františkánska
 Uršulínska
-Námestie Nežnej revolúcie
+Námestie nežnej revolúcie
 Galvaniho
 Galvaniho
 Galvaniho
@@ -5883,8 +5871,8 @@ Trávna
 Žitná
 Šalviová
 Šalviová
-Bulíkova
-Bulíkova
+Blagoevova
+Blagoevova
 Šustekova
 Račianska
 Račianska
@@ -5915,7 +5903,7 @@ Vajnorská
 Domkárska
 Rajská
 Liga pasáž
-Námestie Slovenského národného povstania
+Námestie SNP
 Rázusovo nábrežie
 Zámocká
 Vajanského nábrežie
@@ -5972,7 +5960,7 @@ Palárikova
 Belopotockého
 Belopotockého
 Belopotockého
-Námestie Eugena Suchoňa
+Mostová
 Daliborovo námestie
 Gercenova
 Lermontovova
@@ -6102,7 +6090,7 @@ Vajnorská
 Vajnorská
 Vajnorská
 Dobšinského
-Pekná cesta
+Pod Vajspetrom
 Pekná cesta
 Tupého
 Longobardská
@@ -6111,9 +6099,10 @@ Záhradnícka
 Záhradnícka
 Kupeckého
 Hubeného
+Pri pekárni
 Pekná cesta
 Pekná cesta
-Pekná cesta
+Pod Vajspetrom
 Antona Moyša
 Antona Moyša
 Antona Moyša
@@ -6177,8 +6166,8 @@ Kadnárova
 Kadnárova
 Pri kolíske
 Vtáčikova cesta
-Pekná cesta
-Pekná cesta
+Pod Vajspetrom
+Pod Vajspetrom
 Tupolevova
 Dlhé diely III
 Blyskáčová
@@ -6231,7 +6220,7 @@ Karloveská
 Karloveská
 M. Schneidra Trnavského
 Námestie Jána Kostru
-Námestie Slovenského národného povstania
+Námestie SNP
 Pod agátmi
 Podbeľová
 Pridánky
@@ -6513,12 +6502,11 @@ Rožňavská
 Rožňavská
 Ôsma
 Pivoňková
-Podhorského
+Podhorského chodník
 Petržalské korzo
 Petržalské korzo
 Petržalské korzo
 Petržalské korzo
-Lužný most
 Komárňanská
 Slovnaftská
 Slovnaftská
@@ -6619,7 +6607,6 @@ Suché mýto
 Suché mýto
 Alstrova
 Ružinovská
-Rybné námestie
 Dostojevského rad
 Jelačičova
 Jelačičova
@@ -6632,8 +6619,8 @@ Frenkiho cesta
 Frenkiho cesta
 Frenkiho cesta
 Royko pasáž
-Námestie Slovenského národného povstania
-Námestie Slovenského národného povstania
+Námestie SNP
+Námestie SNP
 Kosodrevinová
 Kosodrevinová
 Mlynská dolina
@@ -6676,7 +6663,7 @@ Pasáž Zlatý jeleň
 Pasáž Zlatý jeleň
 Pasáž Zlatý jeleň
 Československých parašutistov
-Chladná
+Kopaničarska
 Dlhá siaha
 Prístavná
 Stará Prievozská
@@ -6709,6 +6696,7 @@ Kačínska dolina
 Dlhá siaha
 Kačínska dolina
 Tupolevova
+Pri rybníku
 Olejkárska
 Balkánska
 Hrdličkova
@@ -6811,7 +6799,7 @@ Vratičová
 Galvaniho
 Na križovatkách
 Ostredková
-Námestie Slovenského národného povstania
+Námestie SNP
 Romanova
 Romanova
 Kpt. Jána Rašu
@@ -6916,6 +6904,7 @@ Ivanská cesta
 Metodova
 TBK 3
 Janoškova
+Bulíkova
 Bojnická
 Píniová
 Kopčianska
@@ -7013,7 +7002,6 @@ Vajanského nábrežie
 Mlynská dolina
 Mlynské nivy
 Protinapoleónsky val
-Janka Alexyho
 Židovská
 Závadská
 Cesta na Senec
@@ -7203,7 +7191,7 @@ Pri letisku
 Pri dvore
 Halštatská
 Pri parku
-Ostricova
+Ostricová
 Kamenná
 Pri lesostepi
 Rudavská
@@ -7218,7 +7206,7 @@ Milana Kolibiara
 Galvaniho
 2. alej
 3. alej
-Námestie Slovenského národného povstania
+Námestie SNP
 Klobučnícka
 1. alej
 Kopčianska
@@ -7246,7 +7234,7 @@ Hlboká cesta
 Židovská
 Romanova
 Pri kríži
-Námestie Slovenského národného povstania
+Námestie SNP
 Passage Gorkého
 Turbínová
 Slovinská
@@ -7276,6 +7264,8 @@ Cintorínska
 Špitálska
 Akvamarínová
 Korálová
+Farmárska
+Farmárska
 Murárska
 Citrínová
 Citrínová
@@ -7427,7 +7417,6 @@ Pod Vtáčnikom
 Pod Vtáčnikom
 Na Roličkách
 Martina Granca
-Pod čerešňami
 Ruženínová
 Staré Grunty
 Fongová
@@ -7605,7 +7594,6 @@ Brumovická
 Brumovická
 Brumovická
 Trstínska
-Trstínska
 Kominárska
 Kominárska
 Osuského
@@ -7677,6 +7665,7 @@ Singletrack Cerová dráha
 Singletrack Cerová dráha
 Pod Mníšskou horou
 Poľovnícka
+Pod Zemným vrchom
 Na Kalvárii
 Nábrežie Milana Rastislava Štefánika
 Trnavská cesta
@@ -7771,7 +7760,7 @@ Hodonínska
 Hodonínska
 Hodonínska
 Metodova
-Námestie Slovenského národného povstania
+Námestie SNP
 Hodonínska
 Kutlíkova
 Kazanská
@@ -7786,6 +7775,7 @@ Podkerepušky
 Podkerepušky
 Dúbravská cesta
 Dúbravská cesta
+Tavaríkova osada
 Blumentálska
 Blumentálska
 Podchod pamäti
@@ -7962,6 +7952,7 @@ Jegenešská
 Zuzany Chalupovej
 Zuzany Chalupovej
 Labutia
+Labutia
 Nevädzová
 Ďatelinová
 Ďatelinová
@@ -7973,7 +7964,6 @@ Pribinova
 Pribinova
 Čulenova
 Rigeleho
-Rybné námestie
 Trnavská cesta
 Miletičova
 Súkennícka
@@ -7985,7 +7975,6 @@ Prístavná
 Prístavná
 Bajkalská
 Bajkalská
-Ostriežová
 Lamačská cesta
 Poľná
 Pekná cesta
@@ -8016,6 +8005,7 @@ Manina
 Irkutská
 Fedákova
 Majakovského
+Rovinka
 Rožňavská
 Rožňavská
 Rožňavská
@@ -8177,7 +8167,7 @@ Viedenská cesta
 Zelená
 Ventúrska
 Panská
-Námestie Nežnej revolúcie
+Námestie nežnej revolúcie
 Klobučnícka
 Lúčna
 Pri dvore
@@ -8191,6 +8181,8 @@ Americké námestie
 Singletrack Cerová dráha
 Kysucká
 Kysucká
+Pod Zemným vrchom
+Pod Zemným vrchom
 Petržalské korzo
 Petržalské korzo
 Remeselnícka
@@ -8260,7 +8252,7 @@ Staromestská
 Staromestská
 Staromestská
 Most SNP
-Námestie Slovenského národného povstania
+Námestie SNP
 Hodžovo námestie
 Pionierska
 Pionierska
@@ -8292,7 +8284,6 @@ Kalinčiakova
 Trnavská cesta
 Trnavská cesta
 Karloveská
-Riviéra
 Osloboditeľská
 Osloboditeľská
 Osloboditeľská
@@ -8382,7 +8373,7 @@ Devínska cesta
 Hodonínska
 Hodonínska
 Lamačská cesta
-Námestie Slovenského národného povstania
+Námestie SNP
 Galvaniho
 Galvaniho
 Galvaniho
@@ -8395,7 +8386,6 @@ Galvaniho
 Galvaniho
 Galvaniho
 Galvaniho
-Riviéra
 Karloveská
 M. Schneidra Trnavského
 M. Schneidra Trnavského
@@ -8435,6 +8425,7 @@ Borievková
 Jankovičova
 Chrenová
 Prosová
+Lipnicová
 Rozchodníková
 Ciroková
 Plamienková
@@ -8500,7 +8491,7 @@ Bohúňova
 Račianska
 Treskoňova
 Radlinského
-Námestie Slovenského národného povstania
+Námestie SNP
 Bajkalská
 Železničná
 Železničná
@@ -8508,18 +8499,18 @@ Cesta na Senec
 Dolnozemská cesta
 Pri smaltovni
 Gustáva Mallého
+Závodu Matador
 Fazuľová
 Májkova
 Májkova
 Americké námestie
 Karpatská
 Žilinská
-Námestie sv. Františka
 Kukučínova
 Trnavská cesta
 Trnavská cesta
 Pekná cesta
-Námestie Slovenského národného povstania
+Námestie SNP
 Pekná cesta
 Manina
 Kačínska dolina
@@ -8617,6 +8608,7 @@ Kadnárova
 Hubeného
 Hlinícka
 Hubeného
+Lužná
 Sovia
 Staromestská
 Staromestská
@@ -8641,7 +8633,6 @@ Rožňavská
 Rožňavská
 Trnavská cesta
 Trnavská cesta
-Rybné námestie
 Staromestská
 Líščie údolie
 Orešianková
@@ -8656,7 +8647,7 @@ Záhorská
 Dlhá siaha
 Červená cesta
 Námestie sv. Floriána
-Námestie Slovenského národného povstania
+Námestie SNP
 Fikusová
 Františkánske námestie
 Viedenská cesta
@@ -8714,7 +8705,6 @@ Skalníková
 Na Vlkovkách
 Pútnická
 Ollarekova
-Trstínska
 Pútnická
 Lipkavcová
 Szapáryho
@@ -8724,7 +8714,6 @@ Szitvayova
 Scilová
 Rutová
 Orlíčková
-Lipnicová
 Pohraničiarska signálka
 Tyršovo nábrežie
 Laurinská
@@ -8738,11 +8727,13 @@ Svornosti
 Panónska cesta
 Panónska cesta
 Panónska cesta
+Labutia
 Panónska cesta
 Panónska cesta
 Panónska cesta
 Panónska cesta
 Panónska cesta
+Labutia
 Irkutská
 Balkánska
 Fialová
@@ -8755,6 +8746,7 @@ Pri vodnej veži
 Galvaniho
 Galvaniho
 Chalupkova
+Rovinka
 Kopčianska
 Čulenova
 Čulenova
@@ -8774,7 +8766,6 @@ Komárňanská
 Komárňanská
 Lúčna
 Lúčna
-Lužný most
 Ovocná
 Mlynské nivy
 Prievozská
@@ -8796,6 +8787,7 @@ Košická
 Košická
 Košická
 Fialová
+Michala Bučiča
 Vladimíra Jukla
 Jána Holíka
 Jána Holíka
@@ -8934,8 +8926,6 @@ Gagarinova
 Gagarinova
 Gagarinova
 Trail Krivé Járky
-Lužný most
-Lužný most
 Bratská
 Dvořákovo nábrežie
 Nábrežie Ľubomíra Kadnára
@@ -8968,12 +8958,9 @@ Delená
 Istrijská
 Kočánkova
 Kočánkova
-vstup do Horského parku zo zastávky MHD Horský park
 Danky Košanovej
 Trnavská cesta
 Trnavská cesta
-Vápencová
-Vápencová
 Odborárska
 Odborárska
 Mandľová
@@ -9013,7 +9000,7 @@ Arménska
 Černyševského
 Hubeného
 Prístavná
-Námestie Slovenského národného povstania
+Námestie SNP
 Námestie Eugena Suchoňa
 Račianska
 Černyševského
@@ -9022,7 +9009,6 @@ Wolkrova
 Jungmannova
 Vavilovova
 Gessayova
-Námestie pri sýpke
 Solivarská
 Bodrocká
 Podzáhradná
@@ -9133,3 +9119,96 @@ Jaspisová
 Ónyxová
 Františka Kubu
 Rudroffova
+Papánkovo námestie
+Papánkovo námestie
+Obchodná
+Gettingova
+Gettingova
+Mamateyova
+Furdekova
+Furdekova
+Furdekova
+Mamateyova
+Fajnorovo nábrežie
+Brnianska
+Brnianska
+Krížna
+Krížna
+Krížna
+Krížna
+Godrova
+Párna
+Šagátová
+Černockého
+Bernolákova
+Steinov dvor
+Steinov dvor
+Bajkalská
+Bajkalská
+Považanova
+Pestovateľská
+Cesta pri Prívodnom kanáli
+Borisa Nemcova
+Pohraničiarska signálka
+Krížna
+Krížna
+Krížna
+Kukučínova
+Kukučínova
+Kukučínova
+Námestie Biely kríž
+Skalická cesta
+Skalická cesta
+Skalická cesta
+Odborárska
+Odborárska
+Frankovská
+Záhrady
+Záhrady
+Záhrady
+Šustekova
+Wolkrova
+Nábrežie Milana Rastislava Štefánika
+Vratičová
+Hydinárska
+Korálová
+Družobná
+Družobná
+Akad. mal. Jozefa Nagya
+Ametystová
+Hydinárska
+Lamačská cesta
+Korabinského
+Most SNP
+Aragonitová
+Jantárová
+Jantárová
+Aragonitová
+Jantárová
+Zámocké schody
+Košická
+k internátu
+Prístavná
+Súkennícka
+Tekovská
+Tomanova
+Uhliská
+Harmincova
+Harmincova
+Pod Strážami
+Kremnická
+Handlovská
+Podháj
+Podháj
+Podháj
+Podháj
+Podháj
+Podháj
+Podháj
+Pod čerešňami
+Polianky
+Muránska
+Cestička z ulice Mokrohájska na žel. stanicu Železná Studienka.
+Hodžovo námestie
+Hodžovo námestie
+Námestie Martina Benku
