@@ -41,7 +41,7 @@ def gen_hex_grid(radius, size, width, height):
     return commands, hex_centers
 
 # Function to generate PDF syntax for the triangular dual grid
-def gen_triangular_dual(hex_centers, hex_size, radius):
+def gen_triangular_dual(hex_centers, radius):
     commands = []
 
     for line in hex_centers:
@@ -94,7 +94,7 @@ def gen_content_stream(radius, size, width, height, bleed, mark):
     content_stream.append(".7 G")  # Set stroke color
     content_stream.append(".5 w")  # Set line width
     content_stream.append("[.5 1] 0 d")  # Set dash pattern
-    dual_commands = gen_triangular_dual(hex_centers, size, radius)
+    dual_commands = gen_triangular_dual(hex_centers, radius)
     content_stream.extend(dual_commands)
 
     content_stream.append("0 G")  # Set stroke color
@@ -116,7 +116,7 @@ def gen_pdf(radius, size, width, height, bleed, mark):
     objects.append("1 0 obj\n<< /Type /Catalog /Pages 2 0 R >>\nendobj")
     objects.append("2 0 obj\n<< /Type /Pages /Count 1 /Kids [3 0 R] /Resources << >> >>\nendobj")
     objects.append(f"3 0 obj\n<< /Type /Page /Parent 2 0 R /MediaBox [{-bleed-mark} {-bleed-mark} {width+bleed+mark} {height+bleed+mark}] /CropBox [0 0 {width} {height}] /BleedBox [{-bleed} {-bleed} {width+bleed} {height+bleed}] /Contents 4 0 R >>\nendobj")
-    #pdf_content.append(f"3 0 obj << /Type /Page /Parent 2 0 R /MediaBox [{-bleed-mark-9} {-bleed-mark-9} {width+bleed+mark+9} {height+bleed+mark+9}] /Contents 4 0 R >> endobj")
+    #pdf_content.append(f"3 0 obj\n<< /Type /Page /Parent 2 0 R /MediaBox [{-bleed-mark-9} {-bleed-mark-9} {width+bleed+mark+9} {height+bleed+mark+9}] /Contents 4 0 R >>\nendobj")
 
     # Content stream
     content_stream = gen_content_stream(radius, size, width, height, bleed, mark)
