@@ -92,21 +92,21 @@ def gen_content_stream(radius, size, width, height, bleed, mark):
     hex_commands, hex_centers = gen_hex_grid(radius, size, width, height)
     content_stream.extend(hex_commands)
 
-    content_stream.extend(["", "% Triangular grid:"])
+    content_stream.append("\n% Triangular grid:")
     content_stream.append(".7 G")  # Set stroke color
     content_stream.append(".5 w")  # Set line width
     content_stream.append("[.5 1 .5 1 .5 1 .5 1 .5 1 .5 1 0 0.5 0 1 .5 1 .5 1 .5 1 .5 1 .5 1] .25 d")  # Set dash pattern
     dual_commands = gen_triangular_dual(hex_centers, radius)
     content_stream.extend(dual_commands)
 
-    content_stream.extend(["", "% Crop marks:"])
+    content_stream.append("\n% Crop marks:")
     content_stream.append("0 G")  # Set stroke color
     content_stream.append("1 w")  # Set line width
     content_stream.append("[] 0 d")  # Set dash pattern
     bleed_commands = gen_bleed(width, height, bleed, mark)
     content_stream.extend(bleed_commands)
 
-    return content_stream
+    return "\n".join(content_stream)
 
 # Main function to generate the entire PDF content
 def gen_pdf(radius, size, width, height, bleed, mark):
@@ -125,8 +125,8 @@ def gen_pdf(radius, size, width, height, bleed, mark):
     content_stream = gen_content_stream(radius, size, width, height, bleed, mark)
     content_stream_object = []
     content_stream_object.append(f"4 0 obj\n  << /Length {len(content_stream)} >> stream")
-    content_stream_object.append("    " + "\n    ".join(content_stream))
-    content_stream_object.append("  endstream\nendobj")
+    content_stream_object.append(content_stream)
+    content_stream_object.append("endstream\nendobj")
     objects.append("\n".join(content_stream_object))
 
     pdf_content.extend(objects)
