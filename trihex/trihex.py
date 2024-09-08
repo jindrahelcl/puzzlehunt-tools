@@ -84,6 +84,7 @@ def gen_bleed(width, height, bleed, mark):
 
 def gen_content_stream(radius, size, width, height, bleed, mark):
     content_stream = []
+    content_stream.append("% Hexagonal grid:")
     content_stream.append(".92 G")  # Set stroke color
     content_stream.append("2 w")  # Set line width
 
@@ -91,19 +92,21 @@ def gen_content_stream(radius, size, width, height, bleed, mark):
     hex_commands, hex_centers = gen_hex_grid(radius, size, width, height)
     content_stream.extend(hex_commands)
 
+    content_stream.extend(["", "% Triangular grid:"])
     content_stream.append(".7 G")  # Set stroke color
     content_stream.append(".5 w")  # Set line width
     content_stream.append("[.5 1 .5 1 .5 1 .5 1 .5 1 .5 1 0 0.5 0 1 .5 1 .5 1 .5 1 .5 1 .5 1] .25 d")  # Set dash pattern
     dual_commands = gen_triangular_dual(hex_centers, radius)
     content_stream.extend(dual_commands)
 
+    content_stream.extend(["", "% Crop marks:"])
     content_stream.append("0 G")  # Set stroke color
     content_stream.append("1 w")  # Set line width
     content_stream.append("[] 0 d")  # Set dash pattern
     bleed_commands = gen_bleed(width, height, bleed, mark)
     content_stream.extend(bleed_commands)
 
-    return "\n".join(content_stream)
+    return content_stream
 
 # Main function to generate the entire PDF content
 def gen_pdf(radius, size, width, height, bleed, mark):
@@ -113,17 +116,17 @@ def gen_pdf(radius, size, width, height, bleed, mark):
     pdf_content.append("%PDF-1.4")
     offset = sum(len(line) + 1 for line in pdf_content)
     objects = []
-    objects.append("1 0 obj\n<< /Type /Catalog /Pages 2 0 R >>\nendobj")
-    objects.append("2 0 obj\n<< /Type /Pages /Count 1 /Kids [3 0 R] /Resources << >> >>\nendobj")
-    objects.append(f"3 0 obj\n<< /Type /Page /Parent 2 0 R /MediaBox [{-bleed-mark} {-bleed-mark} {width+bleed+mark} {height+bleed+mark}] /CropBox [0 0 {width} {height}] /BleedBox [{-bleed} {-bleed} {width+bleed} {height+bleed}] /Contents 4 0 R >>\nendobj")
-    #objects.append(f"3 0 obj\n<< /Type /Page /Parent 2 0 R /MediaBox [{-bleed-mark-9} {-bleed-mark-9} {width+bleed+mark+9} {height+bleed+mark+9}] /Contents 4 0 R >>\nendobj")
+    objects.append("1 0 obj\n  << /Type /Catalog /Pages 2 0 R >>\nendobj")
+    objects.append("2 0 obj\n  << /Type /Pages /Count 1 /Kids [3 0 R] /Resources << >> >>\nendobj")
+    objects.append(f"3 0 obj\n  << /Type /Page /Parent 2 0 R /MediaBox [{-bleed-mark} {-bleed-mark} {width+bleed+mark} {height+bleed+mark}] /CropBox [0 0 {width} {height}] /BleedBox [{-bleed} {-bleed} {width+bleed} {height+bleed}] /Contents 4 0 R >>\nendobj")
+    #objects.append(f"3 0 obj\n  << /Type /Page /Parent 2 0 R /MediaBox [{-bleed-mark-9} {-bleed-mark-9} {width+bleed+mark+9} {height+bleed+mark+9}] /Contents 4 0 R >>\nendobj")
 
     # Content stream
     content_stream = gen_content_stream(radius, size, width, height, bleed, mark)
     content_stream_object = []
-    content_stream_object.append(f"4 0 obj\n<< /Length {len(content_stream)} >> stream")
-    content_stream_object.append(content_stream)
-    content_stream_object.append("endstream\nendobj")
+    content_stream_object.append(f"4 0 obj\n  << /Length {len(content_stream)} >> stream")
+    content_stream_object.append("    " + "\n    ".join(content_stream))
+    content_stream_object.append("  endstream\nendobj")
     objects.append("\n".join(content_stream_object))
 
     pdf_content.extend(objects)
